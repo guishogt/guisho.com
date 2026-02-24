@@ -3,23 +3,23 @@
 
 {{- if eq $category "travel" -}}
   {{- $icon = "✈️" -}}
-{{- else if eq $category "lo-que-opino-sobre" -}}
+{{- else if eq $category "lo que opino sobre" -}}
   {{- $icon = "💡" -}}
-{{- else if eq $category "personas,-lugares,-cosas,-sucesos" -}}
+{{- else if or (eq $category "personas, lugares, cosas, sucesos") (eq $category "personas,-lugares,-cosas,-sucesos") -}}
   {{- $icon = "👥" -}}
-{{- else if eq $category "ayudas-para-el-camino" -}}
+{{- else if eq $category "ayudas para el camino" -}}
   {{- $icon = "🪧" -}}
-{{- else if eq $category "mis-escritos" -}}
+{{- else if eq $category "mis escritos" -}}
   {{- $icon = "✍️" -}}
 {{- else if eq $category "tech" -}}
   {{- $icon = "💻" -}}
-{{- else if eq $category "standing-in-the-shoulder-of-giants" -}}
+{{- else if or (eq $category "standing in the shoulder of giants") (eq $category "standing-in-the-shoulder-of-giants") -}}
   {{- $icon = "📚" -}}
-{{- else if eq $category "software-engineering" -}}
+{{- else if or (eq $category "software engineering") (eq $category "software-engineering") -}}
   {{- $icon = "⌨️" -}}
-{{- else if eq $category "mi-literatura" -}}
+{{- else if eq $category "mi literatura" -}}
   {{- $icon = "📖" -}}
-{{- else if eq $category "software-business" -}}
+{{- else if or (eq $category "software business") (eq $category "software-business") -}}
   {{- $icon = "📈" -}}
 {{- else if eq $category "strategy" -}}
   {{- $icon = "🎯" -}}
