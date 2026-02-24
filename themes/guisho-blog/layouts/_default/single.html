@@ -19,18 +19,18 @@
         <!-- Meta -->
         <div class="flex flex-wrap items-center gap-4 mb-8 text-dark-text/60 font-sans text-sm">
           <time datetime="{{ .Date.Format "2006-01-02" }}" class="flex items-center gap-2">
-            <span class="material-symbols-outlined text-lg">calendar_today</span>
+            <span class="text-lg">📅</span>
             {{ .Date.Format "January 2, 2006" }}
           </time>
           {{ if .Params.author }}
           <span class="flex items-center gap-2">
-            <span class="material-symbols-outlined text-lg">person</span>
+            <span class="text-lg">👤</span>
             {{ .Params.author }}
           </span>
           {{ end }}
           {{ if .ReadingTime }}
           <span class="flex items-center gap-2">
-            <span class="material-symbols-outlined text-lg">schedule</span>
+            <span class="text-lg">⏱</span>
             {{ .ReadingTime }} min read
           </span>
           {{ end }}
@@ -55,7 +55,7 @@
         {{ with .Params.tags }}
         <div class="mt-12 pt-8 border-t-2 border-dark-text/10">
           <h4 class="text-xl font-bold font-display text-dark-text mb-4 flex items-center gap-2">
-            <span class="material-symbols-outlined text-secondary">label</span>
+            <span class="text-secondary">#</span>
             Tags
           </h4>
           <div class="flex flex-wrap gap-2">
@@ -70,7 +70,7 @@
         <div class="mt-12 pt-8 border-t-2 border-dark-text/10 flex flex-col sm:flex-row justify-between gap-4">
           {{ with .PrevInSection }}
           <a href="{{ .Permalink }}" class="flex items-center gap-3 p-4 bg-white/50 rounded-xl hover:bg-white/80 transition-all group flex-1">
-            <span class="material-symbols-outlined text-primary group-hover:-translate-x-1 transition-transform">arrow_back</span>
+            <span class="text-primary group-hover:-translate-x-1 transition-transform" aria-hidden="true">←</span>
             <div>
               <span class="text-xs text-dark-text/60 uppercase tracking-wide font-bold">Previous</span>
               <p class="font-display font-bold text-dark-text line-clamp-1">{{ .Title }}</p>
@@ -83,7 +83,7 @@
               <span class="text-xs text-dark-text/60 uppercase tracking-wide font-bold">Next</span>
               <p class="font-display font-bold text-dark-text line-clamp-1">{{ .Title }}</p>
             </div>
-            <span class="material-symbols-outlined text-primary group-hover:translate-x-1 transition-transform">arrow_forward</span>
+            <span class="text-primary group-hover:translate-x-1 transition-transform" aria-hidden="true">→</span>
           </a>
           {{ end }}
         </div>

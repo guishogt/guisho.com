@@ -29,7 +29,7 @@
       <div class="flex justify-center items-center gap-4 py-12">
         {{ if $paginator.HasPrev }}
         <a href="{{ $paginator.Prev.URL }}" class="px-6 py-3 bg-primary text-warm-bg font-bold rounded-xl hover:bg-primary/80 transition-all font-display text-lg flex items-center gap-2">
-          <span class="material-symbols-outlined">arrow_back</span>
+          <span aria-hidden="true">←</span>
           Newer
         </a>
         {{ end }}
@@ -37,7 +37,7 @@
         {{ if $paginator.HasNext }}
         <a href="{{ $paginator.Next.URL }}" class="px-6 py-3 bg-primary text-warm-bg font-bold rounded-xl hover:bg-primary/80 transition-all font-display text-lg flex items-center gap-2">
           Older
-          <span class="material-symbols-outlined">arrow_forward</span>
+          <span aria-hidden="true">→</span>
         </a>
         {{ end }}
       </div>

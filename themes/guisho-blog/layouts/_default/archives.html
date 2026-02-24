@@ -6,7 +6,7 @@
       <!-- Page Title -->
       <div class="mb-10">
         <h1 class="text-5xl md:text-6xl font-bold text-dark-text font-display mb-4 flex items-center gap-4">
-          <span class="material-symbols-outlined text-primary text-5xl">calendar_month</span>
+          <span class="text-primary text-5xl">📅</span>
           Archives
         </h1>
         <p class="text-xl text-dark-text/70 font-sans">Browse all posts by date</p>
@@ -19,7 +19,7 @@
         {{ range $grouped }}
         <div id="{{ .Key | urlize }}" class="bg-white/40 p-8 rounded-2xl doodle-border">
           <h2 class="text-3xl font-bold font-display text-dark-text mb-6 flex items-center gap-3 sticky top-0 bg-white/40 py-2 -mt-2">
-            <span class="material-symbols-outlined text-primary">event</span>
+            <span class="text-primary">📆</span>
             {{ .Key }}
             <span class="text-lg font-sans text-dark-text/50">({{ len .Pages }} posts)</span>
           </h2>
@@ -32,7 +32,7 @@
               </div>
               {{ else }}
               <div class="w-20 h-20 flex-shrink-0 rounded-lg bg-primary/10 flex items-center justify-center">
-                <span class="material-symbols-outlined text-primary text-3xl">article</span>
+                <span class="text-primary text-3xl">📄</span>
               </div>
               {{ end }}
               <div class="flex-1 min-w-0">
@@ -46,7 +46,7 @@
                 </div>
                 {{ end }}
               </div>
-              <span class="material-symbols-outlined text-secondary group-hover:text-primary group-hover:translate-x-1 transition-all">arrow_forward</span>
+              <span class="text-secondary group-hover:text-primary group-hover:translate-x-1 transition-all" aria-hidden="true">→</span>
             </a>
             {{ end }}
           </div>

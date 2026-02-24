@@ -18,7 +18,7 @@
             {{ if eq $.Data.Singular "category" }}
             {{ partial "category-icon.html" .Page.Title }}
             {{ else }}
-            <span class="material-symbols-outlined text-secondary group-hover:rotate-12 transition-transform">label</span>
+            <span class="text-secondary group-hover:rotate-12 transition-transform">#</span>
             {{ end }}
             <span class="text-lg font-bold font-display text-dark-text">{{ .Page.Title }}</span>
             <span class="text-sm font-bold text-dark-text/50 bg-dark-text/10 px-2 py-1 rounded-full">{{ .Count }}</span>
