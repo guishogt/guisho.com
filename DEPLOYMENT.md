@@ -3,14 +3,25 @@
 ## Architecture Overview
 
 ```
-GitHub (code) ──> GitHub Actions ──> S3 (website) ──> CloudFront ──> guisho.com
-                                           │
-Local (images) ──────────────────> S3 (media) ──────────┘
+GitHub (code) ──> AWS Amplify (auto-deploy, SSL, CDN) ──> guisho.com
+                                                              │
+Local (images) ──────────────────> S3 (guisho-media) ─────────┘
 ```
 
-- **Website files**: Stored in GitHub, deployed via GitHub Actions to S3
-- **Images/Media**: Stored directly in S3 (3.5GB, too large for Git)
-- **CDN**: CloudFront serves both website and media with HTTPS
+- **Website files**: Stored in GitHub, auto-deployed via AWS Amplify
+- **Images/Media**: Stored in S3 bucket `guisho-media` (3.5GB, too large for Git)
+- **CDN/SSL**: Handled automatically by Amplify
+
+## Current Status
+
+| Component | Status | URL/Details |
+|-----------|--------|-------------|
+| GitHub Repo | Done | github.com/guishogt/guisho.com |
+| S3 Media Bucket | Done | guisho-media.s3.amazonaws.com |
+| AWS Amplify | Done | main.d1a77te62cconr.amplifyapp.com |
+| Route53 DNS | TODO | Point guisho.com → Amplify |
+| CMS OAuth | TODO | Needed for /admin/ to work |
+| Cloudinary | TODO | Needed for CMS image uploads |
 
 ---
 
@@ -108,99 +119,53 @@ https://media.guisho.com/uploads/2017/11/IMG_1849.jpg
 
 ---
 
-## Part 2: S3 Bucket for Website
+## Part 2: AWS Amplify Setup (Done)
 
-### Step 2.1: Create Website Bucket
+Amplify replaces S3 website hosting + CloudFront + GitHub Actions.
 
-1. Go to **AWS Console → S3**
-2. Click **Create bucket**
-3. Configuration:
-   - **Bucket name**: `guisho.com`
-   - **Region**: `us-east-1`
-   - **Object Ownership**: ACLs disabled
-   - **Block Public Access**: UNCHECK "Block all public access"
-4. Click **Create bucket**
+### Step 2.1: Create Amplify App
 
-### Step 2.2: Enable Static Website Hosting
+1. Go to **AWS Console → Amplify**
+2. Click **"Host web app"** → Select **GitHub**
+3. Authorize and select repo: `guishogt/guisho.com`
+4. Branch: `main`
 
-1. Go to bucket → **Properties** tab
-2. Scroll to **Static website hosting** → Click **Edit**
-3. Configuration:
-   - **Static website hosting**: Enable
-   - **Hosting type**: Host a static website
-   - **Index document**: `index.html`
-   - **Error document**: `404.html`
-4. Click **Save changes**
+### Step 2.2: Build Settings
 
-### Step 2.3: Add Bucket Policy
-
-Same as media bucket - go to **Permissions** → **Bucket policy**:
-
-```json
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Sid": "PublicReadGetObject",
-            "Effect": "Allow",
-            "Principal": "*",
-            "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::guisho.com/*"
-        }
-    ]
-}
+```yaml
+version: 1
+frontend:
+  phases:
+    build:
+      commands:
+        - hugo --minify
+  artifacts:
+    baseDirectory: public
+    files:
+      - '**/*'
 ```
+
+### Step 2.3: Result
+
+- **Amplify URL**: https://main.d1a77te62cconr.amplifyapp.com
+- Auto-deploys on every push to `main`
+- SSL included automatically
 
 ---
 
-## Part 3: CloudFront Distribution
+## Part 3: Route53 DNS Configuration (TODO)
 
-### Step 3.1: Create Distribution for Website
+### Step 3.1: Add Custom Domain in Amplify
 
-1. Go to **AWS Console → CloudFront**
-2. Click **Create distribution**
-3. **Origin settings**:
-   - **Origin domain**: Select your S3 bucket `guisho.com.s3.amazonaws.com`
-   - **Origin path**: Leave empty
-   - **S3 bucket access**: Yes, use OAC (or legacy OAI)
-4. **Default cache behavior**:
-   - **Viewer protocol policy**: Redirect HTTP to HTTPS
-   - **Allowed HTTP methods**: GET, HEAD
-   - **Cache policy**: CachingOptimized
-5. **Settings**:
-   - **Alternate domain name (CNAME)**: `guisho.com` and `www.guisho.com`
-   - **Custom SSL certificate**: Select your existing ACM certificate
-   - **Default root object**: `index.html`
-6. Click **Create distribution**
+1. Go to **Amplify → guisho.com app → Domain management**
+2. Click **Add domain**
+3. Enter: `guisho.com`
+4. Amplify will provide DNS records to add
 
-### Step 3.2: Note the Distribution Domain
+### Step 3.2: Update Route53
 
-After creation, note the distribution domain name:
-```
-d1234567890.cloudfront.net
-```
-
-You'll need this for Route53.
-
----
-
-## Part 4: Route53 DNS Configuration
-
-### Step 4.1: Create/Update A Records
-
-1. Go to **AWS Console → Route53 → Hosted zones**
-2. Select `guisho.com`
-3. Create record for root domain:
-   - **Record name**: (leave empty for root)
-   - **Record type**: A
-   - **Alias**: Yes
-   - **Route traffic to**: CloudFront distribution
-   - Select your distribution
-4. Create record for www:
-   - **Record name**: `www`
-   - **Record type**: A
-   - **Alias**: Yes
-   - **Route traffic to**: CloudFront distribution
+1. Go to **Route53 → Hosted zones → guisho.com**
+2. Add the records Amplify provides (usually CNAME or ALIAS)
 
 ---
 
@@ -250,78 +215,7 @@ find content/posts -name "*.md" -exec sed -i 's|/uploads/|https://guisho-media.s
 
 ---
 
-## Part 6: GitHub Actions Deployment
-
-### Step 6.1: Create IAM User for GitHub Actions
-
-1. Go to **AWS Console → IAM → Users**
-2. Click **Create user**
-3. **User name**: `github-actions-guisho`
-4. Click **Next**
-5. **Attach policies directly**:
-   - Search and select `AmazonS3FullAccess`
-   - Search and select `CloudFrontFullAccess`
-6. Click **Create user**
-7. Click on the user → **Security credentials** tab
-8. Click **Create access key**
-9. Select **Application running outside AWS**
-10. Copy the **Access Key ID** and **Secret Access Key**
-
-### Step 6.2: Add Secrets to GitHub
-
-1. Go to your GitHub repo → **Settings** → **Secrets and variables** → **Actions**
-2. Add these secrets:
-   - `AWS_ACCESS_KEY_ID`: Your access key
-   - `AWS_SECRET_ACCESS_KEY`: Your secret key
-   - `CLOUDFRONT_DISTRIBUTION_ID`: Your distribution ID (e.g., `E1234567890ABC`)
-
-### Step 6.3: Create GitHub Actions Workflow
-
-Create `.github/workflows/deploy.yml`:
-
-```yaml
-name: Deploy to AWS
-
-on:
-  push:
-    branches: [main]
-  workflow_dispatch:
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: 'latest'
-          extended: true
-
-      - name: Build
-        run: hugo --minify
-
-      - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v4
-        with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: us-east-1
-
-      - name: Deploy to S3
-        run: aws s3 sync public/ s3://guisho.com --delete
-
-      - name: Invalidate CloudFront
-        run: |
-          aws cloudfront create-invalidation \
-            --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} \
-            --paths "/*"
-```
-
----
-
-## Part 7: Quick Reference Commands
+## Part 4: Quick Reference Commands
 
 ### Upload images to S3
 ```bash
@@ -354,11 +248,10 @@ hugo --minify
 
 | Service | Estimated Monthly Cost |
 |---------|----------------------|
-| S3 (website ~50MB) | $0.01 |
+| Amplify (build + hosting) | Free tier: 1000 min/month |
 | S3 (media ~3.5GB) | $0.08 |
-| CloudFront | $1-5 (depends on traffic) |
 | Route53 | $0.50 |
-| **Total** | **~$2-6/month** |
+| **Total** | **~$1-2/month** |
 
 ---
 
