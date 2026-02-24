@@ -1,0 +1,97 @@
+{{ define "main" }}
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+  <div class="flex flex-col lg:flex-row gap-12">
+    <!-- Main Content -->
+    <article class="lg:w-2/3">
+      <div class="bg-warm-bg doodle-border p-8 md:p-12">
+        <!-- Categories -->
+        {{ with .Params.categories }}
+        <div class="flex flex-wrap gap-2 mb-6">
+          {{ range . }}
+          <a href="{{ "/category/" | relURL }}{{ . | urlize }}/" class="px-4 py-1 bg-primary text-warm-bg text-xs font-bold rounded-full uppercase tracking-wider font-sans hover:bg-primary/80 transition-colors">{{ . }}</a>
+          {{ end }}
+        </div>
+        {{ end }}
+
+        <!-- Title -->
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-dark-text leading-tight mb-6 font-display">{{ .Title }}</h1>
+
+        <!-- Meta -->
+        <div class="flex flex-wrap items-center gap-4 mb-8 text-dark-text/60 font-sans text-sm">
+          <time datetime="{{ .Date.Format "2006-01-02" }}" class="flex items-center gap-2">
+            <span class="material-symbols-outlined text-lg">calendar_today</span>
+            {{ .Date.Format "January 2, 2006" }}
+          </time>
+          {{ if .Params.author }}
+          <span class="flex items-center gap-2">
+            <span class="material-symbols-outlined text-lg">person</span>
+            {{ .Params.author }}
+          </span>
+          {{ end }}
+          {{ if .ReadingTime }}
+          <span class="flex items-center gap-2">
+            <span class="material-symbols-outlined text-lg">schedule</span>
+            {{ .ReadingTime }} min read
+          </span>
+          {{ end }}
+        </div>
+
+        <!-- Cover Image -->
+        {{ with .Params.cover.image }}
+        <figure class="mb-10 -mx-8 md:-mx-12">
+          {{ partial "responsive-image.html" (dict "src" . "alt" $.Title "class" "w-full h-auto soft-focus-img" "loading" "eager") }}
+          {{ with $.Params.cover.caption }}
+          <figcaption class="text-center text-dark-text/60 text-sm mt-3 px-8">{{ . }}</figcaption>
+          {{ end }}
+        </figure>
+        {{ end }}
+
+        <!-- Content -->
+        <div class="prose prose-lg max-w-none text-dark-text/90">
+          {{ .Content }}
+        </div>
+
+        <!-- Tags -->
+        {{ with .Params.tags }}
+        <div class="mt-12 pt-8 border-t-2 border-dark-text/10">
+          <h4 class="text-xl font-bold font-display text-dark-text mb-4 flex items-center gap-2">
+            <span class="material-symbols-outlined text-secondary">label</span>
+            Tags
+          </h4>
+          <div class="flex flex-wrap gap-2">
+            {{ range . }}
+            <a href="{{ "/tag/" | relURL }}{{ . | urlize }}/" class="px-4 py-2 bg-secondary/20 text-dark-text text-sm font-bold rounded-lg border-2 border-secondary/30 hover:bg-secondary hover:text-white transition-all font-display">#{{ . }}</a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+
+        <!-- Navigation -->
+        <div class="mt-12 pt-8 border-t-2 border-dark-text/10 flex flex-col sm:flex-row justify-between gap-4">
+          {{ with .PrevInSection }}
+          <a href="{{ .Permalink }}" class="flex items-center gap-3 p-4 bg-white/50 rounded-xl hover:bg-white/80 transition-all group flex-1">
+            <span class="material-symbols-outlined text-primary group-hover:-translate-x-1 transition-transform">arrow_back</span>
+            <div>
+              <span class="text-xs text-dark-text/60 uppercase tracking-wide font-bold">Previous</span>
+              <p class="font-display font-bold text-dark-text line-clamp-1">{{ .Title }}</p>
+            </div>
+          </a>
+          {{ end }}
+          {{ with .NextInSection }}
+          <a href="{{ .Permalink }}" class="flex items-center gap-3 p-4 bg-white/50 rounded-xl hover:bg-white/80 transition-all group flex-1 text-right justify-end">
+            <div>
+              <span class="text-xs text-dark-text/60 uppercase tracking-wide font-bold">Next</span>
+              <p class="font-display font-bold text-dark-text line-clamp-1">{{ .Title }}</p>
+            </div>
+            <span class="material-symbols-outlined text-primary group-hover:translate-x-1 transition-transform">arrow_forward</span>
+          </a>
+          {{ end }}
+        </div>
+      </div>
+    </article>
+
+    <!-- Sidebar -->
+    {{ partial "sidebar.html" . }}
+  </div>
+</div>
+{{ end }}

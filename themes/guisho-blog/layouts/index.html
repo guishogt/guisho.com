@@ -1,0 +1,35 @@
+{{ define "main" }}
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+  <div class="flex flex-col lg:flex-row gap-12">
+    <!-- Main Content -->
+    <div class="lg:w-2/3 space-y-12">
+      {{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") 10 }}
+      {{ range $paginator.Pages }}
+      {{ partial "article-card.html" . }}
+      {{ end }}
+
+      <!-- Pagination -->
+      {{ if gt $paginator.TotalPages 1 }}
+      <div class="flex justify-center items-center gap-4 py-8">
+        {{ if $paginator.HasPrev }}
+        <a href="{{ $paginator.Prev.URL }}" class="px-6 py-3 bg-primary text-warm-bg font-bold rounded-xl hover:bg-primary/80 transition-all font-display text-lg flex items-center gap-2">
+          <span class="material-symbols-outlined">arrow_back</span>
+          Newer
+        </a>
+        {{ end }}
+        <span class="text-dark-text/60 font-display text-lg">Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}</span>
+        {{ if $paginator.HasNext }}
+        <a href="{{ $paginator.Next.URL }}" class="px-6 py-3 bg-primary text-warm-bg font-bold rounded-xl hover:bg-primary/80 transition-all font-display text-lg flex items-center gap-2">
+          Older
+          <span class="material-symbols-outlined">arrow_forward</span>
+        </a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+
+    <!-- Sidebar -->
+    {{ partial "sidebar.html" . }}
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,34 @@
+---
+_edit_last: "2"
+_jetpack_related_posts_cache:
+  37550b67d263a3ce789993dc25046c5f:
+    expires: 1771336567
+    payload: []
+_thumbnail_id: "1437"
+_wpas_done_all: "1"
+_wpcom_is_markdown: "1"
+author: guisho
+categories:
+  - travel
+cover:
+  alt: _DSC5915_2
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/08/DSC5915_2.jpg
+date: "2011-10-01T18:19:34+00:00"
+guid: http://guisho.com/?p=1436
+parent_post_id: null
+post_id: "1436"
+rank_math_internal_links_processed: "1"
+rank_math_robots:
+  - index
+tags:
+  - aviones
+  - california
+  - usa
+title: Marine Corps Air Station Miramar
+type: image
+url: /marine-corps-air-station-miramar/
+
+---
+Tienen una magia los aviones, los drones, los helicópteros....todo lo que vuela.
+
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/08/DSC5897-1.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/08/DSC5921_2.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/08/DSC5913.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/08/DSC5914.jpg)

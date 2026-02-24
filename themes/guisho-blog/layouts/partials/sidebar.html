@@ -1,0 +1,62 @@
+<aside class="lg:w-1/3">
+  <div class="lg:sticky lg:top-8 space-y-8">
+    <!-- Categories -->
+    <div class="bg-white/40 p-8 rounded-2xl sidebar-card doodle-border">
+      <h3 class="text-3xl font-bold mb-6 flex items-center gap-3 text-dark-text">
+        <span class="material-symbols-outlined text-primary text-3xl">palette</span>
+        Categories
+      </h3>
+      <div class="grid grid-cols-1 gap-3">
+        {{ range first 6 .Site.Taxonomies.categories.ByCount }}
+        <a class="group flex items-center justify-between p-4 bg-white/50 rounded-xl border-2 border-transparent hover:border-primary/50 transition-all" href="{{ "/category/" | relURL }}{{ .Page.Title | urlize }}/">
+          <div class="flex items-center gap-4">
+            {{ partial "category-icon.html" .Page.Title }}
+            <span class="text-lg font-bold font-display text-dark-text">{{ .Page.Title }}</span>
+          </div>
+          <span class="text-secondary text-sm font-bold">{{ .Count }}</span>
+        </a>
+        {{ end }}
+      </div>
+    </div>
+
+    <!-- Tags (all) -->
+    <div class="bg-white/40 p-8 rounded-2xl sidebar-card doodle-border">
+      <h3 class="text-3xl font-bold mb-6 flex items-center gap-3 text-dark-text">
+        <span class="material-symbols-outlined text-secondary text-3xl">label</span>
+        Tags
+      </h3>
+      <div class="flex flex-wrap gap-2 max-h-64 overflow-y-auto">
+        {{ range .Site.Taxonomies.tags.ByCount }}
+        <a class="px-3 py-1 bg-primary/20 text-primary text-sm font-bold rounded-lg border-2 border-primary/30 hover:bg-primary hover:text-white transition-all font-display" href="{{ "/tag/" | relURL }}{{ .Page.Title | urlize }}/">
+          #{{ .Page.Title }}
+        </a>
+        {{ end }}
+      </div>
+    </div>
+
+    <!-- Monthly Archive -->
+    <div class="bg-primary p-8 rounded-2xl shadow-xl border-4 border-dark-text/20 relative overflow-hidden group">
+      <div class="absolute -top-12 -right-12 w-48 h-48 bg-white/10 rounded-full blur-[40px] group-hover:scale-125 transition-transform duration-1000"></div>
+      <div class="relative z-10">
+        <h3 class="text-warm-bg font-bold text-3xl mb-6 font-display flex items-center gap-3">
+          <span class="material-symbols-outlined text-3xl">calendar_month</span>
+          Monthly Archive
+        </h3>
+        <div class="space-y-2 max-h-64 overflow-y-auto">
+          {{ $pages := where .Site.RegularPages "Type" "posts" }}
+          {{ $grouped := $pages.GroupByDate "January 2006" }}
+          {{ range $grouped }}
+          <a href="{{ "archives/" | relURL }}#{{ .Key | urlize }}" class="flex items-center justify-between p-3 bg-white/10 rounded-lg hover:bg-white/20 transition-all">
+            <span class="text-warm-bg font-display font-bold">{{ .Key }}</span>
+            <span class="text-warm-bg/60 text-sm font-bold">{{ len .Pages }} posts</span>
+          </a>
+          {{ end }}
+        </div>
+        <a href="{{ "archives/" | relURL }}" class="mt-6 w-full bg-warm-bg text-primary font-bold py-3 rounded-xl hover:bg-secondary hover:text-white transition-all flex items-center justify-center gap-3 shadow-lg font-display text-xl">
+          <span>View All Archives</span>
+          <span class="material-symbols-outlined">arrow_forward</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</aside>

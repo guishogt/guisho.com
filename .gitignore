@@ -1,0 +1,32 @@
+# Hugo build output
+public/
+resources/_gen/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Hugo
+.hugo_build.lock
+
+# Node (if using npm for build tools)
+node_modules/
+
+# Environment files
+.env
+.env.local
+
+# Logs
+*.log
+assets/uploads/

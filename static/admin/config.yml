@@ -1,0 +1,65 @@
+backend:
+  name: github
+  repo: guishogt/guisho.com
+  branch: main
+  base_url: https://guisho.com
+  auth_endpoint: /api/auth
+
+# Media stored in Cloudinary (free tier: 25GB)
+# Sign up at: https://cloudinary.com/
+# Get your cloud_name from Dashboard
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: guisho  # Replace with your Cloudinary cloud name
+    api_key: YOUR_API_KEY  # Replace with your API key
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
+      - { label: "Author", name: "author", widget: "string", default: "guisho", required: false }
+      - label: "Cover Image"
+        name: "cover"
+        widget: "object"
+        collapsed: true
+        required: false
+        fields:
+          - { label: "Image", name: "image", widget: "image", required: false }
+          - { label: "Caption", name: "caption", widget: "string", required: false }
+      - label: "Categories"
+        name: "categories"
+        widget: "list"
+        required: false
+        field: { label: "Category", name: "category", widget: "string" }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "pages"
+    label: "Pages"
+    folder: "content/pages"
+    create: true
+    nested:
+      depth: 2
+    slug: "{{slug}}/index"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }

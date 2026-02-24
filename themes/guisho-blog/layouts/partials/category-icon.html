@@ -1,0 +1,46 @@
+{{- $category := . | lower -}}
+{{- $icon := "folder" -}}
+{{- $color := "text-primary" -}}
+
+{{- if eq $category "travel" -}}
+  {{- $icon = "flight_takeoff" -}}
+  {{- $color = "text-primary" -}}
+{{- else if eq $category "lo-que-opino-sobre" -}}
+  {{- $icon = "lightbulb" -}}
+  {{- $color = "text-yellow-500" -}}
+{{- else if eq $category "personas,-lugares,-cosas,-sucesos" -}}
+  {{- $icon = "groups" -}}
+  {{- $color = "text-secondary" -}}
+{{- else if eq $category "ayudas-para-el-camino" -}}
+  {{- $icon = "signpost" -}}
+  {{- $color = "text-green-600" -}}
+{{- else if eq $category "mis-escritos" -}}
+  {{- $icon = "draw" -}}
+  {{- $color = "text-purple-500" -}}
+{{- else if eq $category "tech" -}}
+  {{- $icon = "computer" -}}
+  {{- $color = "text-blue-500" -}}
+{{- else if eq $category "standing-in-the-shoulder-of-giants" -}}
+  {{- $icon = "auto_stories" -}}
+  {{- $color = "text-amber-600" -}}
+{{- else if eq $category "software-engineering" -}}
+  {{- $icon = "terminal" -}}
+  {{- $color = "text-emerald-500" -}}
+{{- else if eq $category "mi-literatura" -}}
+  {{- $icon = "menu_book" -}}
+  {{- $color = "text-rose-500" -}}
+{{- else if eq $category "software-business" -}}
+  {{- $icon = "trending_up" -}}
+  {{- $color = "text-indigo-500" -}}
+{{- else if eq $category "strategy" -}}
+  {{- $icon = "target" -}}
+  {{- $color = "text-red-500" -}}
+{{- else if eq $category "uncategorized" -}}
+  {{- $icon = "category" -}}
+  {{- $color = "text-gray-400" -}}
+{{- else if eq $category "p" -}}
+  {{- $icon = "photo_camera" -}}
+  {{- $color = "text-pink-500" -}}
+{{- end -}}
+
+<span class="material-symbols-outlined {{ $color }} group-hover:rotate-12 transition-transform">{{ $icon }}</span>

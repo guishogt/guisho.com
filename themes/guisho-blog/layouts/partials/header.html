@@ -1,0 +1,61 @@
+<header class="relative w-full {{ if .IsHome }}min-h-[550px]{{ else }}min-h-[300px]{{ end }} flex flex-col items-center justify-center text-dark-text overflow-hidden">
+  <div class="absolute inset-0 z-0 hero-img-container">
+    {{ if .IsHome }}
+    <img alt="guisho.com" class="w-full h-full object-cover soft-focus-img" src="{{ "images/hero-bg.jpg" | relURL }}">
+    {{ else if and .IsPage .Params.cover.image }}
+    <img alt="{{ .Title }}" class="w-full h-full object-cover soft-focus-img" src="{{ .Params.cover.image }}">
+    {{ else }}
+    <div class="w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20"></div>
+    {{ end }}
+    <div class="absolute inset-0 bg-warm-bg/60 backdrop-blur-[1px]"></div>
+  </div>
+
+  <div class="absolute top-0 left-0 right-0 z-20 p-6 flex justify-between items-center max-w-7xl mx-auto w-full">
+    <label class="cursor-pointer p-2 text-dark-text hover:text-primary transition-colors md:hidden" for="mobile-menu-toggle">
+      <span class="material-symbols-outlined text-3xl">menu</span>
+    </label>
+    <div class="flex items-center gap-6 ml-auto">
+      <a href="{{ "search/" | relURL }}" class="p-2 text-dark-text/80 hover:text-primary transition-colors">
+        <span class="material-symbols-outlined">search</span>
+      </a>
+    </div>
+  </div>
+
+  <input class="hidden peer" id="mobile-menu-toggle" type="checkbox">
+  <div class="fixed inset-0 z-[100] bg-warm-bg flex-col items-center justify-center gap-8 text-4xl font-bold hidden peer-checked:flex" id="mobile-menu">
+    <label class="absolute top-8 right-8 cursor-pointer" for="mobile-menu-toggle">
+      <span class="material-symbols-outlined text-4xl">close</span>
+    </label>
+    <a class="hover:text-primary transition-colors font-display" href="{{ "/" | relURL }}">HOME</a>
+    {{ range .Site.Menus.main }}
+    <a class="hover:text-primary transition-colors font-display" href="{{ .URL }}">{{ .Name | upper }}</a>
+    {{ end }}
+    <a class="hover:text-primary transition-colors font-display" href="{{ "/category/" | relURL }}">CATEGORIES</a>
+    <a class="hover:text-primary transition-colors font-display" href="{{ "/tag/" | relURL }}">TAGS</a>
+  </div>
+
+  <div class="relative z-10 text-center px-4">
+    <div class="flex flex-col items-center gap-2 mb-6">
+      <a href="{{ "/" | relURL }}" class="flex flex-col items-center gap-2">
+        <div class="p-4 bg-primary text-warm-bg rounded-full shadow-lg transform rotate-6 border-4 border-white/20">
+          <span class="material-symbols-outlined text-4xl block">draw</span>
+        </div>
+        <h1 class="text-{{ if .IsHome }}6xl md:text-8xl{{ else }}4xl md:text-5xl{{ end }} font-bold tracking-tight site-title">
+          guisho<span class="text-primary">.com</span>
+        </h1>
+      </a>
+      {{ if .IsHome }}
+      <p class="text-dark-text/70 font-display text-xl mt-1 italic">{{ .Site.Params.description | default "Doodles, Dreams & Digital Stories" }}</p>
+      {{ end }}
+    </div>
+
+    <nav class="hidden md:flex items-center justify-center gap-10 mt-6">
+      <a class="text-lg font-bold {{ if .IsHome }}text-primary border-b-4 border-primary/40 pb-1{{ else }}text-dark-text/80 hover:text-primary transition-colors{{ end }} font-display" href="{{ "/" | relURL }}">HOME</a>
+      {{ range .Site.Menus.main }}
+      <a class="text-lg font-bold text-dark-text/80 hover:text-primary transition-colors font-display" href="{{ .URL }}">{{ .Name | upper }}</a>
+      {{ end }}
+      <a class="text-lg font-bold text-dark-text/80 hover:text-primary transition-colors font-display" href="{{ "/category/" | relURL }}">CATEGORIES</a>
+      <a class="text-lg font-bold text-dark-text/80 hover:text-primary transition-colors font-display" href="{{ "/tag/" | relURL }}">TAGS</a>
+    </nav>
+  </div>
+</header>

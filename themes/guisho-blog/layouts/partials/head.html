@@ -1,0 +1,126 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+<link rel="canonical" href="{{ .Permalink }}">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        colors: {
+          "primary": "#1F6F8B",
+          "secondary": "#99A8B2",
+          "accent": "#1F6F8B",
+          "dark-text": "#1C2B2D",
+          "warm-bg": "#E6D5B8",
+        },
+        fontFamily: {
+          "display": ["Gaegu", "cursive"],
+          "sans": ["Quicksand", "sans-serif"]
+        },
+        borderRadius: {
+          "DEFAULT": "0.75rem",
+          "lg": "1.25rem",
+          "xl": "2rem",
+          "full": "9999px"
+        },
+      },
+    },
+  }
+</script>
+
+<style type="text/tailwindcss">
+  :root {
+    --whimsical-teal: #1F6F8B;
+    --muted-blue: #99A8B2;
+    --deep-slate: #1C2B2D;
+    --warm-cream: #E6D5B8;
+  }
+  body {
+    background-color: var(--warm-cream);
+    color: var(--deep-slate);
+    font-family: 'Quicksand', sans-serif;
+  }
+  h1, h2, h3, .site-title {
+    font-family: 'Gaegu', cursive;
+  }
+  .photo-card-overlay {
+    background: linear-gradient(0deg, rgba(28, 43, 45, 0.8) 0%, rgba(28, 43, 45, 0.2) 60%, rgba(0, 0, 0, 0) 100%);
+  }
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  }
+  .doodle-border {
+    border: 3px solid var(--deep-slate);
+    box-shadow: 6px 6px 0px var(--muted-blue);
+    border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  }
+  .hover-lift {
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease;
+  }
+  .hover-lift:hover {
+    transform: translateY(-5px) rotate(0.5deg);
+  }
+  .soft-focus-img {
+    filter: brightness(1.05) contrast(0.9) saturate(1.1);
+    border: 3px solid rgba(255, 255, 255, 0.3);
+  }
+  .hero-img-container::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border: 8px solid rgba(230, 213, 184, 0.2);
+    pointer-events: none;
+  }
+  .sidebar-card {
+    border: 2px solid rgba(28, 43, 45, 0.1);
+  }
+  .prose {
+    max-width: none;
+  }
+  .prose img {
+    border-radius: 0.75rem;
+    margin: 1.5rem 0;
+  }
+  .prose a {
+    color: var(--whimsical-teal);
+    text-decoration: underline;
+  }
+  .prose a:hover {
+    color: var(--muted-blue);
+  }
+  .prose h2, .prose h3, .prose h4 {
+    font-family: 'Gaegu', cursive;
+    color: var(--deep-slate);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .prose p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+  }
+  .prose figure {
+    margin: 2rem 0;
+  }
+  .prose figcaption {
+    text-align: center;
+    font-size: 0.875rem;
+    color: var(--muted-blue);
+    margin-top: 0.5rem;
+  }
+</style>
+
+{{ with .Site.Params.assets.favicon }}<link rel="icon" href="{{ . }}">{{ end }}
+<link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ "feed.xml" | absURL }}">
+
+{{- partial "google-analytics.html" . -}}

@@ -1,0 +1,74 @@
+<article class="group relative hover-lift doodle-border cursor-pointer overflow-hidden bg-warm-bg">
+  {{ with .Params.cover.image }}
+  <!-- Card WITH image: text overlaid on image -->
+  <a href="{{ $.Permalink }}" class="block relative h-[400px] overflow-hidden">
+    {{ partial "responsive-image.html" (dict "src" . "alt" $.Title "class" "w-full h-full object-cover soft-focus-img transition-transform duration-500 group-hover:scale-105" "loading" "lazy") }}
+    <div class="absolute inset-0 bg-gradient-to-t from-dark-text/90 via-dark-text/40 to-transparent"></div>
+
+    <!-- Text overlay on image -->
+    <div class="absolute inset-x-0 bottom-0 p-8">
+      <!-- Categories -->
+      {{ with $.Params.categories }}
+      <div class="flex flex-wrap gap-2 mb-4">
+        {{ range first 2 . }}
+        <span class="px-4 py-1 bg-primary text-warm-bg text-xs font-bold rounded-full uppercase tracking-wider font-sans">{{ . }}</span>
+        {{ end }}
+      </div>
+      {{ end }}
+
+      <!-- Title -->
+      <h2 class="text-3xl md:text-4xl font-bold text-warm-bg leading-tight mb-3 font-display group-hover:text-primary transition-colors drop-shadow-lg">{{ $.Title }}</h2>
+
+      <!-- Summary -->
+      {{ with $.Summary }}
+      <p class="text-warm-bg/90 text-lg font-sans leading-relaxed line-clamp-2 drop-shadow">{{ . | plainify | truncate 150 }}</p>
+      {{ end }}
+    </div>
+  </a>
+
+  <!-- Date and Read more outside image -->
+  <div class="px-8 py-4 flex items-center justify-between border-t-2 border-dark-text/10">
+    <time class="text-dark-text/50 text-sm font-sans" datetime="{{ $.Date.Format "2006-01-02" }}">
+      {{ $.Date.Format "January 2, 2006" }}
+    </time>
+    <a href="{{ $.Permalink }}" class="flex items-center gap-2 text-primary font-bold font-display text-lg group-hover:gap-3 transition-all">
+      <span>Read more</span>
+      <span class="material-symbols-outlined">arrow_right_alt</span>
+    </a>
+  </div>
+
+  {{ else }}
+  <!-- Card WITHOUT image: original text-only layout -->
+  <div class="p-8 min-h-[300px] flex flex-col justify-center">
+    <!-- Categories -->
+    {{ with .Params.categories }}
+    <div class="flex flex-wrap gap-2 mb-4">
+      {{ range first 2 . }}
+      <a href="{{ "/category/" | relURL }}{{ . | urlize }}/" class="px-4 py-1 bg-primary text-warm-bg text-xs font-bold rounded-full uppercase tracking-wider font-sans hover:bg-primary/80 transition-colors">{{ . }}</a>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <!-- Title -->
+    <a href="{{ .Permalink }}">
+      <h2 class="text-3xl md:text-4xl font-bold text-dark-text leading-tight mb-4 font-display group-hover:text-primary transition-colors">{{ .Title }}</h2>
+    </a>
+
+    <!-- Summary -->
+    {{ with .Summary }}
+    <p class="text-dark-text/80 text-lg font-sans leading-relaxed line-clamp-3">{{ . | plainify | truncate 200 }}</p>
+    {{ end }}
+
+    <!-- Meta -->
+    <div class="mt-6 flex items-center justify-between">
+      <time class="text-dark-text/50 text-sm font-sans" datetime="{{ .Date.Format "2006-01-02" }}">
+        {{ .Date.Format "January 2, 2006" }}
+      </time>
+      <a href="{{ .Permalink }}" class="flex items-center gap-2 text-primary font-bold font-display text-lg group-hover:gap-3 transition-all">
+        <span>Read more</span>
+        <span class="material-symbols-outlined">arrow_right_alt</span>
+      </a>
+    </div>
+  </div>
+  {{ end }}
+</article>

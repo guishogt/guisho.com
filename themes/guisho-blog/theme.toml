@@ -1,0 +1,14 @@
+# Theme metadata
+name = "guisho-blog"
+license = "MIT"
+licenselink = "https://github.com/guisho/guisho-blog/blob/master/LICENSE"
+description = "A whimsical, hand-drawn style blog theme with Tailwind CSS"
+
+[author]
+  name = "guisho"
+  homepage = "https://guisho.com"
+
+[original]
+  name = "Custom Design"
+  homepage = "https://guisho.com"
+  repo = ""

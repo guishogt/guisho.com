@@ -1,0 +1,33 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $caption := .Get "caption" | default "" -}}
+{{- $align := .Get "align" | default "" -}}
+{{- $class := "my-6" -}}
+
+{{- if eq $align "aligncenter" -}}
+  {{- $class = "my-6 mx-auto" -}}
+{{- else if eq $align "alignleft" -}}
+  {{- $class = "my-6 mr-auto" -}}
+{{- else if eq $align "alignright" -}}
+  {{- $class = "my-6 ml-auto" -}}
+{{- end -}}
+
+<figure class="{{ $class }}">
+  {{- $path := strings.TrimPrefix "/" $src -}}
+  {{- $image := resources.Get $path -}}
+
+  {{- if $image -}}
+    {{- if hugo.IsExtended -}}
+      {{- $processed := $image.Resize "1200x webp q85" -}}
+      <img src="{{ $processed.RelPermalink }}" alt="{{ $alt }}" class="rounded-lg" loading="lazy" decoding="async">
+    {{- else -}}
+      <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}" class="rounded-lg" loading="lazy" decoding="async">
+    {{- end -}}
+  {{- else -}}
+    <img src="{{ $src }}" alt="{{ $alt }}" class="rounded-lg" loading="lazy">
+  {{- end -}}
+
+  {{- with $caption -}}
+  <figcaption class="text-center text-dark-text/60 text-sm mt-2 font-sans">{{ . }}</figcaption>
+  {{- end -}}
+</figure>

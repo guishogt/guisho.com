@@ -1,0 +1,57 @@
+{{- $src := .src -}}
+{{- $alt := .alt | default "" -}}
+{{- $class := .class | default "" -}}
+{{- $sizes := .sizes | default "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 800px" -}}
+{{- $loading := .loading | default "lazy" -}}
+
+{{- /* Check if external URL */ -}}
+{{- $isExternal := or (hasPrefix $src "http://") (hasPrefix $src "https://") -}}
+
+{{- if $isExternal -}}
+  {{- /* External image: render as-is */ -}}
+  <img src="{{ $src }}" alt="{{ $alt }}" {{ with $class }}class="{{ . }}"{{ end }} loading="{{ $loading }}" decoding="async">
+{{- else -}}
+  {{- /* Local image: try to process */ -}}
+  {{- $path := strings.TrimPrefix "/" $src -}}
+  {{- $image := resources.Get $path -}}
+
+  {{- if $image -}}
+    {{- if hugo.IsExtended -}}
+      {{- /* Hugo Extended: process images */ -}}
+      {{- $tiny := $image.Resize "400x webp q80" -}}
+      {{- $small := $image.Resize "640x webp q80" -}}
+      {{- $medium := $image.Resize "800x webp q80" -}}
+      {{- $large := $image.Resize "1200x webp q85" -}}
+      {{- $fallback := $image.Resize "800x q85" -}}
+
+      <picture>
+        <source
+          type="image/webp"
+          srcset="{{ $tiny.RelPermalink }} 400w,
+                  {{ $small.RelPermalink }} 640w,
+                  {{ $medium.RelPermalink }} 800w,
+                  {{ $large.RelPermalink }} 1200w"
+          sizes="{{ $sizes }}">
+        <img
+          src="{{ $fallback.RelPermalink }}"
+          alt="{{ $alt }}"
+          width="{{ $medium.Width }}"
+          height="{{ $medium.Height }}"
+          {{ with $class }}class="{{ . }}"{{ end }}
+          loading="{{ $loading }}"
+          decoding="async">
+      </picture>
+    {{- else -}}
+      {{- /* Non-extended Hugo: serve original */ -}}
+      <img
+        src="{{ $image.RelPermalink }}"
+        alt="{{ $alt }}"
+        {{ with $class }}class="{{ . }}"{{ end }}
+        loading="{{ $loading }}"
+        decoding="async">
+    {{- end -}}
+  {{- else -}}
+    {{- /* Image not found in assets, use original path */ -}}
+    <img src="{{ $src }}" alt="{{ $alt }}" {{ with $class }}class="{{ . }}"{{ end }} loading="{{ $loading }}">
+  {{- end -}}
+{{- end -}}
