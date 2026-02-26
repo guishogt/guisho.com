@@ -1,5 +1,6 @@
 <article class="group relative hover-lift doodle-border cursor-pointer overflow-hidden bg-warm-bg">
-  {{ with .Params.cover.image }}
+  {{ $coverImage := partial "get-cover-image.html" . }}
+  {{ with $coverImage }}
   <!-- Card WITH image: text overlaid on image -->
   <a href="{{ $.Permalink }}" class="block relative h-[400px] overflow-hidden">
     {{ partial "responsive-image.html" (dict "src" . "alt" $.Title "class" "w-full h-full object-cover soft-focus-img transition-transform duration-500 group-hover:scale-105" "loading" "lazy") }}

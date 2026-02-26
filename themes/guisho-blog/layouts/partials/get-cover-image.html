@@ -1,0 +1,8 @@
+{{- $cover := .Params.cover.image -}}
+{{- if not $cover -}}
+  {{- $match := findRE `https://guisho-media\.s3\.amazonaws\.com/[^)\s"]+\.(jpg|jpeg|png|gif|webp)` .RawContent 1 -}}
+  {{- with $match -}}
+    {{- $cover = index . 0 -}}
+  {{- end -}}
+{{- end -}}
+{{- return $cover -}}

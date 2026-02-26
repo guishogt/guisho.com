@@ -37,7 +37,8 @@
         </div>
 
         <!-- Cover Image -->
-        {{ with .Params.cover.image }}
+        {{ $coverImage := partial "get-cover-image.html" . }}
+        {{ with $coverImage }}
         <figure class="mb-10 -mx-8 md:-mx-12">
           {{ partial "responsive-image.html" (dict "src" . "alt" $.Title "class" "w-full h-auto soft-focus-img" "loading" "eager") }}
           {{ with $.Params.cover.caption }}
