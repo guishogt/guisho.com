@@ -3,6 +3,10 @@ author: guisho
 date: "2025-08-01T00:00:00+00:00"
 title: "Don't Let Your Org Chart Write Bad Code"
 url: /speaking/kcdc-2025/
+description: "How Conway's Law, Inverse Conway Maneuvers, and Team Topologies reveal that your org chart—not your tech stack—drives your software architecture."
+cover:
+  image: https://guisho-media.s3.amazonaws.com/uploads/speaking/kcdc-2025-speaking.jpg
+  alt: "Luis Fernandez speaking at KCDC 2025"
 ---
 
 ![Speaking at KCDC 2025](https://guisho-media.s3.amazonaws.com/uploads/speaking/kcdc-2025-speaking.jpg)

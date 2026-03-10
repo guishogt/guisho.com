@@ -3,6 +3,7 @@ author: guisho
 date: "2025-11-01T00:00:00+00:00"
 title: "GenAI Readiness & Workflows"
 url: /speaking/kmworld-2025/
+description: "AI Visibility Optimization (AIVO) — a strategic framework for making content comprehensible, reliable, and retrievable by AI systems in an AI-first world."
 ---
 
 **KMWorld 2025 — Washington, D.C., November 2025**
