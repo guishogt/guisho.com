@@ -49,3 +49,6 @@ menu:
     - name: Links
       url: /links/
       weight: 2
+    - name: Speaking
+      url: /speaking/
+      weight: 3
