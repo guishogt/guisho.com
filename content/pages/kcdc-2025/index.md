@@ -5,6 +5,8 @@ title: "Don't Let Your Org Chart Write Bad Code"
 url: /speaking/kcdc-2025/
 ---
 
+![Speaking at KCDC 2025](https://guisho-media.s3.amazonaws.com/uploads/speaking/kcdc-2025-speaking.jpg)
+
 **KCDC 2025 — Kansas City, August 2025**
 
 {{< youtube bXnG8QPWVQo >}}
