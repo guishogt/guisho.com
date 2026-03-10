@@ -9,8 +9,6 @@ cover:
   alt: "Luis Fernandez speaking at Gartner C-Level Communities 2025"
 ---
 
-![Speaking at Gartner C-Level Communities 2025](https://guisho-media.s3.amazonaws.com/uploads/speaking/gartner-2025-speaking.jpg)
-
 **Gartner C-Level Communities — Houston, December 2025**
 
 [Event page](https://www.evanta.com/cio/houston/houston-cio-executive-summit-7462)
