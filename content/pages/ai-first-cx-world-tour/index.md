@@ -6,7 +6,7 @@ categories:
   - conf
 tags:
   - conf
-url: /speaking/ai-first-cx-world-tour
+url: /speaking/ai-first-cx-world-tour/
 draft: false
 ---
 
