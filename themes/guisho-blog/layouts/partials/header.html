@@ -2,7 +2,7 @@
   <div class="absolute inset-0 z-0 hero-img-container">
     {{ if .IsHome }}
     <img alt="guisho.com" class="w-full h-full object-cover soft-focus-img" src="{{ "images/hero-bg.jpg" | relURL }}" loading="eager" fetchpriority="high" decoding="async">
-    {{ else if and .IsPage .Params.cover.image }}
+    {{ else if and .IsPage .Params.cover.image (ne .Params.feature_image false) }}
     <img alt="{{ .Title }}" class="w-full h-full object-cover soft-focus-img" src="{{ .Params.cover.image }}" loading="eager" fetchpriority="high" decoding="async">
     {{ else }}
     <img alt="guisho.com" class="w-full h-full object-cover soft-focus-img" src="{{ "images/hero-bg.jpg" | relURL }}" loading="eager" fetchpriority="high" decoding="async">
