@@ -1,0 +1,9 @@
+{
+  "name": "guisho-oauth",
+  "version": "1.0.0",
+  "description": "GitHub OAuth handler for Decap CMS",
+  "main": "index.js",
+  "scripts": {
+    "zip": "zip -r function.zip index.js"
+  }
+}
