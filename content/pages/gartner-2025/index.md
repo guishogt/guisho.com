@@ -20,3 +20,7 @@ As technology advances and global uncertainty grows, cyber risk has become insep
 - Real-world approaches for building cyber resilience and ensuring rapid recovery in the face of sophisticated threats and geopolitical disruptions.
 - Strategies for integrating cyber risk management into digital transformation initiatives and adapting to new regulatory and operational realities.
 - Best practices for engaging business leaders, communicating risk, and fostering enterprise-wide collaboration before, during, and after incidents.
+
+### As featured in the program
+
+![Executive Boardroom session card — The Triple Threat: Cybersecurity, AI, and Global Upheaval, with Kyle Bigelow (BioUrja Trading) and Luis Fernandez (VML)](gartner_executive.png)
