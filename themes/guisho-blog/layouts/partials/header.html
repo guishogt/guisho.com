@@ -5,7 +5,7 @@
     {{ else if and .IsPage .Params.cover.image }}
     <img alt="{{ .Title }}" class="w-full h-full object-cover soft-focus-img" src="{{ .Params.cover.image }}" loading="eager" fetchpriority="high" decoding="async">
     {{ else }}
-    <div class="w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20"></div>
+    <img alt="guisho.com" class="w-full h-full object-cover soft-focus-img" src="{{ "images/hero-bg.jpg" | relURL }}" loading="eager" fetchpriority="high" decoding="async">
     {{ end }}
     <div class="absolute inset-0 bg-warm-bg/60 backdrop-blur-[1px]"></div>
   </div>

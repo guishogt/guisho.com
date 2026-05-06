@@ -9,7 +9,7 @@ cover:
   alt: "Luis Fernandez speaking at KCDC 2025"
 ---
 
-**KCDC 2025 — Kansas City, August 2025**
+**KCDC 2025 — Kansas City, August 2025** ([materials](/c/kcdc25/))
 
 {{< youtube bXnG8QPWVQo >}}
 

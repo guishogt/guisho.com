@@ -8,6 +8,7 @@ tags:
   - conf
 url: /speaking/ai-first-cx-world-tour/
 draft: false
+feature_image: false
 ---
 
 
