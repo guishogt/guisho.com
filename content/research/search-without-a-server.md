@@ -29,37 +29,21 @@ Every search engine builds an **inverted index** — a map from words to the doc
 
 Pagefind's insight: split the index into chunks *by how words start*, so a query only needs the chunk that could contain it.
 
-```
-BUILD TIME (once, in CI)
-
-  public/           Pagefind          /pagefind/
-  ┌──────────┐      crawler          ┌──────────────────────┐
-  │ 759 HTML │  ──────────────▶      │ index/  aa…af.pf     │
-  │ pages    │   reads only          │         es…ez.pf     │
-  │          │   data-pagefind-body  │         tr…tz.pf  …  │
-  └──────────┘                       ├──────────────────────┤
-                                     │ fragment/ one per    │
-                                     │   page: url, title,  │
-                                     │   text for excerpts  │
-                                     └──────────────────────┘
+```mermaid
+flowchart LR
+    A["public/<br/>759 built HTML pages"] -->|"Pagefind crawler reads only<br/>data-pagefind-body"| IDX
+    subgraph PF["/pagefind/  (build time, once, in CI)"]
+        IDX["index/<br/>aa…af.pf · es…ez.pf · tr…tz.pf …<br/>inverted index, sharded by word prefix"]
+        FRG["fragment/<br/>one per page: url, title,<br/>text for excerpts"]
+    end
 ```
 
-```
-QUERY TIME (in your browser, right now)
-
-  you type "trovajazz"
-        │
-        ▼
-  WASM engine: which chunk holds "tr…"?     ── 1 small GET (~15 KB)
-        │
-        ▼
-  rank matching docs by relevance            ── zero network
-        │
-        ▼
-  fetch fragments of the top results only    ── 2-3 small GETs
-        │
-        ▼
-  titles + highlighted excerpts on the page
+```mermaid
+flowchart TD
+    A["you type “trovajazz”"] --> B["WASM engine:<br/>which chunk holds “tr…”?"]
+    B -->|"1 small GET · ~15 KB"| C["rank matching docs by relevance<br/>zero network"]
+    C -->|"2–3 small GETs"| D["fetch fragments of the<br/>top results only"]
+    D --> E["titles + highlighted excerpts<br/>on the page"]
 ```
 
 The full index for this site is ~4 MB sitting on S3. A search touches maybe 50 KB of it. That asymmetry is the whole trick: the database lives on the CDN, and queries are just static file GETs — cached at the edge like everything else here. Compare that with the Fuse approach, where the 4 MB *is* the download.
