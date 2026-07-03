@@ -1,0 +1,62 @@
+{{ define "main" }}
+{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ $photos := where $posts "Params.categories" "intersect" (slice "travel") }}
+{{ $essays := complement $photos $posts }}
+{{ $docs := (where site.RegularPages "Section" "research").ByDate.Reverse }}
+{{ $covered := 0 }}
+{{ range $photos }}{{ with .Params.cover }}{{ with index . "image" }}{{ if hasPrefix . "http" }}{{ $covered = add $covered 1 }}{{ end }}{{ end }}{{ end }}{{ end }}
+{{ $byDate := $posts.ByDate }}
+{{ $firstYear := 0 }}{{ $lastYear := 0 }}
+{{ with index $byDate 0 }}{{ $firstYear = .Date.Year }}{{ end }}
+{{ with index $byDate.Reverse 0 }}{{ $lastYear = .Date.Year }}{{ end }}
+
+<div class="page-head">
+  <div class="kicker">Corpus · {{ $firstYear }}&ndash;{{ $lastYear }}</div>
+  <h1>{{ site.Title }}</h1>
+  <p class="desc">A personal research index: essays, working notes, and a photographic record — organized for lookup, not for scrolling.</p>
+</div>
+
+<div class="stats">
+  <div class="stat"><div class="n">{{ len $essays }}</div><div class="l">essays</div></div>
+  <div class="stat"><div class="n">{{ $covered }}</div><div class="l">photos</div></div>
+  <div class="stat"><div class="n">{{ len $docs }}</div><div class="l">research docs</div></div>
+  <div class="stat"><div class="n">{{ add (sub $lastYear $firstYear) 1 }}</div><div class="l">years spanned</div></div>
+</div>
+
+<section class="dash-section">
+  <h2>Research <a href="/research/">all documents &rarr;</a></h2>
+  {{ range $docs }}
+    <a class="coll-row" href="{{ .RelPermalink }}">
+      <div class="t">{{ .Title }}</div>
+      <div class="d">{{ .Summary | plainify }}</div>
+      <div class="m">{{ .Date.Format "2006-01-02" }} &middot; {{ .ReadingTime }} min read</div>
+    </a>
+  {{ end }}
+</section>
+
+<div class="two-col">
+  <section class="dash-section" style="margin-top:0">
+    <h2>Latest essays <a href="/essays/">full index &rarr;</a></h2>
+    {{ range first 8 $essays.ByDate.Reverse }}
+    <div class="row">
+      <span class="date">{{ .Date.Format "2006-01-02" }}</span>
+      <a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <span class="rt">{{ .ReadingTime }} min</span>
+    </div>
+    {{ end }}
+  </section>
+
+  <section class="dash-section" style="margin-top:0">
+    <h2>Latest photos <a href="/photos/">contact sheet &rarr;</a></h2>
+    <div class="sheet-mini">
+      {{ $shown := 0 }}
+      {{ range $photos.ByDate.Reverse }}
+        {{ if lt $shown 8 }}
+          {{ $cell := partial "photo-cell.html" . }}
+          {{ if $cell }}{{ $cell }}{{ $shown = add $shown 1 }}{{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+</div>
+{{ end }}

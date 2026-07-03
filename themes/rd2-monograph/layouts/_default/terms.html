@@ -1,0 +1,15 @@
+{{ define "main" }}
+<header class="page-head">
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="page-desc">{{ . }}</p>{{ end }}
+  <p class="page-count">{{ len .Data.Terms }} terms</p>
+</header>
+
+{{ with .Content }}<div class="page-copy">{{ . }}</div>{{ end }}
+
+<div class="term-index">
+  {{ range .Data.Terms.Alphabetical }}
+  <a class="term-chip" href="{{ .Page.RelPermalink }}">{{ .Page.Title }}&nbsp;<span class="term-count">{{ .Count }}</span></a>
+  {{ end }}
+</div>
+{{ end }}

@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="band band-research">
+  <div class="band-inner">
+    <span class="kicker"><a class="kicker-link" href="{{ "/research/" | relURL }}">Research</a></span>
+    <h1>{{ .Title }}</h1>
+    <p class="meta">{{ .Date.Format "Jan 2, 2006" }} &middot; {{ .ReadingTime }} min read{{ with .Description }} &middot; {{ . }}{{ end }}</p>
+  </div>
+</div>
+<main class="collection-body">
+  <div class="article">
+    <div class="prose">
+      {{ .Content }}
+    </div>
+    {{ with .Params.tags }}
+    <footer class="term-chips chips-research">
+      {{ range . }}
+        {{ $t := . }}
+        {{ with site.GetPage (printf "/tags/%s" ($t | urlize)) }}
+        <a class="chip chip-tag" href="{{ .RelPermalink }}">#{{ .Title }}</a>
+        {{ else }}
+        <span class="chip chip-tag">#{{ $t }}</span>
+        {{ end }}
+      {{ end }}
+    </footer>
+    {{ end }}
+  </div>
+</main>
+{{ end }}

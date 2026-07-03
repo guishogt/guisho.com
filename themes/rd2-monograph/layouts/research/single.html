@@ -1,0 +1,20 @@
+{{ define "main" }}
+<article class="single">
+  <header class="single-head">
+    <p class="kicker">Research</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-desc">{{ . }}</p>{{ end }}
+    <p class="single-meta">{{ .Date.Format "Jan 2, 2006" }} · {{ .ReadingTime }} min read</p>
+  </header>
+
+  <div class="content dropcap">
+    {{ .Content }}
+  </div>
+
+  <footer class="single-foot">
+    {{ with .GetTerms "tags" }}
+    <p>Tagged {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ $t.RelPermalink }}">{{ $t.LinkTitle }}</a>{{ end }}</p>
+    {{ end }}
+  </footer>
+</article>
+{{ end }}

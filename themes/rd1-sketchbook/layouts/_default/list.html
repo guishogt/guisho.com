@@ -1,0 +1,27 @@
+{{ define "main" }}
+<header class="single-header">
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{ with .Description }}<p class="collection-desc">{{ . }}</p>{{ end }}
+</header>
+
+{{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+
+{{ $pages := .Pages }}
+{{ if $pages }}
+  <p class="research-note">{{ len $pages }} entries in the sketchbook</p>
+  <div class="card-list">
+    {{ range $pages.ByDate.Reverse }}
+      <article class="sketch-card">
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p class="muted hand" style="font-size:1.05rem; margin:0 0 0.4rem;">
+          {{ if not .Date.IsZero }}{{ .Date.Format "Jan 2, 2006" }}{{ end }}
+          {{ if eq .Section "posts" }} &middot; {{ .ReadingTime }} min read{{ end }}
+        </p>
+        {{ with .Summary | plainify | truncate 180 }}<p style="margin:0;">{{ . }}</p>{{ end }}
+      </article>
+    {{ end }}
+  </div>
+{{ else }}
+  <p class="research-note">Nothing here yet — the pencil is still moving. ✎</p>
+{{ end }}
+{{ end }}

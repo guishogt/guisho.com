@@ -43,12 +43,24 @@ outputFormats:
     baseName: feed
 menu:
   main:
-    - name: About Me
-      url: /about/
+    - name: Essays
+      url: /essays/
       weight: 1
-    - name: Links
-      url: /links/
+    - name: Research
+      url: /research/
       weight: 2
+    - name: Postcards
+      url: /postcards/
+      weight: 3
+    - name: Tags
+      url: /tag/
+      weight: 4
     - name: Speaking
       url: /speaking/
-      weight: 3
+      weight: 5
+    - name: About Me
+      url: /about/
+      weight: 6
+    - name: Links
+      url: /links/
+      weight: 7

@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="band band-essays">
+  <div class="band-inner">
+    <span class="kicker">Section</span>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="meta">{{ . }}</p>{{ end }}
+  </div>
+</div>
+<main class="wrap section-essays">
+  {{ with .Content }}<div class="prose intro">{{ . }}</div>{{ end }}
+  {{ $posts := where site.RegularPages "Section" "posts" }}
+  {{ $photos := where $posts "Params.categories" "intersect" (slice "travel") }}
+  {{ $essays := complement $photos $posts }}
+  {{ range $essays.GroupByDate "2006" }}
+  <section class="year-group">
+    <h2 class="year">{{ .Key }}</h2>
+    <ul class="essay-list">
+      {{ range .Pages }}
+      <li>
+        <a href="{{ .RelPermalink }}">
+          <span class="e-title">{{ .Title }}</span>
+          <span class="e-meta">{{ .Date.Format "Jan 2" }} &middot; {{ .ReadingTime }} min</span>
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+</main>
+{{ end }}

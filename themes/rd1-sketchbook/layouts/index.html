@@ -1,0 +1,64 @@
+{{ define "main" }}
+{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ $photos := where $posts "Params.categories" "intersect" (slice "travel") }}
+{{ $essays := complement $photos $posts }}
+
+<div class="home-masthead">
+  <h1>{{ site.Title }}</h1>
+  <p class="tagline">essays &middot; research &middot; photos — a sketchbook in public</p>
+</div>
+
+{{/* Featured essay: most recent written post */}}
+{{ with index $essays 0 }}
+<a class="sketch-card featured-essay" href="{{ .RelPermalink }}">
+  <span class="kicker">✎ fresh off the desk</span>
+  <h2>{{ .Title }}</h2>
+  <p class="muted hand" style="font-size:1.1rem;">{{ .Date.Format "Jan 2, 2006" }} &middot; {{ .ReadingTime }} min read</p>
+  <p class="excerpt">{{ .Summary | plainify | truncate 260 }}</p>
+  <span class="read-more">keep reading →</span>
+</a>
+{{ end }}
+
+<div class="doodle-divider">✁ ✁ ✁</div>
+
+{{/* Research shelf */}}
+<section>
+  <h2 class="section-title">The research shelf</h2>
+  <div class="shelf">
+    {{ range where site.RegularPages "Section" "research" }}
+      <a class="shelf-card" href="{{ .RelPermalink }}">
+        <h3>{{ .Title }}</h3>
+        {{ with .Description }}<p style="margin:0 0 0.5rem; font-size:0.92rem;">{{ . }}</p>{{ end }}
+        <span class="count">{{ .Date.Format "Jan 2, 2006" }} &middot; {{ .ReadingTime }} min</span>
+      </a>
+    {{ end }}
+  </div>
+</section>
+
+<div class="doodle-divider">✁ ✁ ✁</div>
+
+{{/* Photo strip */}}
+<section>
+  <h2 class="section-title">From the camera roll</h2>
+  <div class="photo-strip">
+    {{ $strip := slice }}
+    {{ range $photos }}
+      {{ if and (lt (len $strip) 8) .Params.cover.image }}{{ $strip = $strip | append . }}{{ end }}
+    {{ end }}
+    {{ range $strip }}
+      <a class="polaroid" href="{{ .RelPermalink }}">
+        <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" loading="lazy">
+        <figcaption>{{ .Title }}</figcaption>
+      </a>
+    {{ end }}
+  </div>
+  <p class="hand" style="text-align:center; font-size:1.3rem;"><a href="{{ "/photos/" | relURL }}" class="read-more">see all {{ len $photos }} photos →</a></p>
+</section>
+
+<div class="doodle-divider">✁ ✁ ✁</div>
+
+<p class="home-side-links">
+  <a href="{{ "/speaking/" | relURL }}">🎤 Speaking</a>
+  <a href="{{ "/about/" | relURL }}">👋 About me</a>
+</p>
+{{ end }}

@@ -1,0 +1,65 @@
+{{ define "main" }}
+{{ $isPost := eq .Section "posts" }}
+{{ $isPhoto := and $isPost (in (.Params.categories | default slice) "travel") }}
+<article class="single">
+  <header class="single-head">
+    <h1>{{ .Title }}</h1>
+    {{ if $isPost }}
+    <p class="single-meta">{{ .Date.Format "Jan 2, 2006" }}{{ if not $isPhoto }} · {{ .ReadingTime }} min read{{ end }}</p>
+    {{ end }}
+  </header>
+
+  {{ if .Params.gated }}{{ partial "fam-gate-form.html" . }}<div id="fam-album" hidden>{{ end }}
+
+  {{ if $isPost }}
+  {{ with .Params.cover.image }}
+  {{ if hasPrefix . "https://" }}
+  <figure class="single-plate">
+    <img src="{{ . }}" alt="{{ $.Params.cover.alt | default $.Title }}" loading="lazy">
+  </figure>
+  {{ end }}
+  {{ end }}
+  {{ end }}
+
+  <div class="content{{ if and $isPost (not $isPhoto) }} dropcap{{ end }}">
+    {{ .Content }}
+  </div>
+
+  {{ if .Params.gated }}</div>{{ partial "fam-gate-script.html" . }}{{ end }}
+
+  {{ if and $isPost (not .Params.gated) }}
+  {{ $all := where site.RegularPages "Section" "posts" }}
+  {{ $trav := where $all "Params.categories" "intersect" (slice "travel") }}
+  {{ $coll := cond $isPhoto $trav (complement $trav $all) }}
+  {{ $newer := $coll.Prev . }}
+  {{ $older := $coll.Next . }}
+  {{ if or $newer $older }}
+  <nav class="post-nav">
+    <div class="post-nav-prev">
+      {{ with $newer }}
+      <span class="post-nav-label">&larr; Newer</span>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ end }}
+    </div>
+    <div class="post-nav-next">
+      {{ with $older }}
+      <span class="post-nav-label">Older &rarr;</span>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ end }}
+    </div>
+  </nav>
+  {{ end }}
+  {{ end }}
+
+  {{ if $isPost }}
+  <footer class="single-foot">
+    {{ with .GetTerms "categories" }}
+    <p>Filed under {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ $t.RelPermalink }}">{{ $t.LinkTitle }}</a>{{ end }}</p>
+    {{ end }}
+    {{ with .GetTerms "tags" }}
+    <p>Tagged {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ $t.RelPermalink }}">{{ $t.LinkTitle }}</a>{{ end }}</p>
+    {{ end }}
+  </footer>
+  {{ end }}
+</article>
+{{ end }}

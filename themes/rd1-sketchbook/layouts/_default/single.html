@@ -1,0 +1,38 @@
+{{ define "main" }}
+<article>
+  <header class="single-header">
+    <h1 class="page-title">{{ .Title }}</h1>
+    {{ if eq .Section "posts" }}
+      <p class="single-meta">✎ {{ .Date.Format "Jan 2, 2006" }} &middot; {{ .ReadingTime }} min read</p>
+    {{ else if not .Date.IsZero }}
+      <p class="single-meta">✎ {{ .Date.Format "Jan 2, 2006" }}</p>
+    {{ end }}
+  </header>
+
+  {{ with .Params.cover.image }}
+    <figure class="polaroid" style="max-width:560px; margin:1.5rem 0 2rem;">
+      <img src="{{ . }}" alt="{{ $.Params.cover.alt | default $.Title }}" loading="lazy" style="height:auto;">
+      {{ with $.Params.cover.caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+    </figure>
+  {{ end }}
+
+  <div class="prose">
+    {{ .Content }}
+  </div>
+
+  {{ $cats := .GetTerms "categories" }}
+  {{ $tags := .GetTerms "tags" }}
+  {{ if or $cats $tags }}
+    <div class="term-chips">
+      {{ with $cats }}
+        <span class="label">filed under:</span>
+        {{ range . }}<a class="chip" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+      {{ end }}
+      {{ with $tags }}
+        <span class="label">tagged:</span>
+        {{ range . }}<a class="chip" href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>{{ end }}
+      {{ end }}
+    </div>
+  {{ end }}
+</article>
+{{ end }}

@@ -1,0 +1,14 @@
+{{ define "main" }}
+<header class="single-header">
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{ with .Description }}<p class="collection-desc">{{ . }}</p>{{ end }}
+</header>
+
+{{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+
+<div class="term-cloud">
+  {{ range .Pages.ByTitle }}
+    <a class="chip" href="{{ .RelPermalink }}">{{ .Title }} <span class="muted">({{ len .Pages }})</span></a>
+  {{ end }}
+</div>
+{{ end }}

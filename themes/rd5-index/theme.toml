@@ -1,0 +1,8 @@
+name = "rd5-index"
+license = "MIT"
+description = "Index — a personal research lab / structured database theme. Dense, metadata-first, topic-oriented. Inter + IBM Plex Mono, paper/ink palette with a single moss-green accent."
+homepage = "https://guisho.com/"
+min_version = "0.146.0"
+
+[author]
+  name = "Luis Fernandez"

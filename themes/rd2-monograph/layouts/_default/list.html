@@ -1,0 +1,27 @@
+{{ define "main" }}
+<header class="page-head">
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="page-desc">{{ . }}</p>{{ end }}
+  <p class="page-count">{{ len .Pages }} entries</p>
+</header>
+
+{{ with .Content }}<div class="page-copy">{{ . }}</div>{{ end }}
+
+<ol class="toc">
+  {{ range .Pages.ByDate.Reverse }}
+  <li class="toc-entry">
+    <div class="toc-body">
+      <div class="toc-row">
+        <a class="toc-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <span class="leader"></span>
+        <span class="toc-meta">{{ .Date.Format "Jan 2, 2006" }}{{ if .ReadingTime }} · {{ .ReadingTime }} min{{ end }}</span>
+      </div>
+      {{ with .Summary | plainify | truncate 160 }}
+      <p class="toc-excerpt">{{ . }}</p>
+      {{ end }}
+      {{ partial "terms-line.html" . }}
+    </div>
+  </li>
+  {{ end }}
+</ol>
+{{ end }}

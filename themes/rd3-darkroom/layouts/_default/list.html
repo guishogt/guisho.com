@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="wrap-narrow">
+  <div class="page-kicker">Index</div>
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{ with .Description }}<p class="page-desc">{{ . }}</p>{{ end }}
+  {{ with .Content }}<div class="content" style="margin-bottom:2rem">{{ . }}</div>{{ end }}
+
+  <div class="plain-list">
+    {{ range .Pages.ByDate.Reverse }}
+    <a class="essay-item" href="{{ .RelPermalink }}">
+      <span class="t">{{ .Title }}</span>
+      <span class="m">{{ with .Date }}{{ .Format "Jan 2, 2006" }}{{ end }}{{ if .ReadingTime }} · {{ .ReadingTime }} min{{ end }}</span>
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

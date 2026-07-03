@@ -1,0 +1,11 @@
+{{- /* resolve a usable cover: frontmatter cover.image if https, else first S3 image in the body */ -}}
+{{- $c := "" -}}
+{{- with .Params.cover.image -}}
+  {{- if hasPrefix . "https://" -}}{{- $c = . -}}{{- end -}}
+{{- end -}}
+{{- if not $c -}}
+  {{- with findRE `https://guisho-media\.s3\.amazonaws\.com/[^)\s"]+\.(jpg|jpeg|png|gif|webp)` .RawContent 1 -}}
+    {{- $c = index . 0 -}}
+  {{- end -}}
+{{- end -}}
+{{- return $c -}}

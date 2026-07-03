@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="band band-research">
+  <div class="band-inner">
+    <span class="kicker">Section</span>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="meta">{{ . }}</p>{{ end }}
+  </div>
+</div>
+<main class="wrap section-research">
+  {{ with .Content }}<div class="prose intro">{{ . }}</div>{{ end }}
+  <div class="collection-cards">
+    {{ range .Pages.ByDate.Reverse }}
+    <a class="ccard" href="{{ .RelPermalink }}">
+      <h2>{{ .Title }}</h2>
+      <p>{{ .Summary }}</p>
+      <span class="ccount">{{ .Date.Format "Jan 2, 2006" }} &middot; {{ .ReadingTime }} min read</span>
+    </a>
+    {{ end }}
+  </div>
+</main>
+{{ end }}

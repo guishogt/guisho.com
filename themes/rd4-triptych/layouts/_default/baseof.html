@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="{{ site.LanguageCode | default "en" }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+{{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62.5..125,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ "css/triptych.css" | relURL }}">
+</head>
+<body class="{{ block "bodyclass" . }}inner{{ end }}">
+{{ block "header" . }}{{ partial "nav.html" . }}{{ end }}
+{{ block "main" . }}{{ end }}
+{{ block "footer" . }}
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span class="footer-brand">{{ site.Title }}</span>
+    <nav class="footer-nav">
+      {{ range site.Menus.main }}<a href="{{ .URL | relURL }}">{{ .Name }}</a>{{ end }}
+    </nav>
+    <span class="footer-copy">&copy; {{ now.Format "2006" }}</span>
+  </div>
+</footer>
+{{ end }}
+</body>
+</html>

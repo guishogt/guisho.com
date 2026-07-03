@@ -1,0 +1,31 @@
+{{ define "main" }}
+<article class="article">
+  {{ $isPhoto := and (eq .Section "posts") (in (.Params.categories | default slice) "travel") }}
+  {{ if eq .Section "posts" }}<div class="page-kicker">{{ if $isPhoto }}Photo{{ else }}Essay{{ end }}</div>{{ end }}
+  <h1 class="article-title">{{ .Title }}</h1>
+  {{ if eq .Section "posts" }}
+  <div class="article-meta">
+    {{ .Date.Format "Jan 2, 2006" }} · {{ .ReadingTime }} min read
+  </div>
+  {{ end }}
+
+  {{ if and $isPhoto (hasPrefix (printf "%v" .Params.cover.image) "http") }}
+  <div class="content">
+    <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" loading="lazy" decoding="async">
+  </div>
+  {{ end }}
+
+  <div class="content">
+    {{ .Content }}
+  </div>
+
+  {{ $cats := .GetTerms "categories" }}
+  {{ $tags := .GetTerms "tags" }}
+  {{ if or $cats $tags }}
+  <div class="article-terms">
+    {{ range $cats }}<a class="term-chip" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+    {{ range $tags }}<a class="term-chip" href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>{{ end }}
+  </div>
+  {{ end }}
+</article>
+{{ end }}

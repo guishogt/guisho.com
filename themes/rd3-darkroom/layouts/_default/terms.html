@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="wrap-narrow">
+  <div class="page-kicker">Taxonomy</div>
+  <h1 class="page-title">{{ .Title }}</h1>
+  <div class="terms-grid">
+    {{ range .Data.Terms.Alphabetical }}
+    <a class="term-chip" href="{{ .Page.RelPermalink }}">{{ .Page.Title }} · {{ .Count }}</a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

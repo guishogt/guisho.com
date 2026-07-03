@@ -1,0 +1,24 @@
+<script>
+(function () {
+  var HASH = "3dd92d01e6c24e4d6c1f5fe6c12cdc295be4dd0eb6af52d914e7413d264d85fe";
+  var KEY = "fam-unlocked";
+  var gate = document.getElementById("fam-gate");
+  var album = document.getElementById("fam-album");
+  var form = document.getElementById("fam-form");
+  var err = document.getElementById("fam-error");
+
+  function unlock() { gate.hidden = true; album.hidden = false; }
+
+  if (sessionStorage.getItem(KEY) === HASH) unlock();
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var val = document.getElementById("fam-pass").value;
+    crypto.subtle.digest("SHA-256", new TextEncoder().encode(val)).then(function (buf) {
+      var hex = Array.from(new Uint8Array(buf)).map(function (b) { return b.toString(16).padStart(2, "0"); }).join("");
+      if (hex === HASH) { sessionStorage.setItem(KEY, hex); unlock(); }
+      else { err.hidden = false; }
+    });
+  });
+})();
+</script>

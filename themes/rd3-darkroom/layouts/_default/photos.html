@@ -1,0 +1,30 @@
+{{ define "main" }}
+{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ $photos := where $posts "Params.categories" "intersect" (slice "travel") }}
+{{ $wall := slice }}
+{{ range where $photos "Params.cover.image" "!=" nil }}
+  {{ if hasPrefix (printf "%v" .Params.cover.image) "http" }}{{ $wall = $wall | append . }}{{ end }}
+{{ end }}
+<div class="wrap">
+  <div class="page-kicker">The wall</div>
+  <h1 class="page-title">{{ .Title | default "Photos" }}</h1>
+  {{ with .Description }}<p class="page-desc">{{ . }}</p>{{ end }}
+  {{ with .Content }}<div class="content" style="margin-bottom:1.5rem;max-width:62ch">{{ . }}</div>{{ end }}
+  <p class="count-note">{{ len $wall }} photographs — hover to read the caption under the safelight.</p>
+
+  <div class="wall">
+    {{ range $wall }}
+    {{ $p := . }}
+    {{ with .Params.cover.image }}
+    <a class="tile" href="{{ $p.RelPermalink }}">
+      <img src="{{ . }}" alt="{{ $p.Params.cover.alt | default $p.Title }}" loading="lazy" decoding="async">
+      <span class="cap">
+        <span class="t">{{ $p.Title }}</span>
+        <span class="d">{{ $p.Date.Format "Jan 2, 2006" }}</span>
+      </span>
+    </a>
+    {{ end }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

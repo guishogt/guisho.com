@@ -1,0 +1,9 @@
+{{- /* one line of a post's terms: categories in ink, then tags in crimson */ -}}
+{{- $cats := .GetTerms "categories" -}}
+{{- $tags := first 3 (.GetTerms "tags") -}}
+{{- if or $cats $tags -}}
+<p class="toc-tags">
+  {{- range $cats }}<a class="term-cat" href="{{ .RelPermalink }}">{{ .LinkTitle | humanize }}</a>{{ end -}}
+  {{- range $tags }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end -}}
+</p>
+{{- end -}}

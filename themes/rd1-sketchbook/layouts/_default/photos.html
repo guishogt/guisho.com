@@ -1,0 +1,24 @@
+{{ define "main" }}
+{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ $photos := where $posts "Params.categories" "intersect" (slice "travel") }}
+
+<header class="single-header">
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{ with .Description }}<p class="collection-desc">{{ . }}</p>{{ end }}
+  <p class="research-note">{{ len $photos }} snapshots taped into the book</p>
+</header>
+
+{{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+
+<div class="photo-grid">
+  {{ range $photos }}
+    {{ $p := . }}
+    {{ with .Params.cover.image }}
+      <a class="polaroid" href="{{ $p.RelPermalink }}">
+        <img src="{{ . }}" alt="{{ $p.Params.cover.alt | default $p.Title }}" loading="lazy">
+        <figcaption>{{ $p.Title }}</figcaption>
+      </a>
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}

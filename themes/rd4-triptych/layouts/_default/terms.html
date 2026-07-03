@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="band band-neutral">
+  <div class="band-inner">
+    <span class="kicker">Taxonomy</span>
+    <h1>{{ .Title }}</h1>
+  </div>
+</div>
+<main class="wrap">
+  {{ with .Content }}<div class="prose intro">{{ . }}</div>{{ end }}
+  <div class="term-cloud">
+    {{ range .Data.Terms.Alphabetical }}
+    <a class="chip chip-term" href="{{ .Page.RelPermalink }}">{{ .Page.Title }} <span class="chip-count">{{ .Count }}</span></a>
+    {{ end }}
+  </div>
+</main>
+{{ end }}

@@ -1,0 +1,18 @@
+{{- /* Inner-page top bar: all 6 menu items; section links underlined in their color; active = filled chip. */ -}}
+{{- $activeURL := .RelPermalink -}}
+{{- if eq .Section "posts" -}}
+  {{- if in (.Params.categories | default slice) "travel" -}}{{- $activeURL = "/photos/" -}}{{- else -}}{{- $activeURL = "/essays/" -}}{{- end -}}
+{{- else if eq .Section "research" -}}
+  {{- $activeURL = "/research/" -}}
+{{- end -}}
+<header class="topbar">
+  <a class="brand" href="{{ "/" | relURL }}">{{ site.Title }}</a>
+  <nav class="topnav">
+    {{- range site.Menus.main -}}
+      {{- $cls := "" -}}
+      {{- if eq .URL "/essays/" }}{{ $cls = "m-essays" }}{{ else if eq .URL "/research/" }}{{ $cls = "m-research" }}{{ else if eq .URL "/photos/" }}{{ $cls = "m-photos" }}{{ end -}}
+      {{- $active := eq $activeURL .URL -}}
+      <a href="{{ .URL | relURL }}" class="{{ $cls }}{{ if $active }} active{{ end }}">{{ .Name }}</a>
+    {{- end -}}
+  </nav>
+</header>

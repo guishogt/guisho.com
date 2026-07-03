@@ -1,0 +1,29 @@
+{{ define "main" }}
+{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ $photos := where $posts "Params.categories" "intersect" (slice "travel") }}
+{{ $essays := complement $photos $posts }}
+{{ $mins := 0 }}{{ range $essays }}{{ $mins = add $mins .ReadingTime }}{{ end }}
+
+<div class="page-head">
+  <div class="kicker">Index</div>
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="desc">{{ . }}</p>{{ end }}
+  <div class="meta summary-line">{{ len $essays }} entries &middot; {{ $mins }} min total</div>
+</div>
+{{ with .Content }}<div class="prose" style="max-width:44rem">{{ . }}</div>{{ end }}
+
+{{ range $essays.GroupByDate "2006" }}
+<div class="year-head">
+  <span class="y">{{ .Key }}</span>
+  <span class="c">{{ len .Pages }} {{ if eq (len .Pages) 1 }}entry{{ else }}entries{{ end }}</span>
+</div>
+{{ range .Pages }}
+<div class="row">
+  <span class="date">{{ .Date.Format "2006-01-02" }}</span>
+  <a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  {{ with .GetTerms "categories" }}{{ with index . 0 }}<a class="chip" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}{{ end }}
+  <span class="rt">{{ .ReadingTime }} min</span>
+</div>
+{{ end }}
+{{ end }}
+{{ end }}

@@ -1,0 +1,71 @@
+{{ define "bodyclass" }}home{{ end }}
+
+{{ define "header" }}
+<header class="topbar tri-topbar">
+  <a class="brand" href="{{ "/" | relURL }}">{{ site.Title }}</a>
+  <nav class="topnav">
+    {{- range site.Menus.main -}}
+      {{- if not (in (slice "/essays/" "/research/" "/photos/") .URL) -}}
+        <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+      {{- end -}}
+    {{- end -}}
+  </nav>
+</header>
+{{ end }}
+
+{{ define "main" }}
+{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ $photos := where $posts "Params.categories" "intersect" (slice "travel") }}
+{{ $essays := complement $photos $posts }}
+<main class="triptych">
+
+  <a class="panel panel-essays" href="{{ "/essays/" | relURL }}">
+    <span class="panel-name">Essays</span>
+    <div class="panel-preview">
+      <span class="panel-count">{{ len $essays }} written pieces</span>
+      <ul class="preview-list">
+        {{ range first 3 $essays.ByDate.Reverse }}
+        <li><span class="pdate">{{ .Date.Format "Jan 2, 2006" }}</span><span class="ptitle">{{ .Title }}</span></li>
+        {{ end }}
+      </ul>
+    </div>
+  </a>
+
+  <a class="panel panel-research" href="{{ "/research/" | relURL }}">
+    <span class="panel-name">Research</span>
+    <div class="panel-preview">
+      {{ $research := where site.RegularPages "Section" "research" }}
+      <span class="panel-count">{{ len $research }} documents</span>
+      <ul class="preview-list">
+        {{ range first 3 $research.ByDate.Reverse }}
+        <li><span class="pdate">{{ .Date.Format "Jan 2, 2006" }}</span><span class="ptitle">{{ .Title }}</span></li>
+        {{ end }}
+      </ul>
+    </div>
+  </a>
+
+  <a class="panel panel-photos" href="{{ "/photos/" | relURL }}">
+    <span class="panel-name">Photos</span>
+    <div class="panel-preview">
+      <span class="panel-count">{{ len $photos }} photographs</span>
+      {{ $covers := slice }}
+      {{ range $photos.ByDate.Reverse }}
+        {{ if lt (len $covers) 6 }}
+          {{ $p := . }}
+          {{ with .Params.cover.image }}
+            {{ $covers = $covers | append (dict "src" . "alt" ($p.Params.cover.alt | default $p.Title)) }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      <div class="collage">
+        {{ range $covers }}
+        <img src="{{ .src }}" alt="{{ .alt }}" loading="lazy">
+        {{ end }}
+      </div>
+    </div>
+  </a>
+
+</main>
+{{ end }}
+
+{{ define "footer" }}{{ end }}

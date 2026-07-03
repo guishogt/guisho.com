@@ -1,0 +1,27 @@
+{{ define "main" }}
+{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ $photos := where $posts "Params.categories" "intersect" (slice "travel") }}
+{{ $essays := complement $photos $posts }}
+
+<header class="single-header">
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{ with .Description }}<p class="collection-desc">{{ . }}</p>{{ end }}
+  <p class="research-note">{{ len $essays }} essays, newest first — every year a fresh page of the sketchbook</p>
+</header>
+
+{{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+
+{{ range $essays.GroupByDate "2006" }}
+  <section class="year-group">
+    <h2 class="year-heading">{{ .Key }}</h2>
+    <ul class="essay-list">
+      {{ range .Pages }}
+        <li>
+          <a class="essay-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+          <span class="meta">{{ .Date.Format "Jan 2, 2006" }} &middot; {{ .ReadingTime }} min</span>
+        </li>
+      {{ end }}
+    </ul>
+  </section>
+{{ end }}
+{{ end }}

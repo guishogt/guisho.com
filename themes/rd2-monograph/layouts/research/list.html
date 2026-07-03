@@ -1,0 +1,20 @@
+{{ define "main" }}
+{{ $docs := .Pages.ByDate.Reverse }}
+<header class="page-head">
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="page-desc">{{ . }}</p>{{ end }}
+  <p class="page-count">{{ len $docs }} documents</p>
+</header>
+
+{{ with .Content }}<div class="page-copy">{{ . }}</div>{{ end }}
+
+<section class="appendices">
+  {{ range $i, $doc := $docs }}
+  <a class="appendix" href="{{ $doc.RelPermalink }}">
+    <h2 class="appendix-head">{{ $doc.Title }}</h2>
+    <p class="appendix-desc">{{ $doc.Params.summary | default $doc.Description }}</p>
+    <p class="appendix-meta">{{ $doc.Date.Format "Jan 2, 2006" }} · {{ $doc.ReadingTime }} min read</p>
+  </a>
+  {{ end }}
+</section>
+{{ end }}

@@ -1,0 +1,18 @@
+{{ define "main" }}
+{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ $photos := where $posts "Params.categories" "intersect" (slice "travel") }}
+
+<div class="page-head">
+  <div class="kicker">Contact sheet</div>
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="desc">{{ . }}</p>{{ end }}
+  <div class="meta summary-line">{{ len $photos }} photos &middot; {{ with index $photos.ByDate 0 }}{{ .Date.Year }}{{ end }}&ndash;{{ with index $photos.ByDate.Reverse 0 }}{{ .Date.Year }}{{ end }}</div>
+</div>
+{{ with .Content }}<div class="prose" style="max-width:44rem">{{ . }}</div>{{ end }}
+
+<div class="sheet">
+  {{ range $photos.ByDate.Reverse }}
+    {{ partial "photo-cell.html" . }}
+  {{ end }}
+</div>
+{{ end }}

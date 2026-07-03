@@ -1,0 +1,11 @@
+name = "RD1 Sketchbook"
+license = "MIT"
+description = "A playful illustrated-sketchbook magazine theme: Gaegu + Quicksand, cream paper, wobbly hand-drawn borders, polaroid photos. Design prototype 1 of 5 for guisho.com."
+homepage = "https://guisho.com/"
+tags = ["blog", "magazine", "hand-drawn", "sketchbook", "photos"]
+features = ["essays", "research collections", "polaroid photo grid"]
+min_version = "0.120.0"
+
+[author]
+  name = "Luis Fernandez"
+  homepage = "https://guisho.com/"

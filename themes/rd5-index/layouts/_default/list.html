@@ -1,0 +1,22 @@
+{{ define "main" }}
+{{ $pages := .Pages.ByDate.Reverse }}
+<div class="page-head">
+  <div class="kicker">{{ if eq .Kind "term" }}{{ .Data.Singular }}{{ else }}Index{{ end }}</div>
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="desc">{{ . }}</p>{{ end }}
+  {{ $mins := 0 }}{{ range $pages }}{{ $mins = add $mins .ReadingTime }}{{ end }}
+  <div class="meta summary-line">{{ len $pages }} {{ if eq (len $pages) 1 }}entry{{ else }}entries{{ end }} &middot; {{ $mins }} min total</div>
+</div>
+{{ with .Content }}<div class="prose" style="max-width:44rem">{{ . }}</div>{{ end }}
+
+<div style="margin-top:1.2rem">
+{{ range $pages }}
+<div class="row">
+  <span class="date">{{ if .Date.IsZero }}&mdash;{{ else }}{{ .Date.Format "2006-01-02" }}{{ end }}</span>
+  <a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  {{ with .GetTerms "categories" }}{{ with index . 0 }}<a class="chip" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}{{ end }}
+  <span class="rt">{{ .ReadingTime }} min</span>
+</div>
+{{ end }}
+</div>
+{{ end }}

@@ -1,0 +1,49 @@
+{{ define "main" }}
+{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ $photos := where $posts "Params.categories" "intersect" (slice "travel") }}
+{{ $essays := complement $photos $posts }}
+{{ $covered := slice }}
+{{ range where $photos "Params.cover.image" "!=" nil }}
+  {{ if hasPrefix (printf "%v" .Params.cover.image) "http" }}{{ $covered = $covered | append . }}{{ end }}
+{{ end }}
+{{ $wall := first 40 $covered }}
+{{ $latestEssay := index $essays 0 }}
+{{ $research := site.GetPage "/research" }}
+
+<div class="wrap">
+  <div class="wall">
+    {{ range $i, $p := $wall }}
+
+      {{ if eq $i 4 }}
+      {{ with $latestEssay }}
+      <a class="glow-card" href="{{ .RelPermalink }}">
+        <span class="k">Latest essay</span>
+        <span class="t">{{ .Title }}</span>
+        <span class="m"><em>{{ .Date.Format "Jan 2, 2006" }}</em> · {{ .ReadingTime }} min read</span>
+      </a>
+      {{ end }}
+      {{ end }}
+
+      {{ if eq $i 13 }}
+      {{ with $research }}
+      <a class="glow-card" href="{{ .RelPermalink }}">
+        <span class="k">Research</span>
+        <span class="t">{{ with index .RegularPages.ByDate.Reverse 0 }}{{ .Title }}{{ end }}</span>
+        <span class="m"><em>{{ len .RegularPages }}</em> research documents · deep-dives &amp; working notes</span>
+      </a>
+      {{ end }}
+      {{ end }}
+
+      {{ with $p.Params.cover.image }}
+      <a class="tile" href="{{ $p.RelPermalink }}">
+        <img src="{{ . }}" alt="{{ $p.Params.cover.alt | default $p.Title }}" loading="lazy" decoding="async">
+        <span class="cap">
+          <span class="t">{{ $p.Title }}</span>
+          <span class="d">{{ $p.Date.Format "Jan 2, 2006" }}</span>
+        </span>
+      </a>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

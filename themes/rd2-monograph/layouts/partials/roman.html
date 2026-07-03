@@ -1,0 +1,13 @@
+{{- /* Converts an integer to a Roman numeral string. Usage: partial "roman.html" 24 -> XXIV */ -}}
+{{- $n := int . -}}
+{{- $out := "" -}}
+{{- $vals := slice 1000 900 500 400 100 90 50 40 10 9 5 4 1 -}}
+{{- $syms := slice "M" "CM" "D" "CD" "C" "XC" "L" "XL" "X" "IX" "V" "IV" "I" -}}
+{{- range $i, $v := $vals -}}
+  {{- $c := div $n $v -}}
+  {{- if gt $c 0 -}}
+    {{- $out = printf "%s%s" $out (strings.Repeat $c (index $syms $i)) -}}
+    {{- $n = sub $n (mul $c $v) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

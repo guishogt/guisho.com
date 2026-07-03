@@ -1,0 +1,48 @@
+{{ define "main" }}
+{{- $band := "band-neutral" -}}
+{{- $kicker := "" -}}
+{{- $isPost := eq .Section "posts" -}}
+{{- $isPhoto := and $isPost (in (.Params.categories | default slice) "travel") -}}
+{{- if $isPhoto }}{{ $band = "band-photos" }}{{ $kicker = "Photos" }}
+{{- else if $isPost }}{{ $band = "band-essays" }}{{ $kicker = "Essays" }}
+{{- else if eq .Section "research" }}{{ $band = "band-research" }}{{ $kicker = "Research" }}{{ end -}}
+<div class="band {{ $band }}">
+  <div class="band-inner">
+    {{ with $kicker }}<span class="kicker">{{ . }}</span>{{ end }}
+    <h1>{{ .Title }}</h1>
+    {{ if $isPost }}
+    <p class="meta">{{ .Date.Format "Jan 2, 2006" }}{{ if not $isPhoto }} &middot; {{ .ReadingTime }} min read{{ end }}</p>
+    {{ end }}
+  </div>
+</div>
+<main class="article">
+  {{ if $isPhoto }}
+    {{ with .Params.cover.image }}
+    <figure class="photo-hero">
+      <img src="{{ . }}" alt="{{ $.Params.cover.alt | default $.Title }}" loading="lazy">
+    </figure>
+    {{ end }}
+  {{ end }}
+  <div class="prose">
+    {{ .Content }}
+  </div>
+  {{ if $isPost }}
+  {{ if or .Params.categories .Params.tags }}
+  <footer class="term-chips {{ if $isPhoto }}chips-photos{{ else }}chips-essays{{ end }}">
+    {{ range .Params.categories }}
+      {{ $t := . }}
+      {{ with site.GetPage (printf "/categories/%s" ($t | urlize)) }}
+      <a class="chip" href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ end }}
+    {{ end }}
+    {{ range .Params.tags }}
+      {{ $t := . }}
+      {{ with site.GetPage (printf "/tags/%s" ($t | urlize)) }}
+      <a class="chip chip-tag" href="{{ .RelPermalink }}">#{{ .Title }}</a>
+      {{ end }}
+    {{ end }}
+  </footer>
+  {{ end }}
+  {{ end }}
+</main>
+{{ end }}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode | default "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+  {{ with .Description | default site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "css/sketchbook.css" | relURL }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-logo" href="{{ "/" | relURL }}">{{ site.Title }}</a>
+      <nav class="site-nav">
+        {{ $currentURL := .RelPermalink }}
+        {{ range site.Menus.main }}
+          <a href="{{ .URL | relURL }}"{{ if eq $currentURL .URL }} class="active" aria-current="page"{{ end }}>{{ .Name }}</a>
+        {{ end }}
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="doodle">✎ ✿ ✎ ✿ ✎</div>
+      <p>{{ site.Title }} &middot; drawn by hand since {{ now.Year }} minus a couple decades</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{{ define "main" }}
+<header class="single-header">
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{ with .Description }}<p class="collection-desc">{{ . }}</p>{{ end }}
+</header>
+
+{{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+
+<p class="research-note">{{ len .Pages }} research notes on the shelf</p>
+
+<div class="card-list">
+  {{ range .Pages.ByDate.Reverse }}
+    <article class="sketch-card">
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <p class="muted hand" style="font-size:1.05rem; margin:0 0 0.4rem;">
+        {{ .Date.Format "Jan 2, 2006" }} &middot; {{ .ReadingTime }} min read
+      </p>
+      {{ with .Summary | default .Description }}<p style="margin:0 0 0.5rem;">{{ . | plainify | truncate 220 }}</p>{{ end }}
+      {{ with .GetTerms "tags" }}
+        <div class="term-chips" style="margin:0.25rem 0 0;">
+          {{ range . }}<a class="chip" href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>{{ end }}
+        </div>
+      {{ end }}
+    </article>
+  {{ end }}
+</div>
+{{ end }}

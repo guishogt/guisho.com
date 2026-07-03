@@ -1,0 +1,518 @@
+/* RD1 Sketchbook — hand-drawn magazine theme for guisho.com */
+
+:root {
+  --paper: #FAF6EE;
+  --ink: #1C2B2D;
+  --teal: #1F6F8B;
+  --teal-dark: #175a71;
+  --sand: #E6D5B8;
+  --sand-soft: #F1E7D2;
+  --white: #FFFFFF;
+  --wobble: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  --wobble-alt: 15px 225px 15px 255px / 255px 15px 225px 15px;
+  --font-hand: 'Gaegu', 'Comic Sans MS', cursive;
+  --font-body: 'Quicksand', 'Trebuchet MS', sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  background-image: radial-gradient(rgba(31, 111, 139, 0.045) 1px, transparent 1px);
+  background-size: 26px 26px;
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+a { color: var(--teal); text-decoration: none; }
+a:hover { color: var(--teal-dark); }
+
+h1, h2, h3, h4 {
+  font-family: var(--font-hand);
+  line-height: 1.2;
+  color: var(--ink);
+  font-weight: 700;
+}
+
+img { max-width: 100%; height: auto; }
+
+.wrap {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* ============ Header / nav ============ */
+.site-header {
+  border-bottom: 3px dashed var(--sand);
+  padding: 1rem 0 0.75rem;
+  background: var(--paper);
+}
+
+.site-header .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 2rem;
+}
+
+.site-logo {
+  font-family: var(--font-hand);
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: var(--ink);
+  transform: rotate(-1.5deg);
+  display: inline-block;
+}
+.site-logo:hover { color: var(--teal); }
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.15rem;
+  margin-left: auto;
+}
+
+.site-nav a {
+  font-family: var(--font-hand);
+  font-size: 1.25rem;
+  color: var(--ink);
+  padding-bottom: 2px;
+  position: relative;
+}
+
+/* wobbly hand-drawn underline: doubled squiggle via border-radius */
+.site-nav a::after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  right: -3px;
+  bottom: -3px;
+  height: 6px;
+  border-bottom: 3px solid var(--teal);
+  border-radius: 60% 40% 55% 45% / 0 100% 0 100%;
+  opacity: 0;
+  transform: rotate(-0.6deg);
+  transition: opacity 0.15s ease;
+}
+
+.site-nav a:hover::after,
+.site-nav a.active::after { opacity: 1; }
+.site-nav a.active { color: var(--teal); }
+
+/* ============ Footer ============ */
+.site-footer {
+  margin-top: 4rem;
+  border-top: 3px dashed var(--sand);
+  padding: 1.5rem 0 2.5rem;
+  text-align: center;
+  font-family: var(--font-hand);
+  font-size: 1.15rem;
+  color: var(--ink);
+}
+.site-footer .doodle { color: var(--teal); letter-spacing: 0.6em; }
+
+/* ============ Doodle divider ============ */
+.doodle-divider {
+  text-align: center;
+  font-family: var(--font-hand);
+  color: var(--teal);
+  font-size: 1.4rem;
+  letter-spacing: 0.9em;
+  margin: 2.5rem 0 1.5rem;
+  user-select: none;
+}
+
+/* ============ Wobbly card ============ */
+.sketch-card {
+  background: var(--white);
+  border: 2px solid var(--ink);
+  border-radius: var(--wobble);
+  padding: 1.25rem 1.5rem;
+  box-shadow: 4px 5px 0 rgba(28, 43, 45, 0.16);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.sketch-card:hover {
+  box-shadow: 6px 8px 0 rgba(31, 111, 139, 0.28);
+}
+
+/* ============ Section headings with marker ============ */
+.section-title {
+  font-size: 2.2rem;
+  margin: 0 0 1rem;
+  display: inline-block;
+  transform: rotate(-1deg);
+  background: linear-gradient(transparent 62%, var(--sand) 62%, var(--sand) 92%, transparent 92%);
+  padding: 0 0.4rem;
+}
+
+.page-title {
+  font-size: 2.8rem;
+  margin: 2rem 0 0.5rem;
+  transform: rotate(-0.7deg);
+}
+
+.muted {
+  color: rgba(28, 43, 45, 0.62);
+  font-size: 0.92rem;
+}
+
+.hand { font-family: var(--font-hand); }
+
+/* ============ HOME ============ */
+.home-masthead {
+  text-align: center;
+  padding: 3rem 1rem 1.5rem;
+}
+
+.home-masthead h1 {
+  font-size: clamp(3rem, 8vw, 5.2rem);
+  margin: 0;
+  transform: rotate(-1.5deg);
+  text-shadow: 3px 3px 0 var(--sand);
+}
+
+.home-masthead .tagline {
+  font-family: var(--font-hand);
+  font-size: 1.5rem;
+  color: var(--teal);
+  margin-top: 0.25rem;
+  transform: rotate(0.5deg);
+}
+
+.featured-essay {
+  display: block;
+  margin: 1.5rem auto 0;
+  max-width: 760px;
+  padding: 2rem 2.25rem;
+  transform: rotate(-0.6deg);
+  color: var(--ink);
+}
+.featured-essay:hover { transform: rotate(0deg); color: var(--ink); }
+
+.featured-essay .kicker {
+  font-family: var(--font-hand);
+  font-size: 1.2rem;
+  color: var(--teal);
+  letter-spacing: 0.05em;
+}
+
+.featured-essay h2 {
+  font-size: 2.3rem;
+  margin: 0.25rem 0 0.5rem;
+}
+
+.featured-essay .excerpt { margin: 0.5rem 0 0.75rem; }
+
+.read-more {
+  font-family: var(--font-hand);
+  font-size: 1.25rem;
+  color: var(--teal);
+  border-bottom: 2px dashed var(--teal);
+}
+
+/* Research shelf */
+.shelf {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.shelf-card {
+  display: block;
+  color: var(--ink);
+  background: var(--sand-soft);
+  border: 2px solid var(--ink);
+  border-radius: var(--wobble-alt);
+  padding: 1rem 1.1rem;
+  box-shadow: 3px 4px 0 rgba(28, 43, 45, 0.15);
+}
+.shelf-card:nth-child(odd) { transform: rotate(-1deg); }
+.shelf-card:nth-child(even) { transform: rotate(1.2deg); }
+.shelf-card:hover { transform: rotate(0deg); color: var(--ink); background: var(--white); }
+
+.shelf-card h3 { font-size: 1.4rem; margin: 0 0 0.25rem; }
+.shelf-card .count {
+  font-family: var(--font-hand);
+  color: var(--teal);
+  font-size: 1.05rem;
+}
+
+/* Photo strip */
+.photo-strip {
+  display: flex;
+  gap: 1.1rem;
+  overflow-x: auto;
+  padding: 1.5rem 0.5rem 1.75rem;
+  scrollbar-width: thin;
+}
+.photo-strip .polaroid { flex: 0 0 auto; width: 168px; }
+.photo-strip .polaroid img { height: 130px; }
+
+.home-side-links {
+  text-align: center;
+  font-family: var(--font-hand);
+  font-size: 1.35rem;
+  margin: 1rem 0 0;
+}
+.home-side-links a {
+  margin: 0 1rem;
+  border-bottom: 2px dashed var(--teal);
+}
+
+/* ============ Polaroid ============ */
+.polaroid {
+  display: block;
+  background: var(--white);
+  padding: 10px 10px 8px;
+  border: 1px solid rgba(28, 43, 45, 0.22);
+  box-shadow: 3px 4px 10px rgba(28, 43, 45, 0.2);
+  position: relative;
+  color: var(--ink);
+  transition: transform 0.15s ease;
+}
+.polaroid:nth-child(odd)  { transform: rotate(-1.5deg); }
+.polaroid:nth-child(even) { transform: rotate(1.2deg); }
+.polaroid:nth-child(3n)   { transform: rotate(0.6deg); }
+.polaroid:nth-child(5n)   { transform: rotate(-0.8deg); }
+.polaroid:hover { transform: rotate(0deg) scale(1.03); z-index: 3; color: var(--ink); }
+
+/* tape strip */
+.polaroid::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  width: 74px;
+  height: 22px;
+  margin-left: -37px;
+  background: rgba(230, 213, 184, 0.68);
+  border-left: 1px dashed rgba(28, 43, 45, 0.2);
+  border-right: 1px dashed rgba(28, 43, 45, 0.2);
+  transform: rotate(-2deg);
+  z-index: 2;
+}
+
+.polaroid img {
+  display: block;
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  background: var(--sand-soft);
+}
+
+.polaroid figcaption {
+  font-family: var(--font-hand);
+  font-size: 1.05rem;
+  line-height: 1.25;
+  text-align: center;
+  padding: 0.5rem 0.2rem 0.2rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* ============ Photo grid page ============ */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 1.75rem 1.4rem;
+  padding: 1.5rem 0;
+}
+
+/* ============ Essays archive ============ */
+.year-group { margin: 2.5rem 0; }
+
+.year-heading {
+  font-size: 2.4rem;
+  color: var(--teal);
+  margin: 0 0 0.75rem;
+  transform: rotate(-1deg);
+  display: inline-block;
+  border-bottom: 3px dashed var(--sand);
+  padding: 0 0.5rem 0.15rem;
+}
+
+.essay-list { list-style: none; margin: 0; padding: 0; }
+
+.essay-list li {
+  padding: 0.55rem 0.75rem;
+  margin: 0.35rem 0;
+  border-radius: 155px 8px 145px 8px / 8px 145px 8px 155px;
+  border: 2px solid transparent;
+}
+.essay-list li:hover {
+  border-color: var(--sand);
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.essay-list .essay-title {
+  font-family: var(--font-hand);
+  font-size: 1.35rem;
+  color: var(--ink);
+  border-bottom: 2px dashed transparent;
+}
+.essay-list .essay-title:hover {
+  color: var(--teal);
+  border-bottom-color: var(--teal);
+}
+
+.essay-list .meta {
+  font-size: 0.85rem;
+  color: rgba(28, 43, 45, 0.58);
+  margin-left: 0.6rem;
+  white-space: nowrap;
+}
+
+/* ============ Generic list / cards ============ */
+.card-list {
+  display: grid;
+  gap: 1.4rem;
+  margin: 2rem 0;
+}
+
+.card-list .sketch-card:nth-child(odd)  { transform: rotate(-0.7deg); }
+.card-list .sketch-card:nth-child(even) { transform: rotate(0.8deg); }
+.card-list .sketch-card:hover { transform: rotate(0deg); }
+
+.card-list h3 { font-size: 1.6rem; margin: 0 0 0.25rem; }
+.card-list h3 a { color: var(--ink); }
+.card-list h3 a:hover { color: var(--teal); }
+
+/* ============ Single post / page ============ */
+.single-header { margin: 2.5rem 0 1.5rem; }
+
+.single-meta {
+  font-family: var(--font-hand);
+  font-size: 1.15rem;
+  color: var(--teal);
+}
+
+.prose {
+  max-width: 720px;
+}
+
+.prose h2, .prose h3, .prose h4 { margin-top: 2rem; }
+.prose h2 {
+  display: inline-block;
+  background: linear-gradient(transparent 62%, var(--sand) 62%, var(--sand) 92%, transparent 92%);
+  padding: 0 0.35rem;
+}
+
+.prose a { border-bottom: 2px dashed var(--teal); }
+.prose a:hover { border-bottom-style: solid; }
+
+.prose img {
+  border: 2px solid var(--ink);
+  border-radius: 18px 6px 20px 6px / 6px 20px 6px 18px;
+  background: var(--white);
+  padding: 6px;
+  box-shadow: 3px 4px 0 rgba(28, 43, 45, 0.15);
+}
+
+.prose blockquote {
+  margin: 1.5rem 0;
+  padding: 0.6rem 1.25rem;
+  border-left: 4px solid var(--teal);
+  border-radius: 0 120px 0 120px / 0 12px 0 12px;
+  background: var(--sand-soft);
+  font-family: var(--font-hand);
+  font-size: 1.2rem;
+}
+
+.prose pre {
+  background: #223436;
+  color: #EAF2EE;
+  padding: 1rem 1.25rem;
+  border-radius: 14px 5px 16px 5px / 5px 16px 5px 14px;
+  overflow-x: auto;
+  font-size: 0.85rem;
+  line-height: 1.55;
+}
+
+.prose code {
+  background: var(--sand-soft);
+  padding: 0.1em 0.35em;
+  border-radius: 6px 3px 7px 3px;
+  font-size: 0.88em;
+}
+.prose pre code { background: transparent; padding: 0; }
+
+.prose table {
+  border-collapse: collapse;
+  width: 100%;
+  display: block;
+  overflow-x: auto;
+}
+.prose th, .prose td {
+  border: 1px dashed var(--teal);
+  padding: 0.4rem 0.7rem;
+  text-align: left;
+}
+.prose th { font-family: var(--font-hand); font-size: 1.1rem; }
+
+.prose hr {
+  border: none;
+  border-top: 3px dashed var(--sand);
+  margin: 2rem 0;
+}
+
+/* term chips */
+.term-chips {
+  margin: 2.5rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+}
+.term-chips .label {
+  font-family: var(--font-hand);
+  font-size: 1.15rem;
+  color: rgba(28, 43, 45, 0.6);
+}
+.chip {
+  font-family: var(--font-hand);
+  font-size: 1.05rem;
+  border: 2px solid var(--teal);
+  border-radius: 155px 10px 145px 10px / 10px 145px 10px 155px;
+  padding: 0.05rem 0.75rem;
+  color: var(--teal);
+  background: var(--white);
+  display: inline-block;
+}
+.chip:nth-child(odd) { transform: rotate(-1deg); }
+.chip:nth-child(even) { transform: rotate(1deg); }
+.chip:hover { background: var(--teal); color: var(--white); }
+
+/* terms page cloud */
+.term-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin: 2rem 0;
+}
+
+/* ============ Research ============ */
+.collection-desc {
+  font-size: 1.05rem;
+  max-width: 680px;
+}
+
+.research-note {
+  font-family: var(--font-hand);
+  font-size: 1.2rem;
+  color: var(--teal);
+}
+
+@media (max-width: 640px) {
+  .site-header .wrap { flex-direction: column; align-items: flex-start; }
+  .site-nav { margin-left: 0; }
+  .featured-essay { padding: 1.4rem 1.25rem; }
+  .essay-list .meta { display: block; margin-left: 0; }
+}

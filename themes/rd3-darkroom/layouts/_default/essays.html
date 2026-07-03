@@ -1,0 +1,24 @@
+{{ define "main" }}
+{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ $photos := where $posts "Params.categories" "intersect" (slice "travel") }}
+{{ $essays := complement $photos $posts }}
+<div class="wrap-narrow">
+  <div class="page-kicker">Reading room</div>
+  <h1 class="page-title">{{ .Title | default "Essays" }}</h1>
+  {{ with .Description }}<p class="page-desc">{{ . }}</p>{{ end }}
+  {{ with .Content }}<div class="content" style="margin-bottom:1.5rem">{{ . }}</div>{{ end }}
+  <p class="count-note">{{ len $essays }} essays, developed in the dark.</p>
+
+  {{ range $essays.GroupByDate "2006" }}
+  <section class="year-block">
+    <div class="year-label">{{ .Key }}</div>
+    {{ range .Pages }}
+    <a class="essay-item" href="{{ .RelPermalink }}">
+      <span class="t">{{ .Title }}</span>
+      <span class="m">{{ .Date.Format "Jan 2, 2006" }} · {{ .ReadingTime }} min read</span>
+    </a>
+    {{ end }}
+  </section>
+  {{ end }}
+</div>
+{{ end }}

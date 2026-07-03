@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode | default "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ .Description | default site.Params.description }}">
+  {{- if .Params.noindex }}
+  <meta name="robots" content="noindex, nofollow">
+  {{- end }}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "css/monograph.css" | relURL }}">
+</head>
+<body>
+  <header class="masthead">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
+    <a class="brand" href="{{ "/" | relURL }}">{{ site.Title }}</a>
+    <label for="nav-toggle" class="nav-burger" aria-label="Menu">&#9776;</label>
+    <nav class="topnav">
+      {{- range site.Menus.main }}
+      <a href="{{ .URL | relURL }}"{{ if or ($.IsMenuCurrent "main" .) (eq $.RelPermalink (.URL | relURL)) }} class="active"{{ end }}>{{ .Name }}</a>
+      {{- end }}
+    </nav>
+  </header>
+
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <footer class="colophon">
+    <p class="fleuron monogram">LF</p>
+    <p class="colophon-links">
+      {{- range site.Menus.main }}
+      <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+      {{- end }}
+    </p>
+    <p class="colophon-note">Set in Fraunces &amp; Newsreader · &copy; {{ now.Year }} Luis Fernandez</p>
+  </footer>
+</body>
+</html>

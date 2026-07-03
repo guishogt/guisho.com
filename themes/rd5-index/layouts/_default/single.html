@@ -1,0 +1,26 @@
+{{ define "main" }}
+<article class="single">
+  <h1 class="title">{{ .Title }}</h1>
+  {{ if or (not .Date.IsZero) (eq .Section "posts") }}
+  <div class="meta meta-line">
+    {{ if not .Date.IsZero }}{{ .Date.Format "2006-01-02" }}{{ end }}
+    {{- if eq .Section "posts" }} &middot; {{ .ReadingTime }} min read{{ end }}
+  </div>
+  {{ else }}
+  <div class="meta meta-line">{{ site.Title }}</div>
+  {{ end }}
+
+  <div class="prose">
+    {{ .Content }}
+  </div>
+
+  {{ $cats := .GetTerms "categories" }}{{ $tags := .GetTerms "tags" }}
+  {{ if or $cats $tags }}
+  <div class="terms">
+    <span class="lbl">Filed under</span>
+    {{ range $cats }}<a class="chip" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+    {{ range $tags }}<a class="chip" href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>{{ end }}
+  </div>
+  {{ end }}
+</article>
+{{ end }}

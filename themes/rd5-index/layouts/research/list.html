@@ -1,0 +1,26 @@
+{{ define "main" }}
+{{ $docs := .Pages.ByDate.Reverse }}
+{{ $mins := 0 }}{{ range $docs }}{{ $mins = add $mins .ReadingTime }}{{ end }}
+
+<div class="page-head">
+  <div class="kicker">Documents</div>
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="desc">{{ . }}</p>{{ end }}
+  <div class="meta summary-line">{{ len $docs }} documents &middot; {{ $mins }} min total</div>
+</div>
+{{ with .Content }}<div class="prose" style="max-width:44rem">{{ . }}</div>{{ end }}
+
+<div style="margin-top:1.6rem;border-top:1px solid var(--hair)">
+{{ range $docs }}
+  <div class="coll-row">
+    <div class="t"><a href="{{ .RelPermalink }}" style="color:inherit">{{ .Title }}</a></div>
+    <div class="d">{{ .Summary | plainify }}</div>
+    <div class="m">{{ .Date.Format "2006-01-02" }} &middot; {{ .ReadingTime }} min read
+      {{- with .GetTerms "tags" }} &middot;
+        {{- range . }} <a class="chip" href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>{{ end }}
+      {{- end }}
+    </div>
+  </div>
+{{ end }}
+</div>
+{{ end }}

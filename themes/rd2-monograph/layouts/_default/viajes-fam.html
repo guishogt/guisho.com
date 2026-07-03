@@ -1,0 +1,62 @@
+{{ define "main" }}
+{{ $israel := slice }}
+{{ with index site.Taxonomies.tags "israel" }}{{ $israel = .Pages }}{{ end }}
+{{/* the gated museum post is list:never, so taxonomies skip it — pull it in by path */}}
+{{ with site.GetPage "/posts/dia-museo-israel" }}{{ $israel = $israel | append . }}{{ end }}
+{{ $israel = sort $israel "Date" "asc" }}
+{{ $usa := slice }}
+{{ with index site.Taxonomies.tags "viajeusa" }}{{ $usa = sort .Pages "Date" "asc" }}{{ end }}
+
+<article class="archive">
+  <header class="page-head">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-desc">{{ . }}</p>{{ end }}
+  </header>
+
+  <!-- password gate -->
+  {{ partial "fam-gate-form.html" . }}
+
+  <!-- album -->
+  <div id="fam-album" hidden>
+    <section class="toc-year">
+      <h2 class="year-head">
+        <span class="year-roman">Viaje Israel</span>
+        <span class="year-arabic">Diciembre 2017 · {{ len $israel }} días</span>
+      </h2>
+      <div class="fam-grid">
+        {{ range $israel }}
+        {{ $p := . }}
+        <a class="fam-card" href="{{ $p.RelPermalink }}">
+          {{ with $p.Params.cover.image }}{{ if hasPrefix . "https://" }}
+          <span class="fam-media"><img src="{{ . }}" alt="{{ $p.Params.cover.alt | default $p.Title }}" loading="lazy"></span>
+          {{ end }}{{ end }}
+          <span class="fam-title">{{ $p.Title }}</span>
+          <span class="fam-date">{{ $p.Date.Format "Jan 2, 2006" }}</span>
+        </a>
+        {{ end }}
+      </div>
+    </section>
+
+    <section class="toc-year">
+      <h2 class="year-head">
+        <span class="year-roman">Viaje USA</span>
+        <span class="year-arabic">Septiembre 2018 · {{ len $usa }} días</span>
+      </h2>
+      <div class="fam-grid">
+        {{ range $usa }}
+        {{ $p := . }}
+        <a class="fam-card" href="{{ $p.RelPermalink }}">
+          {{ with $p.Params.cover.image }}{{ if hasPrefix . "https://" }}
+          <span class="fam-media"><img src="{{ . }}" alt="{{ $p.Params.cover.alt | default $p.Title }}" loading="lazy"></span>
+          {{ end }}{{ end }}
+          <span class="fam-title">{{ $p.Title }}</span>
+          <span class="fam-date">{{ $p.Date.Format "Jan 2, 2006" }}</span>
+        </a>
+        {{ end }}
+      </div>
+    </section>
+  </div>
+</article>
+
+{{ partial "fam-gate-script.html" . }}
+{{ end }}

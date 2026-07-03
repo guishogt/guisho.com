@@ -1,0 +1,25 @@
+{{ define "main" }}
+{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ $photos := where $posts "Params.categories" "intersect" (slice "travel") }}
+<div class="band band-photos">
+  <div class="band-inner">
+    <span class="kicker">Section</span>
+    <h1>{{ .Title }}</h1>
+    <p class="meta">{{ with .Description }}{{ . }}{{ else }}{{ len $photos }} photographs{{ end }}</p>
+  </div>
+</div>
+<main class="wrap wrap-wide section-photos">
+  {{ with .Content }}<div class="prose intro">{{ . }}</div>{{ end }}
+  <div class="photo-grid">
+    {{ range $photos.ByDate.Reverse }}
+    {{ $p := . }}
+    {{ with .Params.cover.image }}
+    <a class="photo-card" href="{{ $p.RelPermalink }}">
+      <img src="{{ . }}" alt="{{ $p.Params.cover.alt | default $p.Title }}" loading="lazy">
+      <span class="cap">{{ $p.Title }}</span>
+    </a>
+    {{ end }}
+    {{ end }}
+  </div>
+</main>
+{{ end }}

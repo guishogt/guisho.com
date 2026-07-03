@@ -1,0 +1,9 @@
+name = "RD2 Monograph"
+license = "MIT"
+description = "Literary print, essay-first theme for guisho.com. The site as a beautifully typeset book: Fraunces display serif, warm paper, single crimson accent, book-TOC essay archive, appendix-style research, plates-section photo grid."
+homepage = "https://guisho.com"
+min_version = "0.120.0"
+
+[author]
+  name = "Luis Fernandez"
+  homepage = "https://guisho.com"

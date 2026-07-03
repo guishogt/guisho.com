@@ -1,0 +1,22 @@
+{{ define "main" }}
+<article>
+  <header class="single-header">
+    <h1 class="page-title">{{ .Title }}</h1>
+    <p class="single-meta">✎ {{ .Date.Format "Jan 2, 2006" }} &middot; {{ .ReadingTime }} min read</p>
+    {{ with .Description }}<p class="collection-desc">{{ . }}</p>{{ end }}
+  </header>
+
+  <div class="prose">
+    {{ .Content }}
+  </div>
+
+  {{ with .GetTerms "tags" }}
+    <div class="term-chips">
+      <span class="label">tagged:</span>
+      {{ range . }}<a class="chip" href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>{{ end }}
+    </div>
+  {{ end }}
+
+  <p class="hand" style="font-size:1.2rem; margin-top:2rem;"><a class="read-more" href="{{ "/research/" | relURL }}">← back to the shelf</a></p>
+</article>
+{{ end }}

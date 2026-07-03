@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="page-head">
+  <div class="kicker">Taxonomy</div>
+  <h1>{{ .Title }}</h1>
+  <div class="meta summary-line">{{ len .Data.Terms }} terms</div>
+</div>
+{{ with .Content }}<div class="prose" style="max-width:44rem">{{ . }}</div>{{ end }}
+
+<div class="chip-index">
+  {{ range .Data.Terms.ByCount }}
+  <a class="chip" href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}<span class="n">{{ .Count }}</span></a>
+  {{ end }}
+</div>
+{{ end }}

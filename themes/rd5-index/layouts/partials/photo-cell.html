@@ -1,0 +1,13 @@
+{{- /* Contact-sheet cell for a photo post. Skips posts without an absolute http(s) cover.image. */ -}}
+{{- $img := "" -}}{{- $alt := .Title -}}
+{{- with .Params.cover -}}
+  {{- with index . "image" -}}{{- $img = . -}}{{- end -}}
+  {{- with index . "alt" -}}{{- $alt = . -}}{{- end -}}
+{{- end -}}
+{{- if not (hasPrefix $img "http") -}}{{- $img = "" -}}{{- end -}}
+{{- if $img -}}
+<a class="cell" href="{{ .RelPermalink }}">
+  <img src="{{ $img }}" alt="{{ $alt }}" loading="lazy">
+  <div class="cap">{{ .Date.Format "2006-01-02" }} · {{ .Title }}</div>
+</a>
+{{- end -}}

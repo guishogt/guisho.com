@@ -1,0 +1,11 @@
+name = "RD4 Triptych"
+license = "MIT"
+description = "Three doors, spatial home. A bold, architectural, color-coded theme for guisho.com: Essays (teal), Research (amber), Photos (plum). Full-viewport triptych home with live content previews."
+homepage = "https://guisho.com/"
+tags = ["blog", "photos", "research", "portfolio"]
+features = ["triptych home", "section color identities", "photo grid", "research collections"]
+min_version = "0.146.0"
+
+[author]
+  name = "Luis Fernandez"
+  homepage = "https://guisho.com/"

@@ -1,0 +1,10 @@
+name = "RD3 Darkroom"
+license = "MIT"
+description = "Photo-first immersive dark theme for guisho.com — images glow under a darkroom safelight; essays and research recede into warm amber-accented darkness."
+homepage = "https://guisho.com/"
+tags = ["dark", "photography", "masonry", "blog", "minimal"]
+features = ["masonry photo wall", "dark reading room", "research collections"]
+min_version = "0.120.0"
+
+[author]
+  name = "Luis Fernandez"

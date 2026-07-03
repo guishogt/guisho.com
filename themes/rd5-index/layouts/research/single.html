@@ -1,0 +1,16 @@
+{{ define "main" }}
+<article class="single">
+  <div class="kicker"><a href="{{ .Parent.RelPermalink }}" style="color:inherit">Research</a> / document</div>
+  <h1 class="title">{{ .Title }}</h1>
+  <div class="meta meta-line">
+    {{ .Date.Format "2006-01-02" }} &middot; {{ .ReadingTime }} min read
+    {{- with .GetTerms "tags" }} &middot;
+      {{- range . }} <a class="chip" href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>{{ end }}
+    {{- end }}
+  </div>
+
+  <div class="prose">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}

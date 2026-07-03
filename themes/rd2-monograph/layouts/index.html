@@ -1,0 +1,53 @@
+{{ define "main" }}
+{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ $photos := where $posts "Params.categories" "intersect" (slice "travel") }}
+{{ $essays := complement $photos $posts }}
+{{ $plates := where $photos "Params.cover.image" "!=" nil }}
+{{ $research := where site.RegularPages "Section" "research" }}
+
+{{ $essaysURL := "/essays/" | relURL }}
+{{ with site.GetPage "/pages/essays" }}{{ $essaysURL = .RelPermalink }}{{ end }}
+{{ $photosURL := "/photos/" | relURL }}
+{{ with site.GetPage "/pages/photos" }}{{ $photosURL = .RelPermalink }}{{ end }}
+{{ $researchURL := "/research/" | relURL }}
+{{ with site.GetPage "/research" }}{{ $researchURL = .RelPermalink }}{{ end }}
+
+<div class="titlepage">
+  <p class="tp-kicker">The Collected Writings of</p>
+  <h1 class="tp-title">Guisho</h1>
+  <p class="tp-sub">Luis Fernandez</p>
+  <hr class="tp-rule">
+  <p class="tp-epigraph">{{ replace (site.Params.description | default "CMO CTO Dev Architect") " " " · " }}</p>
+</div>
+
+<section class="tp-section">
+  <h2 class="sc-head">Contents</h2>
+  <ol class="toc">
+    <li class="toc-entry">
+      <span class="toc-roman">I</span>
+      <a class="toc-title" href="{{ $essaysURL }}">Essays</a>
+      <span class="leader"></span>
+      <span class="toc-meta">{{ len $essays }} entries</span>
+    </li>
+    <li class="toc-entry">
+      <span class="toc-roman">II</span>
+      <a class="toc-title" href="{{ $researchURL }}">Research</a>
+      <span class="leader"></span>
+      <span class="toc-meta">{{ len $research }} documents</span>
+    </li>
+    <li class="toc-entry">
+      <span class="toc-roman">III</span>
+      <a class="toc-title" href="{{ $photosURL }}">Postcards</a>
+      <span class="leader"></span>
+      <span class="toc-meta">{{ len $plates }} postcards</span>
+    </li>
+    <li class="toc-entry">
+      <span class="toc-roman">IV</span>
+      <a class="toc-title" href="{{ with site.GetPage "/tags" }}{{ .RelPermalink }}{{ else }}{{ "/tag/" | relURL }}{{ end }}">Tags</a>
+      <span class="leader"></span>
+      <span class="toc-meta">{{ len site.Taxonomies.tags }} tags</span>
+    </li>
+  </ol>
+</section>
+
+{{ end }}

@@ -1,0 +1,53 @@
+{{ define "main" }}
+{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ $photos := where $posts "Params.categories" "intersect" (slice "travel") }}
+{{ $plates := slice }}
+{{ range $photos }}
+  {{ $c := partial "get-cover.html" . }}
+  {{ if $c }}{{ $plates = $plates | append (dict "p" . "img" $c) }}{{ end }}
+{{ end }}
+<article class="archive">
+  <header class="page-head">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-desc">{{ . }}</p>{{ end }}
+    <p class="page-count">{{ len $plates }} postcards</p>
+  </header>
+
+  {{ with .Content }}<div class="page-copy">{{ . }}</div>{{ end }}
+
+  <div class="plate-feed">
+    {{ range $plates }}
+    {{ $p := .p }}
+    <article class="plate-entry">
+      <a class="plate-link" href="{{ $p.RelPermalink }}">
+        <figure class="single-plate">
+          <span class="plate-frame">
+            <img src="{{ .img }}" alt="{{ $p.Params.cover.alt | default $p.Title }}" loading="lazy" decoding="async">
+            <span class="plate-scrim"></span>
+            <span class="plate-overlay">
+              <span class="plate-title">{{ $p.Title }}</span>
+              {{ with $p.Summary | plainify }}
+              <span class="plate-text">{{ . }}</span>
+              {{ end }}
+            </span>
+          </span>
+        </figure>
+      </a>
+      <div class="plate-caption">
+        <p class="plate-date">{{ $p.Date.Format "Jan 2, 2006" }}</p>
+        {{ $cats := slice }}
+        {{ range $p.GetTerms "categories" }}{{ if ne (.LinkTitle | lower) "travel" }}{{ $cats = $cats | append . }}{{ end }}{{ end }}
+        {{ $terms := $p.GetTerms "tags" }}
+        {{ if or $cats $terms }}
+        <p class="plate-tags">
+          {{- range $i, $t := $cats }}{{ if $i }} · {{ end }}<a class="term-cat" href="{{ $t.RelPermalink }}">{{ $t.LinkTitle | humanize }}</a>{{ end -}}
+          {{- if and $cats $terms }} · {{ end -}}
+          {{- range $i, $t := $terms }}{{ if $i }} · {{ end }}<a href="{{ $t.RelPermalink }}">{{ $t.LinkTitle }}</a>{{ end -}}
+        </p>
+        {{ end }}
+      </div>
+    </article>
+    {{ end }}
+  </div>
+</article>
+{{ end }}

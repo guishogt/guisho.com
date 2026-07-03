@@ -1,0 +1,58 @@
+{{ define "main" }}
+{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ $photos := where $posts "Params.categories" "intersect" (slice "travel") }}
+{{ $essays := complement $photos $posts }}
+<article class="archive">
+  <header class="page-head">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-desc">{{ . }}</p>{{ end }}
+    <p class="page-count">{{ len $essays }} entries · {{ site.Params.description | default "" }}</p>
+  </header>
+
+  {{ with .Content }}<div class="page-copy">{{ . }}</div>{{ end }}
+
+  {{/* category index — every category found among the essays, largest first */}}
+  {{ $cats := slice }}
+  {{ range $name, $tax := site.Taxonomies.categories }}
+    {{ if not (in (slice "travel" "p" "uncategorized") $name) }}
+      {{ $n := len (intersect $tax.Pages $essays) }}
+      {{ if gt $n 0 }}{{ $cats = $cats | append (dict "page" $tax.Page "count" $n) }}{{ end }}
+    {{ end }}
+  {{ end }}
+  {{ with sort $cats "count" "desc" }}
+  <nav class="cat-index">
+    {{ range . }}<a class="cat-item" href="{{ .page.RelPermalink }}">{{ .page.LinkTitle | humanize }}&nbsp;<span class="cat-count">{{ .count }}</span></a>{{ end }}
+  </nav>
+  {{ end }}
+
+  {{ $s := newScratch }}
+  {{ $s.Set "n" (add (len $essays) 1) }}
+  {{ range $essays.GroupByDate "2006" }}
+  <section class="toc-year">
+    <h2 class="year-head">
+      <span class="year-roman">{{ partial "roman.html" (int .Key) }}</span>
+      <span class="year-arabic">{{ .Key }}</span>
+    </h2>
+    <ol class="toc">
+      {{ range .Pages }}
+      {{ $s.Add "n" -1 }}
+      <li class="toc-entry">
+        <span class="toc-num">{{ printf "%03d" ($s.Get "n") }}</span>
+        <div class="toc-body">
+          <div class="toc-row">
+            <a class="toc-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <span class="leader"></span>
+            <span class="toc-meta">{{ .Date.Format "Jan 2" }} · {{ .ReadingTime }} min</span>
+          </div>
+          {{ with .Summary | plainify | truncate 160 }}
+          <p class="toc-excerpt">{{ . }}</p>
+          {{ end }}
+          {{ partial "terms-line.html" . }}
+        </div>
+      </li>
+      {{ end }}
+    </ol>
+  </section>
+  {{ end }}
+</article>
+{{ end }}

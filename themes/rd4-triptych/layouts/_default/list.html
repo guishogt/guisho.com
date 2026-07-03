@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="band band-neutral">
+  <div class="band-inner">
+    <span class="kicker">{{ if eq .Kind "term" }}{{ .Data.Singular | humanize }}{{ else }}Index{{ end }}</span>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="meta">{{ . }}</p>{{ end }}
+  </div>
+</div>
+<main class="wrap">
+  {{ with .Content }}<div class="prose intro">{{ . }}</div>{{ end }}
+  {{ $pag := .Paginate .Pages.ByDate.Reverse 50 }}
+  <ul class="essay-list">
+    {{ range $pag.Pages }}
+    <li>
+      <a href="{{ .RelPermalink }}">
+        <span class="e-title">{{ .Title }}</span>
+        <span class="e-meta">{{ with .Date }}{{ .Format "Jan 2, 2006" }}{{ end }}</span>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+  {{ if gt $pag.TotalPages 1 }}
+  <nav class="pager">
+    {{ if $pag.HasPrev }}<a href="{{ $pag.Prev.URL | relURL }}">&larr; Newer</a>{{ end }}
+    <span>{{ $pag.PageNumber }} / {{ $pag.TotalPages }}</span>
+    {{ if $pag.HasNext }}<a href="{{ $pag.Next.URL | relURL }}">Older &rarr;</a>{{ end }}
+  </nav>
+  {{ end }}
+</main>
+{{ end }}
