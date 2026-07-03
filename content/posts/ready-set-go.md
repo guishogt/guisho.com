@@ -35,6 +35,6 @@ tags:
 title: Ready, set, go!
 type: image
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2018/06/7-May-Pool.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2018/06/7-May-Pool-1600w.jpg
 url: /ready-set-go/
 ---

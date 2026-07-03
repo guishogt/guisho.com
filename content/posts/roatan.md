@@ -18,7 +18,7 @@ categories:
   - travel
 cover:
   alt: CIMG2907
-  image: https://guisho-media.s3.amazonaws.com/uploads/2014/01/CIMG2907.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2014/01/CIMG2907-1600w.jpg
 date: "2014-01-01T12:24:08+00:00"
 guid: http://guisho.com/?p=569
 parent_post_id: null

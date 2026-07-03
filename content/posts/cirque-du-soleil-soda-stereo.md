@@ -13,7 +13,7 @@ categories:
   - travel
 cover:
   alt: IMG_2540
-  image: https://guisho-media.s3.amazonaws.com/uploads/2018/03/IMG_2540.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2018/03/IMG_2540-1600w.jpg
 date: "2018-03-12T03:30:38+00:00"
 guid: https://guisho.com/?p=3263
 parent_post_id: null

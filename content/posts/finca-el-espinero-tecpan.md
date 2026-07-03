@@ -24,7 +24,7 @@ categories:
   - travel
 cover:
   alt: IMG_0540
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/12/IMG_0540.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/12/IMG_0540-1600w.jpg
 date: "2017-12-03T19:23:54+00:00"
 guid: https://guisho.com/?p=2914
 parent_post_id: null

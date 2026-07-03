@@ -30,6 +30,6 @@ tags:
   - guatemala
 title: Todo tiene una historia...
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2021/07/2020-09-19-17-27-26-IMG_6186-scaled.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2021/07/2020-09-19-17-27-26-IMG_6186-scaled-1600w.jpg
 url: /todo-tiene-una-historia/
 ---

@@ -32,7 +32,7 @@ tags:
   - plantas
 title: Aguacates
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2021/06/2019-04-29-12-27-37-IMG_9597-scaled.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2021/06/2019-04-29-12-27-37-IMG_9597-scaled-1600w.jpg
 url: /aguacates/
 ---
 Agua pasa por mi casa cate de mi corazón...

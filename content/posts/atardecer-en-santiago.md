@@ -29,7 +29,7 @@ tags:
 title: Atardecer en Santiago
 type: image
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2018/06/13-jun.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2018/06/13-jun-1600w.jpg
 url: /atardecer-en-santiago/
 ---
 Desde la Avenida PResidente Kennedy, viendo un espectacular atardecer en Santiago, un par de días después de que la nieve cayera sobre la ciudad, cosa muy poco usual.

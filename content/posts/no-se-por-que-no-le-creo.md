@@ -19,7 +19,7 @@ categories:
   - personas,-lugares,-cosas,-sucesos
 cover:
   alt: IMG_3334
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3334.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3334-1600w.jpg
 date: "2017-10-22T21:10:51+00:00"
 guid: https://guisho.com/?p=2759
 parent_post_id: null

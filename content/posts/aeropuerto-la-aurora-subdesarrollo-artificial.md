@@ -27,7 +27,7 @@ tags:
 title: 'Aeropuerto La Aurora: Subdesarrollo artificial'
 type: image
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2018/06/jun7.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2018/06/jun7-1600w.jpg
 url: /aeropuerto-la-aurora-subdesarrollo-artificial/
 ---
 Hoy me topo con esta estupidez en el aeropuerto. Costó dinero, no apoya en nada (aunque puedan decir que tal vez seguridad), dificulta algo que no estaba mal. De tres carriles se pierde uno.

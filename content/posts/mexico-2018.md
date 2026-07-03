@@ -12,7 +12,7 @@ categories:
   - travel
 cover:
   alt: IMG_2273
-  image: https://guisho-media.s3.amazonaws.com/uploads/2018/02/IMG_2273.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2018/02/IMG_2273-1600w.jpg
 date: "2018-01-31T20:27:02+00:00"
 guid: https://guisho.com/?p=3202
 parent_post_id: null

@@ -13,7 +13,7 @@ categories:
   - travel
 cover:
   alt: IMG_3801
-  image: https://guisho-media.s3.amazonaws.com/uploads/2014/10/IMG_3801.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2014/10/IMG_3801-1600w.jpg
 date: "2014-10-14T16:18:53+00:00"
 guid: http://guisho.com/?p=696
 parent_post_id: null

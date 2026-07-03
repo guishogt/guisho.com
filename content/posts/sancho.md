@@ -19,7 +19,7 @@ categories:
   - personas,-lugares,-cosas,-sucesos
 cover:
   alt: IMG_8299
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_8299.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_8299-1600w.jpg
 date: "2016-04-06T20:18:17+00:00"
 guid: https://guisho.com/?p=2301
 parent_post_id: null

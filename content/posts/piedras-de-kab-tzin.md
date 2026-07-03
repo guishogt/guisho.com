@@ -32,6 +32,6 @@ tags:
   - montañas
 title: Piedras de Kab’ Tzin
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2021/07/2019-09-06-07-51-38-IMG_1532-scaled.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2021/07/2019-09-06-07-51-38-IMG_1532-scaled-1600w.jpg
 url: /piedras-de-kab-tzin/
 ---

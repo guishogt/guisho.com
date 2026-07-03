@@ -29,7 +29,7 @@ tags:
   - nieve
 title: Los Andes
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2018/08/IMG_4128.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2018/08/IMG_4128-1600w.jpg
 url: /los-andes/
 ---
 ![](https://guisho-media.s3.amazonaws.com/uploads/2018/08/IMG_4125-2.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2018/08/IMG_4125.jpg)

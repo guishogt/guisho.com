@@ -18,7 +18,7 @@ categories:
   - travel
 cover:
   alt: IMG_4645
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_4645.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_4645-1600w.jpg
 date: "2014-12-13T18:50:11+00:00"
 guid: https://guisho.com/?p=1872
 parent_post_id: null

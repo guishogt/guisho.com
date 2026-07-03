@@ -13,7 +13,7 @@ categories:
   - travel
 cover:
   alt: IMG_2594
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_2594.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_2594-1600w.jpg
 date: "2014-06-14T18:29:59+00:00"
 guid: https://guisho.com/?p=1809
 parent_post_id: null

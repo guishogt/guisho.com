@@ -33,6 +33,6 @@ tags:
 title: Invierno en Santiago
 type: image
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2018/08/IMG_4105.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2018/08/IMG_4105-1600w.jpg
 url: /invierno-en-santiago/
 ---

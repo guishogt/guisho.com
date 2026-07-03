@@ -28,7 +28,7 @@ rank_math_robots:
 title: PTY Cash Only
 type: image
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2018/06/Collage_Maker___BeFunky__Create_Photo_Collages.png
+  image: https://guisho-media.s3.amazonaws.com/uploads/2018/06/Collage_Maker___BeFunky__Create_Photo_Collages-1600w.png
 url: /pty-cash-only/
 ---
 No sé la historia, pero desde hace más de un año en el aeropuerto de Panamá (PTY), en la mayoría de tiendas puede pagarse sólo con efectivo. A mi me huele eso tan mal, no estoy juzgando, pero tiene que haber una razón muy grande para que un establecimiento en un aeropuerto, no acepte tarjetas de crédito, sabiendo que perderá al menos la mitad de sus clientes. O hay algo de lavado, o una artimaña lega, o son muy tontos (tal vez simplemente no les gustan las tarjetas a los dueños). En fin, para mi como cliente es muy molesto y me hace que el aeropuerto huela mal. Por cierto, en los pocos lugares que sí aceptan tarjetas, no suelen aceptar American Express. En fin...un poco de subdesarrollo artificial.

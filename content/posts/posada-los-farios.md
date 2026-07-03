@@ -39,7 +39,7 @@ tags:
   - pesca
 title: Posada Los Farios
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2023/02/posada_los_farios-scaled.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2023/02/posada_los_farios-scaled-1600w.jpg
 url: /posada-los-farios/
 ---
 {{< figure src="https://guisho-media.s3.amazonaws.com/uploads/2023/02/los_farios-scaled.jpg" alt="" caption="" >}}

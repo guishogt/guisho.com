@@ -17,7 +17,7 @@ categories:
   - mis-escritos
 cover:
   alt: Linux my dog
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/03/PICT0004.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/03/PICT0004-1600w.jpg
 date: "2006-07-21T04:04:06+00:00"
 guid: http://guisho.com/?p=898
 parent_post_id: null

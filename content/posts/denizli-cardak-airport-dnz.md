@@ -12,7 +12,7 @@ categories:
   - travel
 cover:
   alt: IMG_7820
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_7820.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_7820-1600w.jpg
 date: "2016-03-29T18:50:30+00:00"
 guid: https://guisho.com/?p=2141
 parent_post_id: null

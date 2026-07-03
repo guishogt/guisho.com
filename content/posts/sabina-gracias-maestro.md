@@ -23,7 +23,7 @@ _jetpack_related_posts_cache:
 title: Sabina, Gracias Maestro
 cover:
   alt: IMG_6495
-  image: https://guisho-media.s3.amazonaws.com/uploads/img_6489.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/img_6489-1600w.jpg
 _last_editor_used_jetpack: block-editor
 tags:
   - conciertos

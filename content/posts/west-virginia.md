@@ -27,7 +27,7 @@ tags:
   - west-virginia
 title: West Virginia
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2021/06/2019-05-30-09-48-12-IMG_0317-scaled.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2021/06/2019-05-30-09-48-12-IMG_0317-scaled-1600w.jpg
 url: /west-virginia/
 ---
 De lo que más me gusta de viajar en época baja, es encontrar joyas como estas el mismo día que uno va de camino.

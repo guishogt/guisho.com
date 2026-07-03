@@ -18,7 +18,7 @@ categories:
   - travel
 cover:
   alt: IMG_7625 3
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_7625-3.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_7625-3-1600w.jpg
 date: "2016-03-27T20:05:18+00:00"
 guid: https://guisho.com/?p=2209
 parent_post_id: null

@@ -16,7 +16,7 @@ categories:
   - travel
 cover:
   alt: IMG_0613
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0613.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0613-1600w.jpg
 date: "2017-02-25T00:41:50+00:00"
 guid: https://guisho.com/?p=2432
 parent_post_id: null

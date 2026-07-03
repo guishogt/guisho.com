@@ -12,7 +12,7 @@ categories:
   - travel
 cover:
   alt: IMG_2612
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_2612.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_2612-1600w.jpg
 date: "2017-06-20T20:57:12+00:00"
 guid: https://guisho.com/?p=2695
 parent_post_id: null

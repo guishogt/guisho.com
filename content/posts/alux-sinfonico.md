@@ -17,7 +17,7 @@ categories:
   - travel
 cover:
   alt: IMG_2710
-  image: https://guisho-media.s3.amazonaws.com/uploads/2014/06/IMG_2710.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2014/06/IMG_2710-1600w.jpg
 date: "2014-06-27T18:22:47+00:00"
 guid: http://guisho.com/?p=655
 parent_post_id: null

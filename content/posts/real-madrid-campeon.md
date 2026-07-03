@@ -15,7 +15,7 @@ categories:
   - travel
 cover:
   alt: madrid-1
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/03/madrid-1.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/03/madrid-1-1600w.jpg
 date: "2007-06-17T16:18:00+00:00"
 guid: http://guisho.com/?p=910
 parent_post_id: null

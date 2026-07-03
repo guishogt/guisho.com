@@ -12,7 +12,7 @@ categories:
   - travel
 cover:
   alt: IMG_4033
-  image: https://guisho-media.s3.amazonaws.com/uploads/2015/10/IMG_4033.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2015/10/IMG_4033-1600w.jpg
 date: "2015-10-07T21:19:36+00:00"
 guid: https://guisho.com/?p=2031
 parent_post_id: null

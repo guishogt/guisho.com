@@ -15,7 +15,7 @@ categories:
   - travel
 cover:
   alt: IMG_5343 2
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_5343-2.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_5343-2-1600w.jpg
 date: "2015-12-16T21:49:33+00:00"
 guid: https://guisho.com/?p=2099
 parent_post_id: null

@@ -31,7 +31,7 @@ tags:
 title: SCL
 type: image
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2018/06/15-jun-scl-1.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2018/06/15-jun-scl-1-1600w.jpg
 url: /scl/
 ---
 ...con la cordillera al fondo...

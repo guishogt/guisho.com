@@ -26,7 +26,7 @@ tags:
   - peru
 title: Islas de los Uros
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2021/10/img_3533-scaled.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2021/10/img_3533-scaled-1600w.jpg
 url: /islas-de-los-uros/
 ---
 Tal vez la mayor sorpresa que me llevé en el Perú fue visitar estas islas flotantes. Fue demasiado sorprendente ver lo flexible e ingeniosos que los humanos somos.

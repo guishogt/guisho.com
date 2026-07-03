@@ -24,7 +24,7 @@ categories:
   - travel
 cover:
   alt: canonDelSumidero
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/03/canonDelSumidero.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/03/canonDelSumidero-1600w.jpg
 date: "2006-11-04T03:55:51+00:00"
 guid: http://guisho.com/?p=888
 parent_post_id: null

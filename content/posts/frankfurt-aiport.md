@@ -15,7 +15,7 @@ categories:
   - travel
 cover:
   alt: IMG_7550
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_7550.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_7550-1600w.jpg
 date: "2016-03-26T18:50:43+00:00"
 guid: https://guisho.com/?p=2144
 parent_post_id: null

@@ -29,7 +29,7 @@ tags:
   - usa
 title: La familia crece...boda!
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2021/06/2019-05-26-14-23-16-IMG_0045-scaled.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2021/06/2019-05-26-14-23-16-IMG_0045-scaled-1600w.jpg
 url: /la-familia-crece-boda/
 ---
 {{< figure src="https://guisho-media.s3.amazonaws.com/uploads/2021/06/2019-05-26-16-36-00-IMG_0051-scaled.jpg" alt="" caption="" >}}

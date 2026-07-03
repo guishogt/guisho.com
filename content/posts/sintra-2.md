@@ -27,7 +27,7 @@ tags:
   - sintra
 title: Sintra
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2021/11/img_4565-scaled.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2021/11/img_4565-scaled-1600w.jpg
 url: /sintra-2/
 ---
 Con su particular verdura, su cercanía, su tranquilidad. Saudades.

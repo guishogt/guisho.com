@@ -18,7 +18,7 @@ categories:
   - travel
 cover:
   alt: IMG_3023
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3023.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3023-1600w.jpg
 date: "2017-08-01T21:01:33+00:00"
 guid: https://guisho.com/?p=2705
 parent_post_id: null

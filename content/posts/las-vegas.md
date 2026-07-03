@@ -15,7 +15,7 @@ categories:
   - travel
 cover:
   alt: IMG_0964 4
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_0964-4.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_0964-4-1600w.jpg
 date: "2013-12-19T17:05:56+00:00"
 guid: http://guisho.com/?p=1703
 parent_post_id: null

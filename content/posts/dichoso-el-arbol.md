@@ -25,7 +25,7 @@ tags:
   - guatemala
 title: Dichoso el arbol
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2021/07/2021-04-01-10-34-32-IMG_9810-scaled.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2021/07/2021-04-01-10-34-32-IMG_9810-scaled-1600w.jpg
 url: /dichoso-el-arbol/
 ---
 Dichoso el árbol que es apenas sensitivo, y más la dura piedra, pues esta ya no siente...

@@ -21,7 +21,7 @@ _jetpack_related_posts_cache:
       - id: 2758
 title: Metallica
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/img_6747.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/img_6747-1600w.jpg
 _last_editor_used_jetpack: block-editor
 tags:
   - houston

@@ -15,7 +15,7 @@ categories:
   - travel
 cover:
   alt: IMG_1223 7.29.26 PM
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/12/IMG_1223-7.29.26-PM.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/12/IMG_1223-7.29.26-PM-1600w.jpg
 date: "2017-12-12T01:30:29+00:00"
 guid: https://guisho.com/?p=3139
 parent_post_id: null

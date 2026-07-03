@@ -30,7 +30,7 @@ tags:
   - tecpan
 title: Tecpán desde el aire
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2021/07/2019-11-25-09-22-31-IMG_1135-scaled.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2021/07/2019-11-25-09-22-31-IMG_1135-scaled-1600w.jpg
 url: /tecpan-desde-el-aire/
 ---
 Espectacular....

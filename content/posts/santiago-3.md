@@ -18,7 +18,7 @@ categories:
   - travel
 cover:
   alt: IMG_3035
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3035.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3035-1600w.jpg
 date: "2017-08-02T21:01:35+00:00"
 guid: https://guisho.com/?p=2706
 parent_post_id: null

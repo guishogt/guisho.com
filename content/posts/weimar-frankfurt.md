@@ -15,7 +15,7 @@ categories:
   - travel
 cover:
   alt: IMG_8124
-  image: https://guisho-media.s3.amazonaws.com/uploads/2016/04/IMG_8124.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2016/04/IMG_8124-1600w.jpg
 date: "2016-04-04T10:05:30+00:00"
 guid: http://guisho.com/?p=729
 parent_post_id: null

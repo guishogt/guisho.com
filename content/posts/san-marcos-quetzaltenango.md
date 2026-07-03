@@ -12,7 +12,7 @@ categories:
   - travel
 cover:
   alt: IMG_0930
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_0930.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_0930-1600w.jpg
 date: "2013-11-09T16:56:42+00:00"
 guid: http://guisho.com/?p=1684
 parent_post_id: null

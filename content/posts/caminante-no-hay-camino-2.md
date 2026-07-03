@@ -25,7 +25,7 @@ tags:
   - guatemala
 title: Caminante no hay camino...
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2021/07/2021-05-23-11-14-27-IMG_0753-scaled.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2021/07/2021-05-23-11-14-27-IMG_0753-scaled-1600w.jpg
 url: /caminante-no-hay-camino-2/
 ---
 Se hace camino al andar!!

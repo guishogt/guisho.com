@@ -18,7 +18,7 @@ categories:
   - travel
 cover:
   alt: Barajas
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/12/Barajas.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/12/Barajas-1600w.jpg
 date: "2017-12-05T20:06:43+00:00"
 guid: https://guisho.com/?p=2942
 parent_post_id: null

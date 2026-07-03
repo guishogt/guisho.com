@@ -19,7 +19,7 @@ categories:
   - ayudas-para-el-camino
 cover:
   alt: book-light-wood-tunnel-ceiling-prague-1158944-pxhere.com
-  image: https://guisho-media.s3.amazonaws.com/uploads/2018/04/book-light-wood-tunnel-ceiling-prague-1158944-pxhere.com_.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2018/04/book-light-wood-tunnel-ceiling-prague-1158944-pxhere.com_-1600w.jpg
 date: "2018-04-17T16:23:51+00:00"
 guid: https://guisho.com/?p=3283
 parent_post_id: null

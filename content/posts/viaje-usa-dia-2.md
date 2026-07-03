@@ -23,7 +23,7 @@ tags:
   - viajeusa
 title: Viaje USA - Día 2
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2018/09/IMG_4350.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2018/09/IMG_4350-1600w.jpg
 url: /viaje-usa-dia-2/
 ---
 Nos levantamos un poco tarde. Originalmente el plan era ir a un tour de bote. Por el tiempo cambiamos planes.

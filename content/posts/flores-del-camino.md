@@ -28,6 +28,6 @@ tags:
   - montañas
 title: Flores del camino
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2021/07/2019-09-07-13-19-36-IMG_1601-scaled.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2021/07/2019-09-07-13-19-36-IMG_1601-scaled-1600w.jpg
 url: /flores-del-camino/
 ---

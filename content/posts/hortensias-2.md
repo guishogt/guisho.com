@@ -28,7 +28,7 @@ tags:
   - verde
 title: Hortensias
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2021/07/2019-11-10-16-09-09-IMG_0765-scaled.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2021/07/2019-11-10-16-09-09-IMG_0765-scaled-1600w.jpg
 url: /hortensias-2/
 ---
 El clima del lugar donde viva ha de ser amigable a las hortensias...

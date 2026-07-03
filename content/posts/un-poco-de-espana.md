@@ -15,7 +15,7 @@ categories:
   - travel
 cover:
   alt: espana-1
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/03/espana-1.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/03/espana-1-1600w.jpg
 date: "2007-06-25T20:43:21+00:00"
 guid: http://guisho.com/?p=917
 parent_post_id: null

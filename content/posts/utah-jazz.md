@@ -12,7 +12,7 @@ categories:
   - travel
 cover:
   alt: IMG_0669
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_0669.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_0669-1600w.jpg
 date: "2015-03-10T20:27:33+00:00"
 guid: https://guisho.com/?p=1939
 parent_post_id: null

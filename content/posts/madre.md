@@ -31,6 +31,6 @@ tags:
   - ireland
 title: Madre
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2021/08/DSC01308-scaled.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2021/08/DSC01308-scaled-1600w.jpg
 url: /madre/
 ---

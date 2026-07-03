@@ -16,7 +16,7 @@ categories:
   - travel
 cover:
   alt: IMG_4672
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_4672.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_4672-1600w.jpg
 date: "2015-11-14T21:40:59+00:00"
 guid: https://guisho.com/?p=2082
 parent_post_id: null
