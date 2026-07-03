@@ -33,4 +33,4 @@ type: image
 url: /medellin-y-rio-negro-mde/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_8652.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_8654.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_8683.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_8652-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_8654-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_8683-1600w.jpg)

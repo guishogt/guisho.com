@@ -31,4 +31,4 @@ url: /copan/
 ---
 "...la tierra de 18 conejo.."
 
-![](https://guisho-media.s3.amazonaws.com/uploads/2013/12/CIMG2847.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2013/12/MD003443.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2013/12/MD003398.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2013/12/CIMG2709.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2013/12/DSCF0553.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2013/12/CIMG2847.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2013/12/MD003443-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2013/12/MD003398-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2013/12/CIMG2709-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2013/12/DSCF0553-1600w.jpg)

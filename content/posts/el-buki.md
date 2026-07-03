@@ -32,4 +32,4 @@ type: image
 url: /el-buki/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_4690.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_4690-1600w.jpg)

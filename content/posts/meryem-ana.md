@@ -29,4 +29,4 @@ url: /meryem-ana/
 ---
 Se cree que es la última casa donde vivió la Virgen María. Pasamos la misa de resurección ahí. Un lugar que tiene algo...
 
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/DSC02881.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/DSC02884.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/DSC02888.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_7657.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/DSC02881-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/DSC02884-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/DSC02888-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_7657-1600w.jpg)

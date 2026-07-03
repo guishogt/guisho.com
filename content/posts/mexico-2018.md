@@ -29,4 +29,4 @@ type: image
 url: /mexico-2018/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2018/02/IMG_2277.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2018/02/IMG_2280.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2018/02/IMG_2277-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2018/02/IMG_2280-1600w.jpg)

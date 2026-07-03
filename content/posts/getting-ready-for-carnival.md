@@ -31,4 +31,4 @@ type: image
 url: /getting-ready-for-carnival/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_6614.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_6614-1600w.jpg)

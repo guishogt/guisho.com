@@ -34,4 +34,4 @@ type: image
 url: /los-andes-luciendose/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3072.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3079.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3086.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3097.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3103.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3072-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3079-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3086-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3097-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3103-1600w.jpg)

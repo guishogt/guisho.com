@@ -35,4 +35,4 @@ type: image
 url: /mesa-1184-elecciones-guatemala/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_3419.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_3419-1600w.jpg)

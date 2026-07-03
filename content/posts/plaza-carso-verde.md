@@ -33,4 +33,4 @@ type: image
 url: /plaza-carso-verde/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_0900.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_0901.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_0900-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_0901-1600w.jpg)

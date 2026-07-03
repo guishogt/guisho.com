@@ -35,4 +35,4 @@ type: image
 url: /panama-2/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3024.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3024-1600w.jpg)

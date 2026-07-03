@@ -29,4 +29,4 @@ title: NYC
 url: /nyc-2/
 
 ---
-Hay algo que me enamora de NYC cada vez que la veo ![](https://guisho-media.s3.amazonaws.com/uploads/2014/10/IMG_3801.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/10/IMG_3795.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/10/IMG_3780.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/10/IMG_3681.jpg)
+Hay algo que me enamora de NYC cada vez que la veo ![](https://guisho-media.s3.amazonaws.com/uploads/2014/10/IMG_3801-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/10/IMG_3795-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/10/IMG_3780-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/10/IMG_3681.jpg)

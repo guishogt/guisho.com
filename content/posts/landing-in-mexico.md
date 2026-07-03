@@ -34,4 +34,4 @@ type: image
 url: /landing-in-mexico/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_4218.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_4227.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_4218-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_4227-1600w.jpg)

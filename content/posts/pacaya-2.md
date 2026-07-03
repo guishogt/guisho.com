@@ -36,4 +36,4 @@ type: image
 url: /pacaya-2/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_1318.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_1319.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_1322.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_1323.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_1318-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_1319-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_1322-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_1323-1600w.jpg)

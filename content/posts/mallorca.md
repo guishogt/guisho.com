@@ -28,4 +28,4 @@ type: image
 url: /mallorca/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/08/IMG_0068-2.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/08/IMG_0072.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/08/IMG_0073.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/08/IMG_0075.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/08/IMG_0068-2-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/08/IMG_0072-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/08/IMG_0073-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/08/IMG_0075-1600w.jpg)

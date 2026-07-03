@@ -30,4 +30,4 @@ type: image
 url: /df-3/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_0118.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_0124.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_0104.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_0098.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_0097.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_0118-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_0124-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_0104-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_0098.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_0097-1600w.jpg)

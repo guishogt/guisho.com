@@ -34,4 +34,4 @@ url: /ixobel/
 ---
 Escondida en la selva petenera, con cuevas realmente escondidas, esta es una pequeña joya basada en el código de honor.
 
-![](https://guisho-media.s3.amazonaws.com/uploads/2014/04/IMG_2056-1.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/04/IMG_2063.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2014/04/IMG_2056-1-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/04/IMG_2063-1600w.jpg)

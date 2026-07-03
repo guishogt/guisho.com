@@ -35,4 +35,4 @@ type: image
 url: /monte-rico/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_0408.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_0408-1600w.jpg)

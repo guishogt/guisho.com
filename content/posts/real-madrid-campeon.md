@@ -32,4 +32,4 @@ url: /real-madrid-campeon/
 
 ---
 Celebrando en Madrid!
-![madrid](https://guisho-media.s3.amazonaws.com/uploads/2017/03/madrid.jpg)
+![madrid](https://guisho-media.s3.amazonaws.com/uploads/2017/03/madrid-1600w.jpg)

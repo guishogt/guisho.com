@@ -31,4 +31,4 @@ type: image
 url: /costa-rica/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0335.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0338.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0343.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0344.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0346.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0347.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0335-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0338-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0343-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0344-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0346-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0347.jpg)

@@ -30,4 +30,4 @@ type: image
 url: /ohare-ord/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2015/10/IMG_4034.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2015/10/IMG_4034-1600w.jpg)

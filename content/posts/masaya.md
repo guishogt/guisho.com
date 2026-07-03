@@ -28,4 +28,4 @@ type: image
 url: /masaya/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_5328.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_5330.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_5354.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_5328-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_5330-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_5354-1600w.jpg)

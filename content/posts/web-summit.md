@@ -29,8 +29,8 @@ type: image
 url: /web-summit/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3528-2.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3535.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3539.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3574.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3528-2-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3535-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3539-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3574-1600w.jpg)
 
 \\[/video\]
 
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3576.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3589.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3610-2.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3576-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3589-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3610-2-1600w.jpg)

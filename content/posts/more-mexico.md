@@ -31,4 +31,4 @@ type: image
 url: /more-mexico/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_4577.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_4577-1600w.jpg)

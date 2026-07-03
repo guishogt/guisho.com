@@ -27,4 +27,4 @@ type: image
 url: /adios-2013-gracias-por-todo/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/CIMG2862.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/DSC_8344.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/DSCF0574.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/CIMG2862-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/DSC_8344-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/DSCF0574-1600w.jpg)

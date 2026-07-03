@@ -35,4 +35,4 @@ url: /basilica-de-guadalupe/
 ---
 ¿Acaso no estoy yo aquí contigo que soy tu Madre?
 
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_0920.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_0920-1600w.jpg)

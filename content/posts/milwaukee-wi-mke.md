@@ -35,4 +35,4 @@ type: image
 url: /milwaukee-wi-mke/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_4471.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_4471-1600w.jpg)

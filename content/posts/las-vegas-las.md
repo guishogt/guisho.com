@@ -35,4 +35,4 @@ type: image
 url: /las-vegas-las/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_5334.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_5334-1600w.jpg)

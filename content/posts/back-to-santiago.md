@@ -30,4 +30,4 @@ type: image
 url: /back-to-santiago/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_1071.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_1071-1600w.jpg)

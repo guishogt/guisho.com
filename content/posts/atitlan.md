@@ -36,4 +36,4 @@ type: image
 url: /atitlan/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_4599.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_4265.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_4599-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_4265.jpg)

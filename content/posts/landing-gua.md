@@ -33,4 +33,4 @@ type: image
 url: /landing-gua/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0613-2.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0616-2.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0617-2.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0618-2.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0619-2.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0613-2-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0616-2-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0617-2-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0618-2-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0619-2-1600w.jpg)

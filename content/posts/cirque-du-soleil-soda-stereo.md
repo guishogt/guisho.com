@@ -26,4 +26,4 @@ type: image
 url: /cirque-du-soleil-soda-stereo/
 
 ---
-"Fluorescente azul luz que baña mis sentidos donde todo empieza a ser real. Siempre vuelve a dar nuevas chances una vuelta más... entera"![](https://guisho-media.s3.amazonaws.com/uploads/2018/03/IMG_2539.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2018/03/IMG_2546.jpg)
+"Fluorescente azul luz que baña mis sentidos donde todo empieza a ser real. Siempre vuelve a dar nuevas chances una vuelta más... entera"![](https://guisho-media.s3.amazonaws.com/uploads/2018/03/IMG_2539-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2018/03/IMG_2546.jpg)

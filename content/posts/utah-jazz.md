@@ -34,4 +34,4 @@ url: /utah-jazz/
 ---
 Jazz Vs. Knicks
 
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_0670.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_0670-1600w.jpg)

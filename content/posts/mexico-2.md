@@ -33,4 +33,4 @@ type: image
 url: /mexico-2/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_5380.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_5380-1600w.jpg)

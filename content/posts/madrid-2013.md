@@ -34,4 +34,4 @@ type: image
 url: /madrid-2013/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2013/02/IMG_2878.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2013/02/IMG_2910.jpg)El mejor viaje de mi vida! Un viaje inesperado, un viaje con locura, un viaje que tenía que ser.
+![](https://guisho-media.s3.amazonaws.com/uploads/2013/02/IMG_2878.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2013/02/IMG_2910-1600w.jpg)El mejor viaje de mi vida! Un viaje inesperado, un viaje con locura, un viaje que tenía que ser.

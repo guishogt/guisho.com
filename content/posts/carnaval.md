@@ -38,8 +38,8 @@ type: image
 url: /carnaval/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_6678.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_6694.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_6709.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_6724.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_6678-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_6694-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_6709-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_6724-1600w.jpg)
 
 \\[/video\]
 
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_6839.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_6874.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_6839-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_6874-1600w.jpg)

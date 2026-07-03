@@ -36,4 +36,4 @@ url: /scl/
 ---
 ...con la cordillera al fondo...
 
-![](https://guisho-media.s3.amazonaws.com/uploads/2018/06/15-jun-SCL.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2018/06/15-jun-SCL-1600w.jpg)

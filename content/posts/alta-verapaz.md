@@ -34,4 +34,4 @@ type: image
 url: /alta-verapaz/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/DSC01951.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/DSC01982.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/DSC01985.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_4166.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_4182.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/DSC01951-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/DSC01982-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/DSC01985-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_4166-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_4182-1600w.jpg)

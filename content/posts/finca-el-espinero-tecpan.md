@@ -42,4 +42,4 @@ type: image
 url: /finca-el-espinero-tecpan/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/12/IMG_0539.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/12/IMG_0539-1600w.jpg)

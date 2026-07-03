@@ -28,4 +28,4 @@ type: image
 url: /mis-volcanes-2/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_0325.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_0325-1600w.jpg)

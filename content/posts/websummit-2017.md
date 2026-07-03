@@ -36,12 +36,12 @@ type: image
 url: /websummit-2017/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0105.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0115.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0105-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0115-1600w.jpg)
 
 \\[/video\]
 
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0126.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0127.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0128.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0133.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0126-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0127.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0128.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0133.jpg)
 
 \\[/video\]
 
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0147.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0186.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0187.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0192.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0202.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0207.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0217.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0297.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0147.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0186-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0187.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0192.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0202.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0207.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0217.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0297-1600w.jpg)

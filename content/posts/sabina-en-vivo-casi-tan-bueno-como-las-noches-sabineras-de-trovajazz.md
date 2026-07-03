@@ -35,7 +35,7 @@ url: /sabina-en-vivo-casi-tan-bueno-como-las-noches-sabineras-de-trovajazz/
 ---
 Mi primera vez en el Gran Teatro Nacional de la Ciudad de México. Sabina. Primera Fila. Yo solo. Me encanta cantar y pensar...
 
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_1425.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_1437.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_1447.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_1425-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_1437-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_1447-1600w.jpg)
 
 \\[/video\]
 
@@ -47,4 +47,4 @@ Mi primera vez en el Gran Teatro Nacional de la Ciudad de México. Sabina. Prim
 
 \\[/video\]
 
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_1459.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_1462.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_1464.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_1473.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_1459-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_1462.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_1464-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_1473-1600w.jpg)

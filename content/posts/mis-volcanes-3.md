@@ -36,4 +36,4 @@ type: image
 url: /mis-volcanes-3/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_2916.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_2915.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_2914.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_2916-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_2915-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_2914-1600w.jpg)

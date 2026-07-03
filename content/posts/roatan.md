@@ -33,5 +33,5 @@ title: Roatán
 url: /roatan/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2014/01/CIMG2887.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/01/CIMG2873.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/01/DSC_8380.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/01/CIMG2854.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/01/CIMG2853.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/01/DSC_8361.jpg)"..Caribe Hondureño, langostas, delfines y tiburones.."
+![](https://guisho-media.s3.amazonaws.com/uploads/2014/01/CIMG2887-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/01/CIMG2873-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/01/DSC_8380-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/01/CIMG2854-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/01/CIMG2853.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/01/DSC_8361-1600w.jpg)"..Caribe Hondureño, langostas, delfines y tiburones.."
 

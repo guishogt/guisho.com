@@ -35,4 +35,4 @@ type: image
 url: /park-city/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_0742-2.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_0743-2.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_0742-2-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_0743-2-1600w.jpg)

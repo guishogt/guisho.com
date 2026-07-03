@@ -27,4 +27,4 @@ type: image
 url: /san-marcos-quetzaltenango/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_3313.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_3355.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_3384.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_3313.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_3355-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_3384-1600w.jpg)

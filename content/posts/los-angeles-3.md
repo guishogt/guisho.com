@@ -28,4 +28,4 @@ type: image
 url: /los-angeles-3/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_5179.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_5189.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_5190.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_5179-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_5189-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_5190-1600w.jpg)

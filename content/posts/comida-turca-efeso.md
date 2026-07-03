@@ -31,4 +31,4 @@ type: image
 url: /comida-turca-efeso/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_7774.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_7774-1600w.jpg)

@@ -33,4 +33,4 @@ url: /arturo-merino-benitez/
 ---
 Amo estos aparatos....
 
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3061.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3061-1600w.jpg)

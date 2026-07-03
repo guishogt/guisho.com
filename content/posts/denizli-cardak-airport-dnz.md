@@ -29,4 +29,4 @@ url: /denizli-cardak-airport-dnz/
 ---
 Uno de los aeropuertos más remotos que me ha tocado. Llegamos a las 3am, no había donde dejar el rental, así que dejamos las llaves a un cuidador que nos dijo se encargaría de dar las llaves y los papeles a Herz cuando abrieran (6am)...y así lo hizo.
 
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_7825.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_7825-1600w.jpg)

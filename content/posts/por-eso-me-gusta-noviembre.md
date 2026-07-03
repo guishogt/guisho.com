@@ -27,4 +27,4 @@ type: image
 url: /por-eso-me-gusta-noviembre/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_0964-3.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_0964-3-1600w.jpg)

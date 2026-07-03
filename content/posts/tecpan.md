@@ -33,4 +33,4 @@ type: image
 url: /tecpan/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_2759.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_2759-1600w.jpg)

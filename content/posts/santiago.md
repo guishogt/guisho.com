@@ -33,4 +33,4 @@ url: /santiago/
 ---
 Conociendo un poco más de vino
 
-![](https://guisho-media.s3.amazonaws.com/uploads/2014/04/IMG_2106.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/04/IMG_2159.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/04/IMG_2151.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/04/IMG_2148.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/04/IMG_2136.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/04/IMG_2120.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2014/04/IMG_2106-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/04/IMG_2159-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/04/IMG_2151-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/04/IMG_2148-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/04/IMG_2136-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2014/04/IMG_2120-1600w.jpg)

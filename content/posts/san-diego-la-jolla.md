@@ -29,4 +29,4 @@ url: /san-diego-la-jolla/
 ---
 "...US Independence day, fireworks, beach....and work!.."
 
-![](https://guisho-media.s3.amazonaws.com/uploads/2013/07/IMG_0277-2.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2013/07/IMG_0277-2-1600w.jpg)

@@ -31,4 +31,4 @@ url: /alux-sinfonico/
 ---
 Demasiado bueno!
 
-![](https://guisho-media.s3.amazonaws.com/uploads/2014/06/IMG_2712.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2014/06/IMG_2712-1600w.jpg)

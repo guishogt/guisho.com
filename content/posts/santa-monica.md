@@ -28,4 +28,4 @@ type: image
 url: /santa-monica/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_5139.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_5141.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_5142.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_5144.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_5139-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_5141-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_5142-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_5144-1600w.jpg)

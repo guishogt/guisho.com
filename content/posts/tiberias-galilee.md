@@ -35,4 +35,4 @@ type: image
 url: /tiberias-galilee/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2017/12/IMG_0845.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/12/IMG_0846.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2017/12/IMG_0845-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2017/12/IMG_0846-1600w.jpg)

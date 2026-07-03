@@ -27,4 +27,4 @@ type: image
 url: /fll/
 
 ---
-![](https://guisho-media.s3.amazonaws.com/uploads/2018/01/IMG_2227.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2018/01/IMG_2226.jpg)
+![](https://guisho-media.s3.amazonaws.com/uploads/2018/01/IMG_2227-1600w.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2018/01/IMG_2226-1600w.jpg)
