@@ -60,5 +60,8 @@ Ideas considered and not adopted, with a one-line reason each. Future-self reads
 ## References
 - https://rywalker.com/research — reference for the Research section (categorical clustering, profiles + reading time, tag navigation, no chronological stream)
 
+## Deploy (2026-07-02)
+DEPLOYED TO PRODUCTION. Commits ca3fec0 (content) + 5435383 (redesign) + 9e513e5 (go-live) merged to main, GitHub Actions run succeeded, verified live: all new sections 200, /photos/→/postcards/ redirect live, /category/tavel/ redirect live, legacy pagination URLs alive (no-op paginators, size 5), gated album live with robots.txt Disallow /viajes/, dia-museo-israel gated. Zero-404 method: full URL-inventory diff between a build of old main and the new build → 0 missing files before push.
+
 ## Resume Note
 2026-07-02: All 5 prototypes built and verified on branch `redesign/three-sections` (uncommitted at session end — check `git status`). Run `./scripts/preview-designs.sh` and open localhost:1314–1318 to compare: rd1-sketchbook (hand-drawn magazine, closest to current identity), rd2-monograph (literary print/book TOC), rd3-darkroom (photo-first dark), rd4-triptych (three color-coded expanding panels), rd5-index (rywalker-style research-lab dashboard). Content untouched — sections are template filters, so killing a design = deleting its theme dir. Waiting on Luis's pick; see Next for the follow-through list.
