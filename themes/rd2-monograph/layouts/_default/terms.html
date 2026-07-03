@@ -7,6 +7,8 @@
 
 {{ with .Content }}<div class="page-copy">{{ . }}</div>{{ end }}
 
+  {{ partial "search-box.html" . }}
+
 <div class="term-index">
   {{ range .Data.Terms.Alphabetical }}
   <a class="term-chip" href="{{ .Page.RelPermalink }}">{{ .Page.Title }}&nbsp;<span class="term-count">{{ .Count }}</span></a>

@@ -38,5 +38,25 @@
     </p>
     <p class="colophon-note">Set in Fraunces &amp; Newsreader · &copy; {{ now.Year }} Luis Fernandez</p>
   </footer>
+
+  {{ if .Store.Get "hasMermaid" }}
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: "neutral",
+      themeVariables: {
+        fontFamily: "Newsreader, Georgia, serif",
+        primaryColor: "#FBF9F4",
+        primaryTextColor: "#1A1815",
+        primaryBorderColor: "#1A1815",
+        lineColor: "#A4302F",
+        clusterBkg: "#F4F0E6",
+        clusterBorder: "#1A1815",
+        edgeLabelBackground: "#FBF9F4",
+      },
+    });
+  </script>
+  {{ end }}
 </body>
 </html>

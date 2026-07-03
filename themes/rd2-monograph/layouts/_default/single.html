@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ $isPost := eq .Section "posts" }}
 {{ $isPhoto := and $isPost (in (.Params.categories | default slice) "travel") }}
-<article class="single">
+<article class="single"{{ if not .Params.gated }} data-pagefind-body{{ end }}>
   <header class="single-head">
     <h1>{{ .Title }}</h1>
     {{ if $isPost }}

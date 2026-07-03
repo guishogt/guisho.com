@@ -15,6 +15,8 @@
 
   {{ with .Content }}<div class="page-copy">{{ . }}</div>{{ end }}
 
+  {{ partial "search-box.html" . }}
+
   <div class="plate-feed">
     {{ range $plates }}
     {{ $p := .p }}

@@ -8,6 +8,8 @@
 
 {{ with .Content }}<div class="page-copy">{{ . }}</div>{{ end }}
 
+  {{ partial "search-box.html" . }}
+
 <section class="appendices">
   {{ range $i, $doc := $docs }}
   <a class="appendix" href="{{ $doc.RelPermalink }}">

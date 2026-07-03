@@ -1,8 +1,8 @@
-
 ---
-title: "Search" # in any language you want
-layout: "search" # necessary for search
-summary: "Search"
-url: "/search/"
-placeholder: "placeholder text in search input box"
+title: Search
+layout: search
+url: /search/
+description: Full-text search across essays, research, and postcards.
+build:
+  list: never
 ---

@@ -1,0 +1,19 @@
+{{- /* inline Pagefind search box — used on home and all index pages.
+       Hides itself when the pagefind assets are absent (e.g. hugo server dev). */ -}}
+<link rel="stylesheet" href="{{ "pagefind/pagefind-ui.css" | relURL }}">
+<div class="search-wrap search-inline"></div>
+<script src="{{ "pagefind/pagefind-ui.js" | relURL }}"></script>
+<script>
+  window.addEventListener("DOMContentLoaded", function () {
+    var el = document.querySelector(".search-inline");
+    if (typeof PagefindUI === "undefined") { if (el) el.style.display = "none"; return; }
+    new PagefindUI({
+      element: ".search-inline",
+      pageSize: 6,
+      showImages: false,
+      showSubResults: false,
+      autofocus: false,
+      translations: { placeholder: "Search the site…" },
+    });
+  });
+</script>

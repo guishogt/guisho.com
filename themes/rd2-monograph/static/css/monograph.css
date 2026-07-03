@@ -761,6 +761,55 @@ img { max-width: 100%; height: auto; }
   color: var(--fainter);
 }
 
+/* ---------- search (Pagefind UI, monograph-skinned) ---------- */
+.search-inline { margin: 0 auto 2.4rem; }
+.search-wrap {
+  --pagefind-ui-primary: var(--crimson);
+  --pagefind-ui-text: var(--ink);
+  --pagefind-ui-background: var(--paper);
+  --pagefind-ui-border: var(--rule);
+  --pagefind-ui-tag: var(--paper);
+  --pagefind-ui-border-width: 1px;
+  --pagefind-ui-border-radius: 0;
+  --pagefind-ui-font: var(--serif);
+  max-width: 44rem;
+  margin: 0 auto;
+}
+.search-wrap .pagefind-ui__search-input {
+  font-family: var(--serif);
+  font-weight: 400;
+  border: 0.5px solid var(--rule);
+}
+.search-wrap .pagefind-ui__search-input:focus { outline: none; border-color: var(--crimson); }
+.search-wrap .pagefind-ui__result {
+  border-top: 0.5px solid var(--rule);
+  padding: 1.1rem 0;
+}
+.search-wrap .pagefind-ui__result-title { font-family: var(--display); font-weight: 500; }
+.search-wrap .pagefind-ui__result-link { color: var(--ink); }
+.search-wrap .pagefind-ui__result-link:hover { color: var(--crimson); text-decoration: none; }
+.search-wrap .pagefind-ui__result-excerpt { color: var(--faint); font-size: 1rem; line-height: 1.6; }
+.search-wrap .pagefind-ui__result-excerpt mark {
+  background: transparent;
+  color: var(--crimson);
+  font-weight: 600;
+}
+.search-wrap .pagefind-ui__message {
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.18em;
+  font-size: 0.85rem;
+  color: var(--faint);
+}
+.search-wrap .pagefind-ui__button {
+  font-family: var(--serif);
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.18em;
+  border: 0.5px solid var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+}
+.search-wrap .pagefind-ui__button:hover { background: var(--crimson); border-color: var(--crimson); }
+
 /* ---------- hamburger (mobile nav) ---------- */
 .nav-burger {
   display: none;

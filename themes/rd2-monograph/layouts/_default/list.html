@@ -11,6 +11,8 @@
 
 {{ with .Content }}<div class="page-copy">{{ . }}</div>{{ end }}
 
+  {{ partial "search-box.html" . }}
+
 <ol class="toc">
   {{ range .Pages.ByDate.Reverse }}
   <li class="toc-entry">

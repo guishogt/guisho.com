@@ -1,0 +1,34 @@
+{{ define "main" }}
+<article class="archive">
+  <header class="page-head">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-desc">{{ . }}</p>{{ end }}
+  </header>
+
+  <link rel="stylesheet" href="{{ "pagefind/pagefind-ui.css" | relURL }}">
+  <div id="search" class="search-wrap"></div>
+  <noscript><p class="page-desc">Search requires JavaScript.</p></noscript>
+
+  <script src="{{ "pagefind/pagefind-ui.js" | relURL }}"></script>
+  <script>
+    window.addEventListener("DOMContentLoaded", function () {
+      if (typeof PagefindUI === "undefined") {
+        document.getElementById("search").innerHTML =
+          "<p class='page-desc'>Search index not built. Run: <code>npx pagefind --site &lt;build dir&gt;</code></p>";
+        return;
+      }
+      new PagefindUI({
+        element: "#search",
+        pageSize: 10,
+        showImages: false,
+        showSubResults: false,
+        autofocus: true,
+        translations: {
+          placeholder: "Search essays, research, postcards…",
+          zero_results: "Nothing found for “[SEARCH_TERM]”",
+        },
+      });
+    });
+  </script>
+</article>
+{{ end }}

@@ -2,6 +2,9 @@
 {{ $posts := where site.RegularPages "Section" "posts" }}
 {{ $photos := where $posts "Params.categories" "intersect" (slice "travel") }}
 {{ $essays := complement $photos $posts }}
+{{/* research documents flagged show_in_essays appear in both sections */}}
+{{ $cross := where (where site.RegularPages "Section" "research") "Params.show_in_essays" true }}
+{{ $essays = sort (union $essays $cross) "Date" "desc" }}
 <article class="archive">
   <header class="page-head">
     <h1>{{ .Title }}</h1>
@@ -24,6 +27,8 @@
     {{ range . }}<a class="cat-item" href="{{ .page.RelPermalink }}">{{ .page.LinkTitle | humanize }}&nbsp;<span class="cat-count">{{ .count }}</span></a>{{ end }}
   </nav>
   {{ end }}
+
+  {{ partial "search-box.html" . }}
 
   {{ $s := newScratch }}
   {{ $s.Set "n" (add (len $essays) 1) }}

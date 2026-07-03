@@ -4,7 +4,7 @@
 {{ $legacy := .Paginate (where site.RegularPages "Section" "posts") 5 }}
 {{ $posts := where site.RegularPages "Section" "posts" }}
 {{ $photos := where $posts "Params.categories" "intersect" (slice "travel") }}
-{{ $essays := complement $photos $posts }}
+{{ $essays := union (complement $photos $posts) (where (where site.RegularPages "Section" "research") "Params.show_in_essays" true) }}
 {{ $plates := where $photos "Params.cover.image" "!=" nil }}
 {{ $research := where site.RegularPages "Section" "research" }}
 
@@ -51,6 +51,11 @@
       <span class="toc-meta">{{ len site.Taxonomies.tags }} tags</span>
     </li>
   </ol>
+</section>
+
+<section class="tp-section">
+  <h2 class="sc-head">Search</h2>
+  {{ partial "search-box.html" . }}
 </section>
 
 {{ end }}
