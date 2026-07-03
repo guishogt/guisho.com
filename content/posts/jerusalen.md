@@ -15,7 +15,7 @@ categories:
   - travel
 cover:
   alt: IMG_1190
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/12/IMG_1190.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/12/IMG_1190-1600w.jpg
 date: "2017-12-10T22:36:35+00:00"
 guid: https://guisho.com/?p=3124
 parent_post_id: null

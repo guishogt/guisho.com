@@ -18,7 +18,7 @@ categories:
   - travel
 cover:
   alt: DSC05464
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/DSC05464.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/DSC05464-1600w.jpg
 date: "2017-05-06T16:40:26+00:00"
 guid: https://guisho.com/?p=2522
 parent_post_id: null

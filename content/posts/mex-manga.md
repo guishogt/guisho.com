@@ -27,7 +27,7 @@ tags:
 title: Mex, manga
 type: image
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2018/06/jun-8.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2018/06/jun-8-1600w.jpg
 url: /mex-manga/
 ---
 Entrar a esa manga quiere decir que estoy cerca de llegar a casa...

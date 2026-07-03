@@ -15,7 +15,7 @@ categories:
   - travel
 cover:
   alt: Tikal
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/03/tikal.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/03/tikal-1600w.jpg
 date: "2006-08-13T03:53:34+00:00"
 guid: http://guisho.com/?p=885
 parent_post_id: null

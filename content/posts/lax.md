@@ -15,7 +15,7 @@ categories:
   - travel
 cover:
   alt: IMG_0320
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_0320.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_0320-1600w.jpg
 date: "2013-07-06T21:52:36+00:00"
 guid: http://guisho.com/?p=1658
 parent_post_id: null

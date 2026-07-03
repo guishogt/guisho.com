@@ -29,7 +29,7 @@ tags:
 title: Ciudad de México
 type: image
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2018/06/7-jun-cdmx.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2018/06/7-jun-cdmx-1600w.jpg
 url: /ciudad-de-mexico/
 ---
 Me encanta ver a la CDMX cada vez. Media hora antes de aterrizar, ya hay ciudad...una rica vastedad.

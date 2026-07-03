@@ -28,7 +28,7 @@ tags:
 title: Monterrico
 type: image
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2018/07/IMG_3750.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2018/07/IMG_3750-1600w.jpg
 url: /monterrico/
 ---
 Mi mar tropical, negro y vivo.

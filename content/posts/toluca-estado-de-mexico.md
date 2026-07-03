@@ -27,7 +27,7 @@ tags:
 title: Toluca, Estado De México
 type: image
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2018/06/8-jun.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2018/06/8-jun-1600w.jpg
 url: /toluca-estado-de-mexico/
 ---
 El camino de la CDMX a Toluca me encanta. Es un frío muy agradable. Y el tren que se viene en camino será genial. Mucha inversión en infraestructura.

@@ -18,7 +18,7 @@ categories:
   - travel
 cover:
   alt: IMG_4215
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_4215.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_4215-1600w.jpg
 date: "2014-11-04T18:44:55+00:00"
 guid: https://guisho.com/?p=1856
 parent_post_id: null

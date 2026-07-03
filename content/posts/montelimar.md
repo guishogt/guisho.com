@@ -18,7 +18,7 @@ categories:
   - travel
 cover:
   alt: IMG_5398
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_5398.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_5398-1600w.jpg
 date: "2014-12-31T18:57:19+00:00"
 guid: https://guisho.com/?p=1902
 parent_post_id: null

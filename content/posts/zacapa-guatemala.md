@@ -15,7 +15,7 @@ categories:
   - travel
 cover:
   alt: Zacapa Guatemala
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/03/PICT0892.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/03/PICT0892-1600w.jpg
 date: "2007-01-28T04:01:38+00:00"
 guid: http://guisho.com/?p=895
 parent_post_id: null

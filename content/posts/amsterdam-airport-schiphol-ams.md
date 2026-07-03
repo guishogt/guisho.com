@@ -18,7 +18,7 @@ categories:
   - travel
 cover:
   alt: IMG_0080
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0080.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0080-1600w.jpg
 date: "2017-11-06T21:10:47+00:00"
 guid: https://guisho.com/?p=2757
 parent_post_id: null

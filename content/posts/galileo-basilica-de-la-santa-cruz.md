@@ -12,7 +12,7 @@ categories:
   - travel
 cover:
   alt: DSC05542
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/DSC05542.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/DSC05542-1600w.jpg
 date: "2017-05-08T20:41:27+00:00"
 guid: https://guisho.com/?p=2655
 parent_post_id: null

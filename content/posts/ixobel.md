@@ -16,7 +16,7 @@ categories:
   - travel
 cover:
   alt: IMG_2056
-  image: https://guisho-media.s3.amazonaws.com/uploads/2014/04/IMG_2056.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2014/04/IMG_2056-1600w.jpg
 date: "2014-04-19T15:49:28+00:00"
 guid: http://guisho.com/?p=629
 parent_post_id: null

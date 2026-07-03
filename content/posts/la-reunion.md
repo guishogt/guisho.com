@@ -14,7 +14,7 @@ categories:
   - travel
 cover:
   alt: IMG_3521 2
-  image: https://guisho-media.s3.amazonaws.com/uploads/2014/10/IMG_3521-2.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2014/10/IMG_3521-2-1600w.jpg
 date: "2014-10-07T22:50:18+00:00"
 guid: http://guisho.com/?p=692
 parent_post_id: null

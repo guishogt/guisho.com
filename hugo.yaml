@@ -6,6 +6,18 @@ theme: rd2-monograph
 taxonomies:
   category: categories
   tag: tags
+related:
+  threshold: 20
+  includeNewer: true
+  toLower: true
+  indices:
+    - name: tags
+      weight: 100
+    - name: categories
+      weight: 40
+    - name: date
+      weight: 10
+      pattern: "2006"
 permalinks:
   categories: /category/:slug/
   tags: /tag/:slug/

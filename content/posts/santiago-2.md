@@ -19,7 +19,7 @@ categories:
   - travel
 cover:
   alt: IMG_3578
-  image: https://guisho-media.s3.amazonaws.com/uploads/2014/09/IMG_3578.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2014/09/IMG_3578-1600w.jpg
 date: "2014-09-03T20:37:13+00:00"
 guid: http://guisho.com/?p=681
 parent_post_id: null

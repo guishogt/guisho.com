@@ -24,7 +24,7 @@ categories:
   - travel
 cover:
   alt: IMG_0395
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0395.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_0395-1600w.jpg
 date: "2017-11-13T00:16:21+00:00"
 guid: https://guisho.com/?p=2772
 parent_post_id: null

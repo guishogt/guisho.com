@@ -23,7 +23,7 @@ tags:
   - viajeusa
 title: Viaje USA - Día 3 - Domingo 10
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2018/09/IMG_4442-1.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2018/09/IMG_4442-1-1600w.jpg
 url: /viaje-usa-dia-3-domingo-10/
 ---
 Nos levantamos por ahí de las 8. El proceso de arreglar adultos y niños nos tomó algunas horas. Teníamos que salir a las 12.30 para llegar al tren a tiempo.

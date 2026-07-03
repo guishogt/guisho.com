@@ -15,7 +15,7 @@ categories:
   - travel
 cover:
   alt: DSC02357
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/DSC02357.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/DSC02357-1600w.jpg
 date: "2016-02-06T18:42:18+00:00"
 guid: https://guisho.com/?p=2114
 parent_post_id: null

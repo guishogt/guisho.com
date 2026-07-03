@@ -11,6 +11,37 @@
     {{ .Content }}
   </div>
 
+  {{ $related := site.RegularPages.Related . | first 5 }}
+  {{ if lt (len $related) 5 }}
+    {{ $pool := union (where site.RegularPages "Section" "research") (where site.RegularPages "Section" "posts") }}
+    {{ $fill := where (complement $related $pool) "Permalink" "ne" .Permalink | first (sub 5 (len $related)) }}
+    {{ $related = union $related $fill }}
+  {{ end }}
+  {{ with $related }}
+  <aside class="related">
+    <h2 class="related-head">See Also</h2>
+    <ol class="toc">
+      {{ range . }}
+      {{ $r := . }}
+      <li class="toc-entry related-entry">
+        {{ $cover := partial "get-cover.html" $r }}
+        {{ with $cover }}<a class="related-thumb" href="{{ $r.RelPermalink }}" tabindex="-1" aria-hidden="true"><img src="{{ . }}" alt="" loading="lazy"></a>{{ end }}
+        <div class="toc-body">
+          <div class="toc-row">
+            <a class="toc-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <span class="leader"></span>
+            <span class="toc-meta">{{ .Date.Format "Jan 2, 2006" }}{{ if .ReadingTime }} · {{ .ReadingTime }} min{{ end }}</span>
+          </div>
+          {{ with .Summary | plainify | truncate 110 }}
+          <p class="toc-excerpt">{{ . }}</p>
+          {{ end }}
+        </div>
+      </li>
+      {{ end }}
+    </ol>
+  </aside>
+  {{ end }}
+
   <footer class="single-foot">
     {{ with .GetTerms "tags" }}
     <p>Tagged {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ $t.RelPermalink }}">{{ $t.LinkTitle }}</a>{{ end }}</p>

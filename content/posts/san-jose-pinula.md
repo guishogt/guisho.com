@@ -15,7 +15,7 @@ categories:
   - travel
 cover:
   alt: IMG_3237
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_3237.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_3237-1600w.jpg
 date: "2017-09-17T17:46:33+00:00"
 guid: https://guisho.com/?p=1749
 parent_post_id: null

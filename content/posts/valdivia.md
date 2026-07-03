@@ -33,7 +33,7 @@ tags:
   - rio
 title: Valdivia
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2020/02/22novValdivia.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2020/02/22novValdivia-1600w.jpg
 url: /valdivia/
 ---
 ![](https://guisho-media.s3.amazonaws.com/uploads/2020/02/22-nov-valdivia.jpg)![](https://guisho-media.s3.amazonaws.com/uploads/2020/02/universidadAustral.jpg)

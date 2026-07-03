@@ -18,7 +18,7 @@ categories:
   - travel
 cover:
   alt: IMG_3731
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_3731.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_3731-1600w.jpg
 date: "2013-09-13T17:04:50+00:00"
 guid: http://guisho.com/?p=1698
 parent_post_id: null

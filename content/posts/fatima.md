@@ -12,7 +12,7 @@ categories:
   - travel
 cover:
   alt: IMG_3528
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3528-1.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/IMG_3528-1-1600w.jpg
 date: "2016-11-09T21:02:20+00:00"
 guid: https://guisho.com/?p=2359
 parent_post_id: null

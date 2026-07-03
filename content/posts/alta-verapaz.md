@@ -18,7 +18,7 @@ categories:
   - travel
 cover:
   alt: IMG_4182
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_4182.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/10/IMG_4182-1600w.jpg
 date: "2015-10-27T21:35:04+00:00"
 guid: https://guisho.com/?p=2032
 parent_post_id: null

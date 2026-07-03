@@ -12,7 +12,7 @@ categories:
   - travel
 cover:
   alt: DSC_8399
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/09/DSC_8399.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/09/DSC_8399-1600w.jpg
 date: "2013-12-31T17:24:42+00:00"
 guid: http://guisho.com/?p=1738
 parent_post_id: null

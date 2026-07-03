@@ -12,7 +12,7 @@ categories:
   - travel
 cover:
   alt: IMG_0322
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_0322.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/09/IMG_0322-1600w.jpg
 date: "2013-07-07T21:53:56+00:00"
 guid: http://guisho.com/?p=1661
 parent_post_id: null

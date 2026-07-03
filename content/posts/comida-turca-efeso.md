@@ -15,7 +15,7 @@ categories:
   - travel
 cover:
   alt: DSC03126
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/DSC03126.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/DSC03126-1600w.jpg
 date: "2016-03-27T19:55:10+00:00"
 guid: https://guisho.com/?p=2181
 parent_post_id: null

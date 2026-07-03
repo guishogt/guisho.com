@@ -29,7 +29,7 @@ tags:
 title: Pinos
 type: image
 cover:
-  image: https://guisho-media.s3.amazonaws.com/uploads/2018/06/26-may.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2018/06/26-may-1600w.jpg
 url: /pinos/
 ---
 Comienzan los cielos nublados de invierno, las tardes de lluvia y frío, y los pinos se llenan de piñas. Me encanta el gris y verde de esta época.

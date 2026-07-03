@@ -12,7 +12,7 @@ categories:
   - travel
 cover:
   alt: DSC03036
-  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/DSC03036.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2017/11/DSC03036-1600w.jpg
 date: "2016-03-28T19:55:09+00:00"
 guid: https://guisho.com/?p=2180
 parent_post_id: null
