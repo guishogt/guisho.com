@@ -1,4 +1,8 @@
 {{ define "main" }}
+{{/* legacy-URL preservation: old theme paginated these lists at /page/N/ —
+     keep those URLs alive (200). Size 5 over-generates vs the old size 10,
+     covering lists that shrank when posts were recategorized. */}}
+{{ $legacy := .Paginate .Pages 5 }}
 <header class="page-head">
   <h1>{{ .Title }}</h1>
   {{ with .Description }}<p class="page-desc">{{ . }}</p>{{ end }}

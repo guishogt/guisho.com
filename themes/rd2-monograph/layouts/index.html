@@ -1,4 +1,7 @@
 {{ define "main" }}
+{{/* legacy-URL preservation: the old theme paginated the home list at /page/N/.
+     This no-op paginator keeps those indexed URLs alive (200) after the redesign. */}}
+{{ $legacy := .Paginate (where site.RegularPages "Section" "posts") 5 }}
 {{ $posts := where site.RegularPages "Section" "posts" }}
 {{ $photos := where $posts "Params.categories" "intersect" (slice "travel") }}
 {{ $essays := complement $photos $posts }}

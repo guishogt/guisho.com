@@ -2,7 +2,7 @@ baseURL: https://guisho.com
 relativeURLs: true
 languageCode: en-US
 title: Guisho.com - Luis Fernandez
-theme: guisho-blog
+theme: rd2-monograph
 taxonomies:
   category: categories
   tag: tags
