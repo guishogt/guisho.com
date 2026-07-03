@@ -1,4 +1,6 @@
 ---
+tags:
+  - israel
 _edit_last: "2"
 _jetpack_related_posts_cache:
   8f6677c9d6b0f903e98ad32ec61f8deb:
@@ -76,7 +78,11 @@ La ciudad vieja es una cofre muy pequeño que  contiene muchos tesoros. Demasia
 
 https://photos.app.goo.gl/aTFxCXo9nfL6TiGy2
 
-Del sector armenio avanzamos al sector judío. Nuestro guía nos ofreció un bagel con yerbas de zarat. El ofrecimiento simbólico del pan de bienvenida para un nuevo visitante. A pocos pasos pudimos admirar una menora de oro macizo. Sí, como lo escuchan, un candelabro impresionante, de la altura de una persona, de puro oro. ¡Cuánto pesará¡ Más que una réplica es una reproducción de la menora que estababa en el Tempo de Salomón cuando fue destruido por los romanos, encabezados por Tito, en el año 70. Se llevaron el candelabro y así lo proclaman en el arco del triunfo que fue levantado a la par del Coliseo romano. Los creyentes judíos esperan que este candelabro sea instalado en el nuevo templo de Jerusalem que habrá de edificarse para preparar la venido del Mesías.
+Del sector armenio avanzamos al sector judío. Nuestro guía nos ofreció un bagel con yerbas de zarat. El ofrecimiento simbólico del pan de bienvenida para un nuevo visitante.
+
+A pocos pasos pudimos admirar una menora de oro macizo. Sí, como lo escuchan, un candelabro impresionante, de la altura de una persona, de puro oro. ¡Cuánto pesará¡
+
+Más que una réplica es una reproducción de la menora que estababa en el Tempo de Salomón cuando fue destruido por los romanos, encabezados por Tito, en el año 70. Se llevaron el candelabro y así lo proclaman en el arco del triunfo que fue levantado a la par del Coliseo romano. Los creyentes judíos esperan que este candelabro sea instalado en el nuevo templo de Jerusalem que habrá de edificarse para preparar la venido del Mesías.
 
 https://photos.app.goo.gl/DzeeAkGWxvMtDy0B3
 
@@ -90,7 +96,11 @@ https://photos.app.goo.gl/rdrqY1MVLI4bQzMq2
 
 La relevancia de este punto empezó cuando el patriarca Abraham se dispuso a sacrificar --sí, a matar--, a su hijo Isaac en lo alto de este monte, llamado Moriá, para patentar su fidelidad y obediencia al  Dios altísimo. Esto sucedió hace unos 4 mil años, unos 2 mil antes de Cristo. Unos mil años después, cerca del 900 AC, David decidió construir la capital de los judíos en este lugar ¨neutral¨ para evitar disputas entre las 12 tribus de Israel. Desde entonces ha sido la capital y centro del judaísmo.
 
-Tras bajar las gradas (todo es un sube y baja) llegamos a la explanada. Aquí, lamentablemente, nos tuvimos que separar los hombres y las mujeres, los primeros a la izquierda y las segundas a la derecha. Sobra decir que el espacio de los hombres es más amplio. En todo caso se accede al muro, lo que queda del muro externo del templo de Herodes. Un espacio de 80 metros de un largo original de 480 metros. Apenas una pequeña porción. Pero al menos es algo para poder apreciar lo grandioso del templo original.   Entramos los hombres, incluyendo ¡por supuesto¡ a Luis Lorenzo; iba con su padre y su abuelo. Buscamos resquicios entre las rocas para introducir las peticiones, las cartas, al Altísimo. Muy difícil porque no queda espacio libre entre los monumentales bloques. Están llenos de papelitos, a saber qué peticiones y en qué idiomas.
+Tras bajar las gradas (todo es un sube y baja) llegamos a la explanada. Aquí, lamentablemente, nos tuvimos que separar los hombres y las mujeres, los primeros a la izquierda y las segundas a la derecha. Sobra decir que el espacio de los hombres es más amplio.
+
+En todo caso se accede al muro, lo que queda del muro externo del templo de Herodes. Un espacio de 80 metros de un largo original de 480 metros. Apenas una pequeña porción. Pero al menos es algo para poder apreciar lo grandioso del templo original.
+
+Entramos los hombres, incluyendo ¡por supuesto¡ a Luis Lorenzo; iba con su padre y su abuelo. Buscamos resquicios entre las rocas para introducir las peticiones, las cartas, al Altísimo. Muy difícil porque no queda espacio libre entre los monumentales bloques. Están llenos de papelitos, a saber qué peticiones y en qué idiomas.
 
 https://photos.app.goo.gl/zmT2iFXL4WiWampT2
 
@@ -98,7 +108,11 @@ https://photos.app.goo.gl/RPOoiqGcfLiJLITD2
 
 https://photos.app.goo.gl/vHjsxUa03nl8MaCy1
 
-Después seguimos subiendo gradas hacia el sector cristiano pasando por el sector musulmán. Ya nos había advertido nuestro guía de la diferencia. Poco después entroncamos con la ¨Vía Dolorosa¨. Llegamos a la quinta estación. A pocos pasos estaba la estación de la Verónica, esto es la verdadera imagen o ¨vera¨ (verdadera) ¨iconos¨(imagen). Al final llegamos a una plazoleta donde se accedía al templo del Santo Sepulcro.  Es aquí un lugar de muchos encuentros. Por una parte están, bajo el mismo templo el lugar de la crucifixión, el sitio donde Jesús el cuerpo de Cristo fue colocado para su preparación y, sobre todo, el lugar de la Resurrección. Por otro lado convergen aquí los religiosos de muy diversas denominaciones: coptos, armenios, ortodoxos, católicos, jacobitas. Cabe señalar que no siempre sus relaciones son armoniosas. A veces se ¨echan penca¨ a pesar de su declarada mansedumbre. Son también buenos para las artes marciales.
+Después seguimos subiendo gradas hacia el sector cristiano pasando por el sector musulmán. Ya nos había advertido nuestro guía de la diferencia. Poco después entroncamos con la ¨Vía Dolorosa¨. Llegamos a la quinta estación. A pocos pasos estaba la estación de la Verónica, esto es la verdadera imagen o ¨vera¨ (verdadera) ¨iconos¨(imagen).
+
+Al final llegamos a una plazoleta donde se accedía al templo del Santo Sepulcro.  Es aquí un lugar de muchos encuentros. Por una parte están, bajo el mismo templo el lugar de la crucifixión, el sitio donde Jesús el cuerpo de Cristo fue colocado para su preparación y, sobre todo, el lugar de la Resurrección.
+
+Por otro lado convergen aquí los religiosos de muy diversas denominaciones: coptos, armenios, ortodoxos, católicos, jacobitas. Cabe señalar que no siempre sus relaciones son armoniosas. A veces se ¨echan penca¨ a pesar de su declarada mansedumbre. Son también buenos para las artes marciales.
 
 https://photos.app.goo.gl/WrdFC3mRqTj8zqt42
 

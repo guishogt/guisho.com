@@ -24,6 +24,7 @@ views: "998"
 
 ---
 Finally, after long months thinking about it I come up with my online blog. Initially I wanted it to be hosted at home, but I decided for a hosting solution. A lot of reasons drove to this resolution, but I'm happy with it. I am in the middle of a lot of internal changes in my life, and my blog is a must do. This is a little beginning, I don't have time to write a lot, but something is something.
+
 Ahora un poco en mi lengua materna. Estoy feliz con mi blog. Me queda mucho por aprender sobre WordPress, aunque ya tuve una instalación de él en mi máquina hace algunos meses. Un poco de paciencia hará falta para que pueda ponerle todas las cosas que deseo. Si alguien tiene alguna idea, o algo que se le ocurra que pueda agregar, pues bienvenido.
 
 ...

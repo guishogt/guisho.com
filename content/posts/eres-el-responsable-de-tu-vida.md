@@ -46,8 +46,14 @@ Una de las realizaciones más importantes de un ser humano, el punto de inflexi�
 
 Por nuestra propia naturaleza, los seres humanos crecemos dependiendo de alguien. Cuando nacemos, y durante nuestos primeros años, somos totalmente dependientes. Dependemos al 100% de otras personas para sobrevivir. Conforme el tiempo pasa nos comenzamos a volver más independientes, pero en nuestro foro interno, aprendimos desde muy pequeños a depender de los demás. Este comportamiento, necesario al inicio, en un momento debe reemplazarse con uno nuevo: el ser independientes: depender de nosotros mismos.
 
-El aceptar la responsabilidad de nuestras vidas es un elemento clave, un momento clave en nuestro desarrollo. Y es una decisión dificil. Cuando tomamos esta decisión nos quitamos la posibilidad de culpar a otros por nuestras situaciones. Si las cosas salen -o no salen- es ahora gracias a nosotros. Nadie es más es responsable por nuestras vidas, sólo nosotros. Esta verdad se cumple sea que nos demos cuenta o no. Por ello si lo aceptamos tenemos una gran ventaja.
+El aceptar la responsabilidad de nuestras vidas es un elemento clave, un momento clave en nuestro desarrollo. Y es una decisión dificil. Cuando tomamos esta decisión nos quitamos la posibilidad de culpar a otros por nuestras situaciones. Si las cosas salen -o no salen- es ahora gracias a nosotros.
 
-El enfoque de ser dueños de nuestras vidas, arquitectos de lo bueno o malo, produce un cambio radical en nuestra vida. Conlleva un nuevo paradigma, unos nuevos lentes desde lo cual veremos la vida. Y cómo vemos la vida es cómo la vivimos, y cómo la vivimos es cómo la vemos. Por ello la filosofía es tan imporante para todos. Está en nuestra naturaleza elegir una filosofía de vida, y el no elegir una es también una elección. ¿Quieres ser el arquitecto de tu vida, o quieres ser el fruto de la arquitectura de otros? Esas son las únicas dos opciones. Como dice el dicho, hay dos tipos de personas: las que viven como piensan, o las que piensan como viven. Intenta ser siempre estar en la primera categoría.
+Nadie es más es responsable por nuestras vidas, sólo nosotros. Esta verdad se cumple sea que nos demos cuenta o no. Por ello si lo aceptamos tenemos una gran ventaja.
+
+El enfoque de ser dueños de nuestras vidas, arquitectos de lo bueno o malo, produce un cambio radical en nuestra vida. Conlleva un nuevo paradigma, unos nuevos lentes desde lo cual veremos la vida. Y cómo vemos la vida es cómo la vivimos, y cómo la vivimos es cómo la vemos.
+
+Por ello la filosofía es tan imporante para todos. Está en nuestra naturaleza elegir una filosofía de vida, y el no elegir una es también una elección.
+
+¿Quieres ser el arquitecto de tu vida, o quieres ser el fruto de la arquitectura de otros? Esas son las únicas dos opciones. Como dice el dicho, hay dos tipos de personas: las que viven como piensan, o las que piensan como viven. Intenta ser siempre estar en la primera categoría.
 
 Este cambio de paradigma puede ser una epifanía repentina, o puede ser un largo proceso. Para la mayoría es lo segundo, y es complejo, y es duro. Pero vale la pena. Comienza a revisarte, y preguntate ¿soy responsable de mi vida? ¿Me he dado cuenta de ello ya? ¿Actúo coherentemente con esta realidad?

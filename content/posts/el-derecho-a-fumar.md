@@ -23,9 +23,15 @@ url: /el-derecho-a-fumar/
 views: "3171"
 
 ---
-Las personas tienen el derecho de fumar, y tienen el derecho de no hacerlo. Ambos derechos deben ser igualmente respetados, y ambos son igual de sagrados.. Si una persona detesta el cigarro hará lo posible por ir a establecimientos en los que existan áreas de no fumar, o en los cuales no se puede fumar en ningún lado. Por el otro lado aquellos que gozan del vicio buscarán establecimientos en los que se permita fumar. Los dueños de los establecimientos harán sus cuentas y en base a sus preferencias o cualquier otra cosa, decidirán si definen áreas de fumadores o no. Están en todo su derecho de declarar su establecimiento libre de tabaco o de declararlo una cueva de humo. Nadie ha de impedirle cualquiera de ambos derechos.....si el establecimiento les pertenece. 
+Las personas tienen el derecho de fumar, y tienen el derecho de no hacerlo. Ambos derechos deben ser igualmente respetados, y ambos son igual de sagrados..
 
-No pongo en duda la toxicidad del cigarro. No argumento que el humo de segunda mano perjudican a aquellos que lo fuman. No argumento que el cigarro sea un vicio beneficioso. Lo que digo es que tengo el derecho a hacerlo si me da la gana: si compro los cigarros con mi dinero y lo fumo en mí cuerpo, tengo el derecho de hacerlo. Nadie puede vedarlo, no importando que sus intenciones sean buenas. Ok, en los sitios del estado que no se permita fumar, pero en los privados, ¿¿por qué no?? No ese esta una decisión del estado!!!
+Si una persona detesta el cigarro hará lo posible por ir a establecimientos en los que existan áreas de no fumar, o en los cuales no se puede fumar en ningún lado. Por el otro lado aquellos que gozan del vicio buscarán establecimientos en los que se permita fumar. Los dueños de los establecimientos harán sus cuentas y en base a sus preferencias o cualquier otra cosa, decidirán si definen áreas de fumadores o no.
+
+Están en todo su derecho de declarar su establecimiento libre de tabaco o de declararlo una cueva de humo. Nadie ha de impedirle cualquiera de ambos derechos.....si el establecimiento les pertenece. 
+
+No pongo en duda la toxicidad del cigarro. No argumento que el humo de segunda mano perjudican a aquellos que lo fuman. No argumento que el cigarro sea un vicio beneficioso.
+
+Lo que digo es que tengo el derecho a hacerlo si me da la gana: si compro los cigarros con mi dinero y lo fumo en mí cuerpo, tengo el derecho de hacerlo. Nadie puede vedarlo, no importando que sus intenciones sean buenas. Ok, en los sitios del estado que no se permita fumar, pero en los privados, ¿¿por qué no?? No ese esta una decisión del estado!!!
 
 Si yo tengo un restaurante, un bar, un cine, un estadio, un teatro, una oficina o lo que sea, y me pertenece, yo puedo hacer en ese lugar lo que yo quiera. Si quiero vender panes con pasteles de colas de gato, puedo hacerlo. Si quiero permitir que las personas lleguen en traje formal, puedo hacerlo; si quiero que todos lleguen en pijamas, puedo hacerlo; si quiero que todos los que lleguen sean judíos, o mormones, o católicos, o evangélicos, puedo hacerlo; si quiero que los que entren sean sólo aficionados rojos, puedo hacerlo; si quiero que lleguen sólo mujeres, puedo hacerlo....si quiero que fumen, puedo hacerlo.
 

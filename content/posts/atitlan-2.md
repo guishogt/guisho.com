@@ -28,8 +28,6 @@ tags:
   - atitlan
   - guatemala
 title: Atitlán
-cover:
-  image: blob:/40443240-cc69-4e11-b881-32977734866a
 url: /atitlan-2/
 ---
 Por donde se lo quiera ver, espectacular

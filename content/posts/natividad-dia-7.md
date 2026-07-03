@@ -1,4 +1,6 @@
 ---
+tags:
+  - israel
 _edit_last: "2"
 _jetpack_related_posts_cache:
   37550b67d263a3ce789993dc25046c5f:
@@ -74,11 +76,15 @@ type: image
 url: /natividad-dia-7/
 
 ---
-Hoy día martes, 12 de diciembre, dia de la Virgencita de Guadalupe, fue un día muy especial y plagado de emociones. Por un lado, era la operación de la Bity que nos tenía preocupados, pero ya nos dijeron que salió todo bien; y por otro fue nuestra visita a Belen.Temprano salimos con nuestro guia Zvi y como Belen aunque cerca de Jerusalen, no esá en Israel sino en territorio Palestino hubimos de cambiar de guia y de auto al llegar a un punto determinado. El lugar esta muy cerca de Jerusalen pero con el tráfico es un poco engorroso el trayecto, y eso que no sabíamos del caótico tránsito del propio Belen¡ terrible atorazones por todo lados...pero bueno a lo que importa.
+Hoy día martes, 12 de diciembre, dia de la Virgencita de Guadalupe, fue un día muy especial y plagado de emociones. Por un lado, era la operación de la Bity que nos tenía preocupados, pero ya nos dijeron que salió todo bien; y por otro fue nuestra visita a Belen.Temprano salimos con nuestro guia Zvi y como Belen aunque cerca de Jerusalen, no esá en Israel sino en territorio Palestino hubimos de cambiar de guia y de auto al llegar a un punto determinado.
+
+El lugar esta muy cerca de Jerusalen pero con el tráfico es un poco engorroso el trayecto, y eso que no sabíamos del caótico tránsito del propio Belen¡ terrible atorazones por todo lados...pero bueno a lo que importa.
 
 https://photos.app.goo.gl/sUqQOmzdOytfwUSE3
 
-Visitamos primero la Gruta de la Leche donde la historia cuenta que se refugiaron Jose, Maria Y el Niñito  Jesus cuando enterados de la persecución de Herodes se vieron obligados huir a Egipto. Se cuenta que en ese lugar la Virgen amamantó a su hijo y una gotas de leche cayeron al suelo y por eso toda la cueva se volvio blanca. La imagen de la Virgen amamantando es muy  linda y en la entrada hay una preciosa imagen de la sagrada Familia en tamaño natural. La tuvimos casis para nosotros solo unos momentos. La Pichis se dio un coscorrón de historia.
+Visitamos primero la Gruta de la Leche donde la historia cuenta que se refugiaron Jose, Maria Y el Niñito  Jesus cuando enterados de la persecución de Herodes se vieron obligados huir a Egipto. Se cuenta que en ese lugar la Virgen amamantó a su hijo y una gotas de leche cayeron al suelo y por eso toda la cueva se volvio blanca.
+
+La imagen de la Virgen amamantando es muy  linda y en la entrada hay una preciosa imagen de la sagrada Familia en tamaño natural. La tuvimos casis para nosotros solo unos momentos. La Pichis se dio un coscorrón de historia.
 
 https://photos.app.goo.gl/qObsUJqx5TU4APMH3
 
@@ -86,7 +92,11 @@ https://photos.app.goo.gl/RoLHoccc2PAoBPep1
 
 https://photos.app.goo.gl/HYeIP4WyvPyqGqKr1
 
-Luego fuimos a la Basilica de la Natividad que fue mandada construir por santa Elena sobre el Portal de Belen. La estan remozando y limpiando sus famosos mosaicos y columnas hechas de marmol amarillo, eran menos  pero Justiniano la amplió; y ahora tiene cincuenta. Es preciosa y la cuidan los católicos ortodoxos. El guia nos apresuraba, apúrense, apurénse… porque,, pues porque en esos momentos no había muchas gente y quería que la gozaramos casi solos. Para entrar a la gruta hay que bajar un graderio bastante empinado y luego pasar por una estrecha una y estrecha puerta que los cruzados hicieron así para que nadie pudiera entrar en ella a caballos. Muy emocionados y felices con Maria Belén de llegar allí… pero nada nos   había preparado para la emoción que se siente al entrar en el lugar donde documentos fehacientes muestra que Nació Jesus, hay en el suelo una estrella que señala el lugar y deveras el corazón se le encoje y luego se expande lleno de sentimientos que no se pueden describir, los ojos se llenan de lágrimas y el alma de felicidad.
+Luego fuimos a la Basilica de la Natividad que fue mandada construir por santa Elena sobre el Portal de Belen. La estan remozando y limpiando sus famosos mosaicos y columnas hechas de marmol amarillo, eran menos  pero Justiniano la amplió; y ahora tiene cincuenta. Es preciosa y la cuidan los católicos ortodoxos.
+
+El guia nos apresuraba, apúrense, apurénse… porque,, pues porque en esos momentos no había muchas gente y quería que la gozaramos casi solos. Para entrar a la gruta hay que bajar un graderio bastante empinado y luego pasar por una estrecha una y estrecha puerta que los cruzados hicieron así para que nadie pudiera entrar en ella a caballos.
+
+Muy emocionados y felices con Maria Belén de llegar allí… pero nada nos   había preparado para la emoción que se siente al entrar en el lugar donde documentos fehacientes muestra que Nació Jesus, hay en el suelo una estrella que señala el lugar y deveras el corazón se le encoje y luego se expande lleno de sentimientos que no se pueden describir, los ojos se llenan de lágrimas y el alma de felicidad.
 
 https://photos.app.goo.gl/2ai1Qpp4cvc2j93M2
 
@@ -104,10 +114,14 @@ Se pasa a otra cueva que es donde san Jerónimo se recluyó durante  treinta y 
 
 https://photos.app.goo.gl/rNuxY4T4WV5qaLej1
 
-Fuimos a una cooperativa de trabajos de madera donde hay imágenes de madera de olivo lindísimas, vimos, y alguna cosita compramos. Después de luchas con el tráfico y con la manera terrible manejar todos los palestinos regresamos a territorio israelí y a Jerusalen. Tomamos camino a Jericó (no fuimos porque es peligroso) pero fuimos al lugar del río Jordán en el cual Juan bautizó a Jesus. Un lugar especial del río que poco a poco ha ido perdiendo su caudal pero no su trascendencia religiosa. Ahí se manifestó la Santísima Trinidad por vez primera.
+Fuimos a una cooperativa de trabajos de madera donde hay imágenes de madera de olivo lindísimas, vimos, y alguna cosita compramos. Después de luchas con el tráfico y con la manera terrible manejar todos los palestinos regresamos a territorio israelí y a Jerusalen.
+
+Tomamos camino a Jericó (no fuimos porque es peligroso) pero fuimos al lugar del río Jordán en el cual Juan bautizó a Jesus. Un lugar especial del río que poco a poco ha ido perdiendo su caudal pero no su trascendencia religiosa. Ahí se manifestó la Santísima Trinidad por vez primera.
 
 https://photos.app.goo.gl/udqhvIb954Dkn7y02
 
 https://photos.app.goo.gl/SPTHUCJ0HEub888s1
 
-Ya cansados y cargados de sentimiento regresamos a casa. Algo de descanso y  a buscar donde comer, subimos al mercado de Yehuda, un deleite de verduras frutas enormes, fresas, manzanas, mandarinas , dátiles, aceitunas. Terminamos comiendo en un restaurante a una cuadra de la casa. Resulta debe recordar que solo habíamos desayunado y entonces nuestra comida de la cinco de la tarde es almuerzo y cena.De postre en casa deliciosas mandarinas y baclavás variadas y super dulces y mielosas.Recibimos noticias que Bity salio bien de la operación y con eso creo que ya descansaremos tranquilos. Aunque debo confesar que cuesta conciliar el sueño  teniendo tantas imágenes bellas en la mente y en alma.
+Ya cansados y cargados de sentimiento regresamos a casa. Algo de descanso y  a buscar donde comer, subimos al mercado de Yehuda, un deleite de verduras frutas enormes, fresas, manzanas, mandarinas , dátiles, aceitunas. Terminamos comiendo en un restaurante a una cuadra de la casa.
+
+Resulta debe recordar que solo habíamos desayunado y entonces nuestra comida de la cinco de la tarde es almuerzo y cena.De postre en casa deliciosas mandarinas y baclavás variadas y super dulces y mielosas.Recibimos noticias que Bity salio bien de la operación y con eso creo que ya descansaremos tranquilos. Aunque debo confesar que cuesta conciliar el sueño  teniendo tantas imágenes bellas en la mente y en alma.

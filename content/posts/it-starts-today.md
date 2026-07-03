@@ -34,19 +34,27 @@ url: /it-starts-today/
 views: "892"
 ---
 Yes. It starts today.
+
 Yes, it starts today. Right now the referee just whistled, the road just started,
-the plane started taking off, the light is now illuminating the vulcano. The time for strategy,
+the plane started taking off, the light is now illuminating the vulcano.
+
+The time for strategy,
 the time for planning, the time for thinking is over. All the strategies, ideas, feelings that
 grew up inside of me in the last months have now to become a reality. It is time for the fight.
-The big one. A lot of effort is in front of me. I have to build now the bridge between dreams
+The big one.
+
+A lot of effort is in front of me. I have to build now the bridge between dreams
 and reality. It is time to become something more.
 
  No excuses are admitted. Not a drop of effort has to be saved; everything has to
 be invested in the fight. No middle points: everything or nothing. No fear to be defeated,
-no thoughts different than winning. Hope, a lot of hope. Future is mine and I'm starting
+no thoughts different than winning. Hope, a lot of hope.
+
+Future is mine and I'm starting
 to build it. Every action with my dream in my head. Every thought, every feeling. No distractions
 are allowed. This is my field and here is where I'm going to fight. Until I win, I can get out
 of this match.
+
  Give out everything. Every bit of me will be invested in this expedition. I choose it,
 and that makes me responsible for it. As the little Prince said, I'm responsible for my rose. I have
 to grow it, to take care. And my greatest rose right now is this illusion, this dream. This is my

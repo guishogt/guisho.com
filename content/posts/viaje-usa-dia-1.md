@@ -16,7 +16,7 @@ _wpas_done_all: "1"
 _wpcom_is_markdown: "1"
 author: guisho
 categories:
-  - p
+  - travel
 date: "2018-09-08T13:45:05+00:00"
 guid: https://guisho.com/?p=3521
 parent_post_id: null

@@ -65,11 +65,17 @@ Más específicamente de auto-disciplina. Pienso que al antónimo del trabajo du
 
 ## El "trabajo duro" debe tener un objetivo claro.
 
-Todos pueden de vez en cuando "trabajar duro" pero las personas que logran grandes cosas tienen la habilidad de ponerse una meta, estipular un plan para lograrla, y lo que está entre la situación inicial y la meta final es lo que llamamos "trabajo duro". Alguien puede tener como meta sacar una carrera. Para lograr esa meta crea un plan. Pero para lograr la meta tendrá que seguir su plan, y para ello tendrá que sacrificar muchos pequeños placeres. Pero al final logrará una satisfacción muy alta. Del mismo modo alguien puede ponerse una meta más pequeña, leer un libro, y para lograrla también tendrá que esforzarse durante un tiempo. La diferencia es el calibre de la meta. Cualquiera puede ponerse una meta grande, pero la habilidad de cumplir metas es una habilidad que se aprende, que se cultiva, que se madura.
+Todos pueden de vez en cuando "trabajar duro" pero las personas que logran grandes cosas tienen la habilidad de ponerse una meta, estipular un plan para lograrla, y lo que está entre la situación inicial y la meta final es lo que llamamos "trabajo duro". Alguien puede tener como meta sacar una carrera. Para lograr esa meta crea un plan. Pero para lograr la meta tendrá que seguir su plan, y para ello tendrá que sacrificar muchos pequeños placeres. Pero al final logrará una satisfacción muy alta.
+
+Del mismo modo alguien puede ponerse una meta más pequeña, leer un libro, y para lograrla también tendrá que esforzarse durante un tiempo. La diferencia es el calibre de la meta. Cualquiera puede ponerse una meta grande, pero la habilidad de cumplir metas es una habilidad que se aprende, que se cultiva, que se madura.
 
 ## El "trabajo duro" involucra mucho enfoque.
 
-Para lograr el objetivo, o la meta, por la cual se está trabajando, es necesario tenerla siempre presente. Pero nuestra mente no puede manejar muchas cosas al mismo tiempo, por eso para ser efectivo en la búsqueda de algo, es necesario que nuestra mete esté enfocada. Y para esto es necesario concentrase, enfocarse. Sin embargo la atención es un recurso limitado, por eso es tan fácil distraerse. Y para no distraerse hay que tener la disciplina de trajabar durante ciertos períodos de tiempo en una sola cosa, sin aceptar distracciones. Si alguien se propone avanzar en su reporte mensual, debe proponerse trabajar por lo menos treinta minutos en él, y en nada más que esto. Es la diferencia entre las personas que trabajan efectivamente y las que no: alguien sujeto a muchas distracciones puede terminar el reporte en 10 horas, y alguien que se dedica exclusivamente en el reporte puede sacar la tarea en tan sólo dos.
+Para lograr el objetivo, o la meta, por la cual se está trabajando, es necesario tenerla siempre presente. Pero nuestra mente no puede manejar muchas cosas al mismo tiempo, por eso para ser efectivo en la búsqueda de algo, es necesario que nuestra mete esté enfocada. Y para esto es necesario concentrase, enfocarse.
+
+Sin embargo la atención es un recurso limitado, por eso es tan fácil distraerse. Y para no distraerse hay que tener la disciplina de trajabar durante ciertos períodos de tiempo en una sola cosa, sin aceptar distracciones.
+
+Si alguien se propone avanzar en su reporte mensual, debe proponerse trabajar por lo menos treinta minutos en él, y en nada más que esto. Es la diferencia entre las personas que trabajan efectivamente y las que no: alguien sujeto a muchas distracciones puede terminar el reporte en 10 horas, y alguien que se dedica exclusivamente en el reporte puede sacar la tarea en tan sólo dos.
 
 ## El "trabajo duro" y las distracciones.
 
@@ -77,7 +83,11 @@ Quiero hacer énfasis en el papel de las distracciones en el trabajo duro. Las d
 
 ## El "trabajo duro" es dificil.
 
-La mejor analogía es el ejercicio. Si ustedes no han ido al gimnasio por mucho tiempo y de pronto quieren correr dos horas seguidas en una banda, se cansarán muy rápido, y con fuerza cada vez mayor querrán detenerse. Lo mismo con el "trabajo duro". De hecho correr dos horas es "trabajo duro". Por eso los grandes atletas son pocos. Tener el caracter y la disciplina de trabajar ininterrumpidamente en una tarea, especialmente si la tarea no es sencilla, es algo difícil, muy difícil. Eso no quiere decir que no sea agradable. Las personas que comenzaron corriendo 20 minutos al día, luego 30, luego 40 y así hasta llegar a dos horas, encuentran agradable correr. Alguien que nunca lo ha hecho pensará "ellos tienen algo especial". Claro que lo tienen! Pero cualquiera puede obtener ese "algo especial" si se lo propone, y si empieza a correr.
+La mejor analogía es el ejercicio. Si ustedes no han ido al gimnasio por mucho tiempo y de pronto quieren correr dos horas seguidas en una banda, se cansarán muy rápido, y con fuerza cada vez mayor querrán detenerse. Lo mismo con el "trabajo duro". De hecho correr dos horas es "trabajo duro". Por eso los grandes atletas son pocos.
+
+Tener el caracter y la disciplina de trabajar ininterrumpidamente en una tarea, especialmente si la tarea no es sencilla, es algo difícil, muy difícil. Eso no quiere decir que no sea agradable.
+
+Las personas que comenzaron corriendo 20 minutos al día, luego 30, luego 40 y así hasta llegar a dos horas, encuentran agradable correr. Alguien que nunca lo ha hecho pensará "ellos tienen algo especial". Claro que lo tienen! Pero cualquiera puede obtener ese "algo especial" si se lo propone, y si empieza a correr.
 
 ## El "trabajo duro" es mejora contínua, es persistencia.
 
@@ -103,4 +113,6 @@ No importa cuál sea tu trabajo, si "trabajas duro" te irá bien. A veces las ci
 
 Aunque se habla mucho de la importancia del trabajo, del trabajo efectivo, del trabajo duro, el camino de trabajar bien lo toman muy pocos. Y esos pocos son los que hacen diferencia. Ojalá cada vez más y más personas trabajemos duro, pero por ahora la buena noticia para los que quieren comenzar a hacerlo es que serán parte de un grupo selecto de personas que hacen los cambios, de las personas que mejoran las cosas, de las personas que en lo que hacen, hacen la diferencia.
 
-Finalmente, el trabajo duro es como subir una montaña. El camino es complicado, y muchas veces mientras estás subiendo te preguntas "¿qué jodidos estoy haciendo aquí, cuando podría estar tomando una cerveza en casa?" y esa pregunta se vuelve recurrente cuando te raspas en el camino, caundo comienzan los calambres, cuando cae la lluvia. La ventaja de la montaña es que muchas distracciones desaparecen, ya que tus opciones se limitan a seguir caminando o regresar. Sin embargo siempre tienes la opción de hacerlo. Y aunque es difícil, cansado y muchas veces "no bonito", la sensación de triunfo al llegar a la cumbre no tiene precio. Todo el sufrimiento del camino, todos los calambres, los pies mojados, el cansancio, recobran su sentido en la satisfacción de haber conquistado la cima. En ese momento te sientes orgulloso de no estar en casa tomando una cerveza, sino de estar en la cima de la montaña que te propusiste.  En muchos aspectos, así es la vida.
+Finalmente, el trabajo duro es como subir una montaña. El camino es complicado, y muchas veces mientras estás subiendo te preguntas "¿qué jodidos estoy haciendo aquí, cuando podría estar tomando una cerveza en casa?" y esa pregunta se vuelve recurrente cuando te raspas en el camino, caundo comienzan los calambres, cuando cae la lluvia. La ventaja de la montaña es que muchas distracciones desaparecen, ya que tus opciones se limitan a seguir caminando o regresar. Sin embargo siempre tienes la opción de hacerlo.
+
+Y aunque es difícil, cansado y muchas veces "no bonito", la sensación de triunfo al llegar a la cumbre no tiene precio. Todo el sufrimiento del camino, todos los calambres, los pies mojados, el cansancio, recobran su sentido en la satisfacción de haber conquistado la cima. En ese momento te sientes orgulloso de no estar en casa tomando una cerveza, sino de estar en la cima de la montaña que te propusiste.  En muchos aspectos, así es la vida.

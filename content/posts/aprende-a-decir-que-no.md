@@ -47,10 +47,30 @@ url: /aprende-a-decir-que-no/
 
 Uno de los secretos escondidos de las grandes personalidades de la historia es realmente bastante sencillo: ellos saben -o supieron- decir que no. El tiempo del que disponemos para trabajar en las cosas que queremos es pequeño. Usualmente vivimos bajo la fantasía de tener estanques interminables de tiempo, pero la realidad es que el tiempo es un bien escaso, escasísimo, es un recurso muy limitado. Al ser un recurso muy limitado, su buen manejo se convierte en una tarea vital. Pero sobre todo, antes que el manejo, en qué se utiliza es vital.
 
-Te lo pongo desde otra perspectiva: aprender a decir que no es decir que sí a las cosas que quieren. Decir que no a esa hora extra de TV es decirle que sí a esa otra actividad que tanto deseas hacer; decirle que no a tus amigos para una noche de tragos es decirle que sí a ese estudio que tienes pendiente; decirle que no a esa meta muerta es decirle que no a esa otra meta que puedes realizar; decirle que no a ese deseo de procrastinar es decirle que sí a ese trabajo que deseas realizar; decirle que no a ese desvelo es decirle que así a un día lúcido por la mañana; decirle que no a ese cigarro es decirle que sí a tu salud; decirle que no a ese otro proyecto que quieres es decirle que sí a ese otro proyecto que quieres más.
+Te lo pongo desde otra perspectiva: aprender a decir que no es decir que sí a las cosas que quieren.
 
-Lo entiendas o no el tiempo es corto, escaso y preciado. Mientras antes lo comprendas y actúes conforme mejor, porque eventualmente te darás cuenta y lamentarás el uso pasado que le diste al tiempo. Y cuando entiendas este sencillo principio tu paradigmá cambiará, y comprenderás que no puedes hacer de todo y hacerlo bien. La restricción que tenemos del tiempo, nos restringe las cosas que queremos hacer. Papini decía que en su juventud su mayor problema era que lo quería todo. Quería hacer una nueva enciclopedia, y luego de muchos meses cuando iba por las palabras con "ac" se dio cuenta que era algo imposible de hacer sólo, no porque no fuera capaz, sino porque no tendría tiempo.
+Decir que no a esa hora extra de TV es decirle que sí a esa otra actividad que tanto deseas hacer;
 
-Otra gran ventaja de saber decir que no es que te libera de culpa y te da poder. El poder que te da es el más grande de todos: el poder de elegir, el poder de sentirte responsable de tus actos -buenos o malos-. Cuando un amigo te proponga algo a lo que no puedes ir di simplemente "no puedo". Si dices que puedes y faltas, te sentirás culpable, confiarán menos en tí y tendrás la sensación de sentirte obligado por algo o alguien más a hacer las cosas. Si te proponen un proyecto en el que no crees que puedas invertir tiempo di: "gracias, pero no puedo". Si la TV te seduce luego del trabajo dile "no, prefiero invertir esa hora en un buen libro".
+decirle que no a tus amigos para una noche de tragos es decirle que sí a ese estudio que tienes pendiente;
 
-Uno de los primeros pasos para convertirte en un productor es aprender a decir que no. Como todo lo demás, este será un proceso, de ahí el "aprender".  Se tiene que volver algo tuyo, es un hábito que tienes que adquirir, y que mientras más lo practiques más sobre escribirá la programación habitual de tu cerebro. Eventualmente te verás diciendo que no con naturalidad, sin darte cuenta. Pero mientras esos pase te costará, pero vale la pena.
+decirle que no a esa meta muerta es decirle que no a esa otra meta que puedes realizar;
+
+decirle que no a ese deseo de procrastinar es decirle que sí a ese trabajo que deseas realizar;
+
+decirle que no a ese desvelo es decirle que así a un día lúcido por la mañana;
+
+decirle que no a ese cigarro es decirle que sí a tu salud;
+
+decirle que no a ese otro proyecto que quieres es decirle que sí a ese otro proyecto que quieres más.
+
+Lo entiendas o no el tiempo es corto, escaso y preciado. Mientras antes lo comprendas y actúes conforme mejor, porque eventualmente te darás cuenta y lamentarás el uso pasado que le diste al tiempo. Y cuando entiendas este sencillo principio tu paradigmá cambiará, y comprenderás que no puedes hacer de todo y hacerlo bien. La restricción que tenemos del tiempo, nos restringe las cosas que queremos hacer.
+
+Papini decía que en su juventud su mayor problema era que lo quería todo. Quería hacer una nueva enciclopedia, y luego de muchos meses cuando iba por las palabras con "ac" se dio cuenta que era algo imposible de hacer sólo, no porque no fuera capaz, sino porque no tendría tiempo.
+
+Otra gran ventaja de saber decir que no es que te libera de culpa y te da poder. El poder que te da es el más grande de todos: el poder de elegir, el poder de sentirte responsable de tus actos -buenos o malos-.
+
+Cuando un amigo te proponga algo a lo que no puedes ir di simplemente "no puedo". Si dices que puedes y faltas, te sentirás culpable, confiarán menos en tí y tendrás la sensación de sentirte obligado por algo o alguien más a hacer las cosas. Si te proponen un proyecto en el que no crees que puedas invertir tiempo di: "gracias, pero no puedo". Si la TV te seduce luego del trabajo dile "no, prefiero invertir esa hora en un buen libro".
+
+Uno de los primeros pasos para convertirte en un productor es aprender a decir que no. Como todo lo demás, este será un proceso, de ahí el "aprender".  Se tiene que volver algo tuyo, es un hábito que tienes que adquirir, y que mientras más lo practiques más sobre escribirá la programación habitual de tu cerebro.
+
+Eventualmente te verás diciendo que no con naturalidad, sin darte cuenta. Pero mientras esos pase te costará, pero vale la pena.

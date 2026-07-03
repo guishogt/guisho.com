@@ -23,7 +23,9 @@ url: /noviembre/
 views: "1488"
 
 ---
-Alzo la vista y el azul es distinto, más profundo, más sincero, más sabroso. Las nubes han optado por irse y volver tan sólo para engalanar al cielo. Los barriletes han preparado por mucho tiempo su llegada, y finalmente tienen la posibilidad de escalar a los cielos. Los parques se llenan de pequeños hilos que conectan al cielo. Cada vez sospecho que al cielo lo enamoran los barriletes, o tal vez le causan celos, porque cada vez que aparecen barriletes los celajes no tardan en aparecer. Las tardes aparecen siempre con barriletes y celajes, nunca unos sin los otros. El viento encantado, nunca falla en su grave responsavilidad de mantener aquellos maderitos con papel de china desafiando la atracción del centro de la Tierra.
+Alzo la vista y el azul es distinto, más profundo, más sincero, más sabroso. Las nubes han optado por irse y volver tan sólo para engalanar al cielo. Los barriletes han preparado por mucho tiempo su llegada, y finalmente tienen la posibilidad de escalar a los cielos. Los parques se llenan de pequeños hilos que conectan al cielo.
+
+Cada vez sospecho que al cielo lo enamoran los barriletes, o tal vez le causan celos, porque cada vez que aparecen barriletes los celajes no tardan en aparecer. Las tardes aparecen siempre con barriletes y celajes, nunca unos sin los otros. El viento encantado, nunca falla en su grave responsavilidad de mantener aquellos maderitos con papel de china desafiando la atracción del centro de la Tierra.
 
 Los volcanes desnudos complementan el seductor escenario, donde barriletes, celajes, volcanes y gentes hacen el cuadro supremo, pintan sonrisas y dibujan caricias.Los gélidos suspiros del cielo se sienten por las noches. Las noches frías calientan corazones. Las pieles se cubren de lanas por estas épocas y todos parecen ser un poco más afables.
 

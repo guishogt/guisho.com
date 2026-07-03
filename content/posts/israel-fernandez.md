@@ -1,4 +1,6 @@
 ---
+tags:
+  - israel
 _edit_last: "2"
 _jetpack_related_posts_cache:
   37550b67d263a3ce789993dc25046c5f:

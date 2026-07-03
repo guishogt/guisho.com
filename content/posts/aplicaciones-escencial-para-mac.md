@@ -34,7 +34,11 @@ url: /aplicaciones-escencial-para-mac/
 views: "3134"
 
 ---
-Hace ya un año que mi portátil es una Mac (en casa sigo con Linux :) ). Una de las razones que más me detenía para decidirme por una Mac era mi duda sobre cantidad de programas que para este OS. Incluso al inicio estuve un poco preocupado por eso. Pero ahora estoy tranquilo, porque en poco tiempo descubrí que la la cantidad de software para Mac disponible es increíble. Aplicaciones para MacOSX hay por todas partes, y suelen ser muy buenas aplicaciones. Para contarles un poco de mi experiencia en este mundo, les comparto algunas de las aplicaciones que he encontrado más necesarias y las que suelo utilizar más. Claro, en gustos se rompen géneros, porque si alguna no les gusta siempre hay alternativas. A la larga cada computadora es un reflejo de su dueño, y lo que le quieras poner a la tuya es cosa tuya. Algunas propuestas, ojalá les sirvan.
+Hace ya un año que mi portátil es una Mac (en casa sigo con Linux :) ). Una de las razones que más me detenía para decidirme por una Mac era mi duda sobre cantidad de programas que para este OS. Incluso al inicio estuve un poco preocupado por eso.
+
+Pero ahora estoy tranquilo, porque en poco tiempo descubrí que la la cantidad de software para Mac disponible es increíble. Aplicaciones para MacOSX hay por todas partes, y suelen ser muy buenas aplicaciones.
+
+Para contarles un poco de mi experiencia en este mundo, les comparto algunas de las aplicaciones que he encontrado más necesarias y las que suelo utilizar más. Claro, en gustos se rompen géneros, porque si alguna no les gusta siempre hay alternativas. A la larga cada computadora es un reflejo de su dueño, y lo que le quieras poner a la tuya es cosa tuya. Algunas propuestas, ojalá les sirvan.
 
 **\[QuickSilver.-> http://quicksilver.blacktree.com/\]**
 

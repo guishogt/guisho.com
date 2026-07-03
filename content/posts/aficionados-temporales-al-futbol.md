@@ -24,4 +24,10 @@ url: /aficionados-temporales-al-futbol/
 views: "413"
 
 ---
-En estos días mundialistas, muchos que normalmente importan poco del fútbol, de pronto se vuelven aficionados. Pero más que aficionados, se vuelven analistas, comentaristas, conocedores. Aquellos que ven 3 partidos al año se vuelven cuasi directores técnicos. Lanzan propuestas, se enojan cuando los relevos no son los que ellos predicen. Cuando sus equipos pierden aparecen unas extrañas rabietas, culpando a los técnicos por no seguir sus conocedoras propuestas, a los jugadores por no haberles escuchado. En fin. Lo gracioso de esto es que la actitud, y los hechos, son muy parecidos a otro tema: la economía, y la política. Por eso siempre he creído que las cosas están de cabeza, porque "aficionados temporales" a estos temas se ponen a opinar, y a imponer sus opiniones. Con la diferencia que en el fútbol, jugadores y técnicos ignoran, incluso nunca llegan a conocer esas propuestas, mientras que en la economía y en la política, esas propuestas no sólo son escuchadas, sino que implementadas, ya que esa gente que opina tiene voz y **voto**. Triste, no?
+En estos días mundialistas, muchos que normalmente importan poco del fútbol, de pronto se vuelven aficionados. Pero más que aficionados, se vuelven analistas, comentaristas, conocedores. Aquellos que ven 3 partidos al año se vuelven cuasi directores técnicos.
+
+Lanzan propuestas, se enojan cuando los relevos no son los que ellos predicen. Cuando sus equipos pierden aparecen unas extrañas rabietas, culpando a los técnicos por no seguir sus conocedoras propuestas, a los jugadores por no haberles escuchado. En fin.
+
+Lo gracioso de esto es que la actitud, y los hechos, son muy parecidos a otro tema: la economía, y la política. Por eso siempre he creído que las cosas están de cabeza, porque "aficionados temporales" a estos temas se ponen a opinar, y a imponer sus opiniones.
+
+Con la diferencia que en el fútbol, jugadores y técnicos ignoran, incluso nunca llegan a conocer esas propuestas, mientras que en la economía y en la política, esas propuestas no sólo son escuchadas, sino que implementadas, ya que esa gente que opina tiene voz y **voto**. Triste, no?

@@ -21,6 +21,7 @@ _wpas_done_all: "1"
 _wpcom_is_markdown: "1"
 author: guisho
 categories:
+  - travel
   - personas,-lugares,-cosas,-sucesos
 cover:
   alt: IMG_2511

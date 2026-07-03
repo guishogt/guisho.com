@@ -28,7 +28,7 @@ rank_math_robots:
   - index
 title: Chiloé
 cover:
-  image: /guisho.comhttps://guisho-media.s3.amazonaws.com/uploads/2020/04/26novChiloe.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2020/04/26novChiloe.jpg
 url: /chiloe/
 ---
 Esta simpática isla en el sur de Chile, tiene un encanto particular. Según dicen llueve como en Inglaterra, pero tuvimos suerte de días con largas visitas de sol. Esto es pasando el ferri que lleva del continente a la isla.

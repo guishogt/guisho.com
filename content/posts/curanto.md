@@ -31,7 +31,7 @@ tags:
   - comida
 title: Curanto
 cover:
-  image: /guisho.comhttps://guisho-media.s3.amazonaws.com/uploads/2020/04/25NovCuranto-1.jpg
+  image: https://guisho-media.s3.amazonaws.com/uploads/2020/04/25NovCuranto-1.jpg
 url: /curanto/
 ---
 Una de las delicias de la cocina Chilena, esperando por nosotros en una islita frente a Puerto Montt. Gran experiencia!
