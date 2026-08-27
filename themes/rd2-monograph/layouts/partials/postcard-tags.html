@@ -1,0 +1,56 @@
+{{- /* travel tags by postcard count: skip #-junk and singletons */ -}}
+{{- $tt := slice -}}
+{{- range $name, $taxo := site.Taxonomies.tags -}}
+  {{- if not (in $name "#") -}}
+    {{- $n := 0 -}}
+    {{- range $taxo.Pages }}{{ if in (.Params.categories | default slice) "travel" }}{{ $n = add $n 1 }}{{ end }}{{ end -}}
+    {{- if ge $n 2 -}}
+      {{- with site.GetPage (printf "/tags/%s" ($name | urlize)) -}}
+        {{- $tt = $tt | append (dict "t" . "n" $n) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $tt = sort $tt "n" "desc" -}}
+{{- if $tt -}}
+<div class="term-index pc-tagstrip pc-collapsed" id="pc-tagstrip">
+  {{ range $tt }}<a class="term-chip" href="{{ .t.RelPermalink }}">{{ .t.Title }}&nbsp;<span class="term-count">{{ .n }}</span></a>
+  {{ end }}
+</div>
+<p class="pc-tagtoggle-row"><button class="pc-tagtoggle" id="pc-tagtoggle" aria-expanded="false">all tags &darr;</button></p>
+<script>
+(function () {
+  var strip = document.getElementById("pc-tagstrip");
+  var btn = document.getElementById("pc-tagtoggle");
+  if (!strip || !btn) return;
+  function clamp() {
+    if (strip.classList.contains("pc-expanded")) { strip.style.maxHeight = ""; return; }
+    strip.style.maxHeight = "none";
+    var top = strip.getBoundingClientRect().top;
+    var rows = [];
+    var chips = strip.querySelectorAll(".term-chip");
+    for (var i = 0; i < chips.length; i++) {
+      var y = Math.round(chips[i].getBoundingClientRect().top - top);
+      if (rows.indexOf(y) === -1) rows.push(y);
+    }
+    rows.sort(function (a, b) { return a - b; });
+    if (rows.length > 2) {
+      strip.style.maxHeight = rows[2] - 4 + "px";
+      btn.style.display = "";
+    } else {
+      strip.style.maxHeight = "";
+      btn.style.display = "none";
+    }
+  }
+  btn.addEventListener("click", function () {
+    var open = strip.classList.toggle("pc-expanded");
+    strip.classList.toggle("pc-collapsed", !open);
+    btn.setAttribute("aria-expanded", open ? "true" : "false");
+    btn.innerHTML = open ? "fewer tags &uarr;" : "all tags &darr;";
+    clamp();
+  });
+  window.addEventListener("resize", clamp);
+  clamp();
+})();
+</script>
+{{- end -}}

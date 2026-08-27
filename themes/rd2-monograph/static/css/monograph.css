@@ -874,3 +874,16 @@ img { max-width: 100%; height: auto; }
   }
   .nav-toggle:checked ~ .topnav { display: flex; }
 }
+
+/* --- postcards year + tag navigation --- */
+.pc-years{display:flex;flex-wrap:wrap;gap:.35rem .9rem;justify-content:center;margin:2rem auto 0;max-width:60ch;font-family:"Fraunces",serif;font-size:1.05rem}
+.pc-years a{text-decoration:none;border-bottom:1px solid transparent;padding:.1rem .15rem}
+.pc-years a:hover{border-bottom-color:#A4302F;color:#A4302F}
+.pc-tagstrip{margin:1.4rem auto 0;max-width:72ch;text-align:center;overflow:hidden}
+.pc-collapsed{max-height:5.4rem}
+.pc-expanded{max-height:none}
+.pc-tagtoggle-row{text-align:center;margin:.5rem 0 0}
+.pc-tagtoggle{cursor:pointer;background:none;border:none;font-family:"Fraunces",serif;font-size:.95rem;color:#A4302F;border-bottom:1px solid #A4302F;padding:0 .1rem .1rem}
+.pc-yearband{display:flex;align-items:baseline;justify-content:center;gap:.8rem;font-family:"Fraunces",serif;font-weight:500;font-size:2rem;margin:4.5rem 0 1rem;letter-spacing:.04em}
+.pc-yearband:first-of-type{margin-top:2.5rem}
+.pc-yearcount{font-size:1rem;color:#8b857a}

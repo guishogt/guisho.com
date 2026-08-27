@@ -1,23 +1,35 @@
 {{ define "main" }}
 {{ $posts := where site.RegularPages "Section" "posts" }}
 {{ $photos := where $posts "Params.categories" "intersect" (slice "travel") }}
-{{ $plates := slice }}
-{{ range $photos }}
-  {{ $c := partial "get-cover.html" . }}
-  {{ if $c }}{{ $plates = $plates | append (dict "p" . "img" $c) }}{{ end }}
-{{ end }}
+{{ $total := 0 }}
+{{ range $photos }}{{ if partial "get-cover.html" . }}{{ $total = add $total 1 }}{{ end }}{{ end }}
+{{ $groups := $photos.GroupByDate "2006" }}
 <article class="archive">
   <header class="page-head">
     <h1>{{ .Title }}</h1>
     {{ with .Description }}<p class="page-desc">{{ . }}</p>{{ end }}
-    <p class="page-count">{{ len $plates }} postcards</p>
+    <p class="page-count">{{ $total }} postcards</p>
   </header>
 
   {{ with .Content }}<div class="page-copy">{{ . }}</div>{{ end }}
 
   {{ partial "search-box.html" . }}
 
+  <nav class="pc-years">
+    {{ range $groups }}<a href="#y{{ .Key }}">{{ .Key }}</a>{{ end }}
+  </nav>
+
+  {{ partial "postcard-tags.html" . }}
+
   <div class="plate-feed">
+    {{ range $groups }}
+    {{ $plates := slice }}
+    {{ range .Pages }}
+      {{ $c := partial "get-cover.html" . }}
+      {{ if $c }}{{ $plates = $plates | append (dict "p" . "img" $c) }}{{ end }}
+    {{ end }}
+    {{ if $plates }}
+    <h2 class="pc-yearband" id="y{{ .Key }}"><span>{{ .Key }}</span><span class="pc-yearcount">{{ len $plates }}</span></h2>
     {{ range $plates }}
     {{ $p := .p }}
     <article class="plate-entry">
@@ -49,6 +61,8 @@
         {{ end }}
       </div>
     </article>
+    {{ end }}
+    {{ end }}
     {{ end }}
   </div>
 </article>
