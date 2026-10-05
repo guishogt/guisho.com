@@ -5,8 +5,9 @@ title: Speaking
 url: /speaking/
 description: "Conference talks and speaking engagements by Luis Fernandez on software architecture, AI visibility, cyber resilience, and digital strategy."
 ---
-- [Don't Let Your Org Chart Write Bad Code](/speaking/kcdc-2025/) ([materials](/c/kcdc25/)) — KCDC 2025 (Aug, 2025)
-- [GenAI Readiness & Workflows](/speaking/kmworld-2025/) — KMWorld 2025 (Nov, 2025)
-- [The Triple Threat: Cyber Security](/speaking/gartner-2025/) — Gartner C-Level Communities (Dec, 2025)
-- [AI-First CX World Tour program](/speaking/ai-first-cx-world-tour/) — CDM Media (April 2026)
+- [Strategic Design at Scale: DDD Patterns for Integration-Heavy Domains](/speaking/explore-ddd-2026/) ([slides](/speaking/explore-ddd-2026/strategic-design-at-scale-slides.pdf)) — Explore DDD 2026 (Sep, 2026)
 - [Beyond UX and DX: Let's Greet AX](/speaking/render-atl-2026/) ([slides](/speaking/render-atl-2026/slides.html)) — RenderATL (Aug, 2026)
+- [AI-First CX World Tour program](/speaking/ai-first-cx-world-tour/) — CDM Media (April 2026)
+- [The Triple Threat: Cyber Security](/speaking/gartner-2025/) — Gartner C-Level Communities (Dec, 2025)
+- [GenAI Readiness & Workflows](/speaking/kmworld-2025/) — KMWorld 2025 (Nov, 2025)
+- [Don't Let Your Org Chart Write Bad Code](/speaking/kcdc-2025/) ([materials](/c/kcdc25/)) — KCDC 2025 (Aug, 2025)
