@@ -1,0 +1,6 @@
+{{- /* Content photos: a paper mat with a thin ink rule, rounded corners and a soft shadow (see .photo in monograph.css).
+       ![alt](src "caption") — the title, when given, becomes the caption; the alt stays on the image. */ -}}
+<figure class="photo">
+  <span class="mat"><img src="{{ .Destination | safeURL }}" alt="{{ .PlainText }}" loading="lazy" decoding="async"></span>
+  {{- with .Title }}<figcaption>{{ . }}</figcaption>{{ end -}}
+</figure>

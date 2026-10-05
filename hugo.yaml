@@ -42,6 +42,8 @@ markup:
     guessSyntax: true
     style: monokai
   goldmark:
+    parser:
+      wrapStandAloneImageWithinParagraph: false
     renderer:
       unsafe: true
 outputs:

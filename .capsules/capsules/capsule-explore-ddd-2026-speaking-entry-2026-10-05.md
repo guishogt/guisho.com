@@ -24,6 +24,8 @@ Publish the Explore DDD 2026 talk page ("Strategic Design at Scale: DDD Patterns
 - Photos: cover lightly cropped (ceiling clutter), book-signing cropped tighter on Luis + Eric Evans with a small lift, group photo trimmed of floor; all stripped of EXIF, q88. Title slide re-rendered from the PDF as a crisp 1600px PNG (was a soft 40 KB JPEG). Untouched originals kept at `~/Downloads/explore-ddd-2026-originals/`.
 - `content/pages/speaking/index.md`: entries ordered most recent → oldest.
 
+- Framed photos site-wide: `render-image.html` hook wraps every content image in `<figure class="photo"><span class="mat">…`; CSS gives the mat a white paper surface, 1px ink rule, 16px radius and soft shadow, the photo itself 8px corners and a 78vh height cap; Goldmark `wrapStandAloneImageWithinParagraph: false` so the figure is a block. An image title (`![alt](src "caption")`) becomes the caption.
+
 ## Decisions / Findings
 - Tried painting the EXIT sign out of the cover selfie; the patch read as a smudge over the banner. Reverted to an honest crop — no retouching of photos on the site.
 - Auto-gamma + unsharp on backlit conference photos lifts blotchy artifacts in the blown projection screens; keep adjustments to a few points of brightness/contrast only.
